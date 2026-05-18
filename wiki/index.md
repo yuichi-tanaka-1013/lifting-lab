@@ -56,3 +56,4 @@ last_updated: 2026-05-18
 
 - [[Current State]] — 2026-05 ベースライン・出戻り再開時の現在地（Month 1 終了時点で更新済）
 - [[Month 1 Learnings]] — 復帰1ヶ月目の経験知（6つの Finding）
+- [[Hypotheses: ROM Preservation]] — なぜ2年9ヶ月のブランクでも ROM が保たれたか

@@ -59,3 +59,9 @@ last_updated: 2026-05-18
     - Post-Workout Cooldown（静的ストレッチのエビデンス注記: 60秒以上で筋力5-7%低下、怪我予防効果は限定的）
   - wiki/personal/current-state.md に Mobility Baseline セクション追加（7指標、未測定）
   - エビデンスベースの注意事項を各プロトコルに明記
+- Mobility Baseline 測定完了（全7指標良好）
+  - current-state.md の Mobility Baseline 更新: 全指標クリア
+  - Daily Mobility 5min を再定義: ROM改善→ROM維持+RC強化。3分版を通常版に格上げ
+  - return-program-week5-8.md の Transition Gate を再評価: ROM基準は事前クリア、判定焦点をmotor control/DOMS/関節反応にシフト
+  - wiki/personal/hypotheses.md 新規作成: H1c「passive ROM ≠ 負荷下の active ROM/stability」を最優先仮説として設定
+  - Month 2 設計の過剰保守的箇所を評価（リフティングシューズ不要、スタンス自由度高い等）。ただし結合組織配慮は維持
