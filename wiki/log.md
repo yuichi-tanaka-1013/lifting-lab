@@ -47,3 +47,15 @@ last_updated: 2026-05-18
   - W6: バーベル移行（SQ 30kg, DL 40kg）、上半身漸進再開（62.5kg）
   - W7-8: 線形進行（SQ 35→40, DL 45→50, ベンチ 65→67.5）
   - MV フォールバック更新（下半身を含めたバージョン）
+
+## 2026-05-19
+
+- モビリティ・ストレッチ領域を wiki に新設
+  - wiki/concepts/ にスケルトン8ページ作成: Mobility vs Flexibility, Static Stretching, Dynamic Stretching, Thoracic Mobility, Hip Mobility, Ankle Mobility, Rotator Cuff Mobility, RAMP Protocol
+  - wiki/protocols/ にプロトコル4ページ作成:
+    - Daily Mobility 5min（毎日の最小ルーティン: T-spine回旋、バンド外旋、90/90ヒップスイッチ、アンクルストレッチ）
+    - Pre-Workout RAMP Upper（RC活性化を必須化、ベンチ不安定感対策）
+    - Pre-Workout RAMP Lower（臀筋活性化、Week 6 BB移行に向けたROM基準付き）
+    - Post-Workout Cooldown（静的ストレッチのエビデンス注記: 60秒以上で筋力5-7%低下、怪我予防効果は限定的）
+  - wiki/personal/current-state.md に Mobility Baseline セクション追加（7指標、未測定）
+  - エビデンスベースの注意事項を各プロトコルに明記
