@@ -65,3 +65,13 @@ last_updated: 2026-05-18
   - return-program-week5-8.md の Transition Gate を再評価: ROM基準は事前クリア、判定焦点をmotor control/DOMS/関節反応にシフト
   - wiki/personal/hypotheses.md 新規作成: H1c「passive ROM ≠ 負荷下の active ROM/stability」を最優先仮説として設定
   - Month 2 設計の過剰保守的箇所を評価（リフティングシューズ不要、スタンス自由度高い等）。ただし結合組織配慮は維持
+
+## 2026-05-22
+
+- Week 5 Day A 実施
+  - ゴブレットSQ: 20kg x 8 x 3（計画10kg→20kg変更、フォーム5/5合格）
+  - ベンチ: 60kg 2x8 + 1x7（3セット目で潰れ、RIR 0。目標RIR 3を大幅超過）
+  - ケーブルロウ 45kg、フェイスプル 9.6kg: 規定クリア
+  - 関節違和感なし、腿裏に軽い張り（痛みではない）
+  - DOMS: 翌日以降に確認待ち
+  - **ベンチ修正**: Day B を57.5kgに下げ、Week 6 も60kgで安定化優先（62.5kg増加を保留）
