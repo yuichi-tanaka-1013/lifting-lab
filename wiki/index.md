@@ -43,6 +43,10 @@ last_updated: 2026-05-18
 - [[Pre-Workout RAMP: Lower Body]] — 下半身セッション前の動的ウォームアップ（ROM基準付き）
 - [[Post-Workout Cooldown]] — セッション後の静的ストレッチ（エビデンス注記付き）
 
+## References（リファレンス）
+
+- [[Exercise Video Reference]] — 種目別の参考動画まとめ（ジムで即参照用）
+
 ## Sources（ソースサマリ）
 
 - [[SBS: Detraining]] — Greg Nuckols による Detraining の包括的レビュー（MASS 2022-09）
