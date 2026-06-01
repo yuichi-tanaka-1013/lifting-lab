@@ -15,6 +15,10 @@ last_updated: 2026-05-18
 - [[山本義徳]] — 日本の評論家・元プロビルダー
 - [[岡田隆]] — 日体大教授、バズーカ岡田
 - [[Creatine Monohydrate]] — 最も研究されたサプリ
+- [[Whey Protein]] — ホエイプロテイン（WPC/WPI/WPH）
+- [[EAA]] — 必須アミノ酸
+- [[Multivitamin]] — マルチビタミン
+- [[Collagen Peptide]] — コラーゲンペプチド（結合組織サポート）
 
 ## Concepts（概念）
 
@@ -61,3 +65,5 @@ last_updated: 2026-05-18
 - [[Current State]] — 2026-05 ベースライン・出戻り再開時の現在地（Month 1 終了時点で更新済）
 - [[Month 1 Learnings]] — 復帰1ヶ月目の経験知（6つの Finding）
 - [[Hypotheses: ROM Preservation]] — なぜ2年9ヶ月のブランクでも ROM が保たれたか
+- [[Body Composition Timeline]] — InBody 470 実測データの時系列比較（ピーク vs 現在）
+- [[Supplement Protocol]] — 現在のサプリメント摂取内容・タイミング・予算

@@ -90,3 +90,25 @@ last_updated: 2026-05-18
     - 火 Lower A（スクワット）: BB SQ 30kg + レッグプレス + レッグカール
     - 木 Upper B（プル重点）: ラットプルダウン54kg + ベンチ57.5 + ケーブルロウ
     - 金 Lower B（ヒンジ）: BB DL 45kg + ゴブレットSQ 20kg + レッグカール
+
+## 2026-05-31
+
+- Week 5 Day B DOMS 確認: ハム 3/10、臀部・腰 0/10 → Week 6 GO
+- サプリメント領域を wiki に新設
+  - wiki/entities/ にスケルトン4ページ: Whey Protein, EAA, Multivitamin, Collagen Peptide
+  - wiki/personal/supplement-protocol.md 作成（現在: WPC + クレアチン + 海洋コラーゲンペプチド、すべて寝る前ワンスクープ）
+  - サプリ予算上限を 1万→2万円 に更新（baseline 修正済み）
+- InBody 470 実測データ取得（2026-05-29 測定）
+  - raw/personal/inbody-2026-05-29.csv に保存
+  - **体組成の大幅修正**: 体脂肪率 26.9%→20.7%、除脂肪体重 63.6kg→68.8kg
+  - ピーク時との差: 除脂肪体重 -8.0kg→**-2.8kg**（当初推定の1/3）、脂肪量 +11.2kg→**+5.8kg**
+  - 体幹に脂肪57%集中（10.2kg）、ウエスト97.9cm
+  - 戦略シフト: 「筋量回復」→「体脂肪減少 + 筋力/安定性回復」が主課題に
+  - current-state.md を InBody データで全面修正
+  - 回復見通しを修正: 筋量はほぼ維持されている可能性 → 回復期間は当初推定より短い
+- ピーク時（2023-09-01）の InBody データ取得・比較
+  - raw/personal/inbody-2023-09-01.csv に保存
+  - wiki/personal/body-composition-timeline.md 作成（同一機器比較）
+  - 骨格筋量ギャップはわずか -1.6 kg、脂肪は +5.9 kg（61%が体幹集中）
+  - 推奨: 緩やかなカット（-300〜-500 kcal/日）で3-5ヶ月。タンパク質 140g+/日が前提
+  - 最初の一歩: 3日間の食事記録でカロリー・タンパク質の現状把握
