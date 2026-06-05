@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LLM に Wiki を「育てさせる」</title>
+<style>
+  @page {
+    size: 16in 9in;
+    margin: 0;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .slide {
+    width: 100vw;
+    height: 100vh;
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    page-break-after: always;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slide:last-child {
+    page-break-after: auto;
+  }
+
+  /* Slide number */
+  .slide::after {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    font-size: 14px;
+    color: #475569;
+  }
+
+  .slide:nth-child(1)::after { content: ""; }
+  .slide:nth-child(2)::after { content: "1 / 9"; }
+  .slide:nth-child(3)::after { content: "2 / 9"; }
+  .slide:nth-child(4)::after { content: "3 / 9"; }
+  .slide:nth-child(5)::after { content: "4 / 9"; }
+  .slide:nth-child(6)::after { content: "5 / 9"; }
+  .slide:nth-child(7)::after { content: "6 / 9"; }
+  .slide:nth-child(8)::after { content: "7 / 9"; }
+  .slide:nth-child(9)::after { content: "8 / 9"; }
+  .slide:nth-child(10)::after { content: "9 / 9"; }
+
+  h1 {
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 24px;
+    color: #f8fafc;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    color: #f8fafc;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  p {
+    font-size: 26px;
+    line-height: 1.7;
+    color: #cbd5e1;
+    margin-bottom: 16px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    color: #64748b;
+    margin-top: 16px;
+  }
+
+  .highlight {
+    color: #38bdf8;
+    font-weight: 700;
+  }
+
+  .warn {
+    color: #fb923c;
+    font-weight: 700;
+  }
+
+  .accent {
+    color: #a78bfa;
+    font-weight: 700;
+  }
+
+  /* Architecture diagram */
+  .arch {
+    background: #1e293b;
+    border-radius: 16px;
+    padding: 36px 44px;
+    font-family: "SF Mono", "Fira Code", monospace;
+    font-size: 20px;
+    line-height: 2;
+    margin: 24px 0;
+    border: 1px solid #334155;
+  }
+
+  .arch .layer {
+    padding: 12px 0;
+  }
+
+  .arch .layer-label {
+    display: inline-block;
+    width: 200px;
+    font-weight: 700;
+  }
+
+  .arch .l3 { color: #a78bfa; }
+  .arch .l2 { color: #38bdf8; }
+  .arch .l1 { color: #4ade80; }
+  .arch .arrow { color: #64748b; font-size: 18px; }
+
+  /* Comparison table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 24px;
+  }
+
+  th {
+    background: #1e293b;
+    color: #94a3b8;
+    padding: 16px 24px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid #334155;
+  }
+
+  td {
+    padding: 14px 24px;
+    border-bottom: 1px solid #1e293b;
+    color: #cbd5e1;
+  }
+
+  tr:nth-child(even) td {
+    background: rgba(30, 41, 59, 0.5);
+  }
+
+  /* Timeline */
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin: 20px 0;
+  }
+
+  .timeline-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 22px;
+    line-height: 1.6;
+  }
+
+  .timeline-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-top: 8px;
+    flex-shrink: 0;
+  }
+
+  .dot-green { background: #4ade80; }
+  .dot-blue { background: #38bdf8; }
+  .dot-orange { background: #fb923c; }
+  .dot-purple { background: #a78bfa; }
+
+  /* Quote */
+  .quote {
+    font-size: 34px;
+    font-weight: 700;
+    color: #38bdf8;
+    border-left: 4px solid #38bdf8;
+    padding-left: 32px;
+    margin: 40px 0;
+    line-height: 1.5;
+  }
+
+  /* Title slide */
+  .title-slide {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-slide h1 {
+    font-size: 56px;
+    margin-bottom: 12px;
+  }
+
+  /* Bullet list */
+  ul {
+    list-style: none;
+    font-size: 24px;
+    line-height: 1.8;
+  }
+
+  ul li {
+    padding-left: 28px;
+    position: relative;
+    margin-bottom: 8px;
+    color: #cbd5e1;
+  }
+
+  ul li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #64748b;
+  }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    margin-top: 20px;
+  }
+
+  .col-header {
+    font-size: 20px;
+    font-weight: 700;
+    color: #64748b;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .footer-info {
+    font-size: 18px;
+    color: #475569;
+    margin-top: 24px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Slide 1: Title -->
+<div class="slide title-slide">
+  <h3>5-min Lightning Talk</h3>
+  <h1>LLM に Wiki を<br>「育てさせる」</h1>
+  <p class="subtitle">RAG を超える、知識が複利で増えるパターン</p>
+  <p class="footer-info">原案: Andrej Karpathy「LLM Wiki」パターン</p>
+</div>
+
+<!-- Slide 2: Problem -->
+<div class="slide">
+  <h3>Problem</h3>
+  <h2>RAG は毎回ゼロから検索する</h2>
+  <p>ChatGPT ファイルアップロード、NotebookLM、社内 RAG ...</p>
+  <p>5 つのドキュメントを横断する質問 → <span class="warn">毎回同じ断片をかき集めて回答</span></p>
+  <div style="margin: 40px 0;">
+    <p style="font-size: 32px; color: #f8fafc;">知識が<span class="warn">蓄積しない</span>。構造化されない。<span class="warn">複利が効かない。</span></p>
+  </div>
+</div>
+
+<!-- Slide 3: Architecture -->
+<div class="slide">
+  <h3>Solution</h3>
+  <h2>3 層アーキテクチャ</h2>
+  <div class="arch">
+    <div class="layer">
+      <span class="layer-label l3">CLAUDE.md</span>
+      <span class="l3">スキーマ / 指示書</span>
+      <span style="float:right; color: #a78bfa;">← 人間が書く</span>
+    </div>
+    <div class="arrow" style="padding-left: 100px;">↕ LLM の行動を制御</div>
+    <div class="layer">
+      <span class="layer-label l2">wiki/</span>
+      <span class="l2">entities, concepts, protocols, sources, personal ...</span>
+      <span style="float:right; color: #38bdf8;">← LLM が書く</span>
+    </div>
+    <div class="arrow" style="padding-left: 100px;">↑ /ingest で統合</div>
+    <div class="layer">
+      <span class="layer-label l1">raw/</span>
+      <span class="l1">論文, 記事, CSV, トレーニングログ</span>
+      <span style="float:right; color: #4ade80;">← 人間が投入</span>
+    </div>
+  </div>
+  <p>全体はただの <span class="highlight">Git リポジトリ + Markdown</span>。特別なインフラ不要。</p>
+</div>
+
+<!-- Slide 4: System Detail - Wiki Structure -->
+<div class="slide">
+  <h3>System Detail</h3>
+  <h2>CLAUDE.md が LLM の行動を制御する</h2>
+  <div class="two-col">
+    <div>
+      <div class="col-header" style="color: #a78bfa;">CLAUDE.md（Schema as Code）</div>
+      <ul style="font-size: 20px;">
+        <li>ドメイン知識（「出戻り組は結合組織に注意」）</li>
+        <li>ページの frontmatter 規約（type, tags, confidence）</li>
+        <li>エビデンス階層（メタ分析 > MASS > 論文 > ...）</li>
+        <li>オペレーション手順（/ingest, /query, /lint）</li>
+        <li>禁止事項（「過去の重量を引き合いに出さない」）</li>
+      </ul>
+      <p style="font-size: 20px; color: #a78bfa; margin-top: 16px;">→ LLM はこのファイルを読んで「どう振る舞うか」を決定</p>
+    </div>
+    <div>
+      <div class="col-header" style="color: #38bdf8;">wiki/ の内部構造</div>
+      <div class="arch" style="font-size: 17px; padding: 20px 28px; line-height: 1.8;">
+        <span class="l2">wiki/</span><br>
+        <span style="color: #64748b;">├──</span> <span class="l2">entities/</span> <span style="color: #64748b;">── 人物 7, サプリ 5</span><br>
+        <span style="color: #64748b;">├──</span> <span class="l2">concepts/</span> <span style="color: #64748b;">── 理論 14</span><br>
+        <span style="color: #64748b;">├──</span> <span class="l2">protocols/</span> <span style="color: #64748b;">── 手順 7</span><br>
+        <span style="color: #64748b;">├──</span> <span class="l2">sources/</span> <span style="color: #64748b;">── ソースサマリ 1</span><br>
+        <span style="color: #64748b;">├──</span> <span class="l2">overviews/</span> <span style="color: #64748b;">── テーマ横断 2</span><br>
+        <span style="color: #64748b;">├──</span> <span class="l2">personal/</span> <span style="color: #64748b;">── 個人データ 6</span><br>
+        <span style="color: #64748b;">├──</span> <span style="color: #fb923c;">index.md</span> <span style="color: #64748b;">── 全ページカタログ</span><br>
+        <span style="color: #64748b;">└──</span> <span style="color: #fb923c;">log.md</span> <span style="color: #64748b;">── 時系列の活動ログ</span>
+      </div>
+      <p style="font-size: 20px; color: #38bdf8;">→ index.md で検索。embedding DB 不要</p>
+    </div>
+  </div>
+</div>
+
+<!-- Slide 5: Data Flow -->
+<div class="slide">
+  <h3>Data Flow</h3>
+  <h2>/ingest の流れ — 1 記事が 8 ページに波及</h2>
+  <div class="arch" style="font-size: 19px; line-height: 2.2;">
+    <span class="l1">raw/articles/sbs-detraining.md</span> <span style="color: #64748b;">（Detraining 論文レビュー記事）</span><br>
+    <span class="arrow">  │</span><br>
+    <span class="arrow">  ├─→</span> <span class="l2">wiki/sources/sbs-detraining.md</span> <span style="color: #64748b;">ソースサマリ（新規）</span><br>
+    <span class="arrow">  ├─→</span> <span class="l2">wiki/entities/greg-nuckols.md</span> <span style="color: #64748b;">著者ページ（<span class="highlight">新規作成</span>）</span><br>
+    <span class="arrow">  ├─→</span> <span class="l2">wiki/entities/eric-helms.md</span> <span style="color: #64748b;">相互リンク追加（更新）</span><br>
+    <span class="arrow">  ├─→</span> <span class="l2">wiki/concepts/detraining.md</span> <span style="color: #64748b;">筋力低下タイムライン追加（更新）</span><br>
+    <span class="arrow">  ├─→</span> <span class="l2">wiki/concepts/muscle-memory.md</span> <span style="color: #64748b;">再獲得速度の推定追加（更新）</span><br>
+    <span class="arrow">  ├─→</span> <span class="l2">wiki/concepts/volume-landmarks.md</span> <span style="color: #64748b;">Bickel 2011 の知見追加（更新）</span><br>
+    <span class="arrow">  ├─→</span> <span style="color: #fb923c;">wiki/index.md</span> <span style="color: #64748b;">カタログ更新</span><br>
+    <span class="arrow">  └─→</span> <span style="color: #fb923c;">wiki/log.md</span> <span style="color: #64748b;">活動記録追記</span>
+  </div>
+  <p style="margin-top: 16px;">1 つのソースが <span class="highlight">既存ページのクロスリファレンスを自動更新</span> する。<br>これが RAG にはない「<span class="highlight">知識の複利</span>」の仕組み。</p>
+</div>
+
+<!-- Slide 6: Operations -->
+<div class="slide">
+  <h3>Operations</h3>
+  <h2>3 つの基本動作</h2>
+  <div class="two-col">
+    <div>
+      <div class="col-header" style="color: #4ade80;">/ingest — ソースを統合</div>
+      <p style="font-size: 22px;">Web 記事 1 本を投入<br>→ LLM が読んで <span class="highlight">10-15 ページを自動更新</span><br>→ クロスリファレンス、矛盾チェック</p>
+      <div class="col-header" style="color: #38bdf8; margin-top: 32px;">/query — Wiki に質問</div>
+      <p style="font-size: 22px;">質問 → index.md から関連ページを探索 → 回答合成<br>→ 良い回答は <span class="highlight">Wiki に保存 → 知識が複利で増える</span></p>
+    </div>
+    <div>
+      <div class="col-header" style="color: #a78bfa;">/lint — 健康診断</div>
+      <p style="font-size: 22px;">オーファンページ検出<br>矛盾する記述の発見<br>知識の穴の提案</p>
+      <div style="margin-top: 40px; padding: 24px; background: #1e293b; border-radius: 12px; border-left: 3px solid #38bdf8;">
+        <p style="font-size: 20px; margin: 0; color: #94a3b8;">RAG: 毎回検索して合成</p>
+        <p style="font-size: 20px; margin: 0; color: #38bdf8; font-weight: 700;">LLM Wiki: 事前に合成済み。知識が残る</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Slide 5: Real Example -->
+<div class="slide">
+  <h3>Case Study — 2 weeks</h3>
+  <h2>筋トレ復帰 Wiki で起きたこと</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot dot-green"></div>
+      <div>ベースラインヒアリング → 体組成・怪我歴・生活から <span class="highlight">current-state.md</span> を自動生成</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot dot-blue"></div>
+      <div>論文レビュー記事を /ingest → <span class="highlight">8 ページが連鎖更新</span>、新規 entity ページ自動作成</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot dot-orange"></div>
+      <div>トレーニング結果を報告 → 3 回連続の計画超過を検出 → <span class="warn">アンカリングバイアスを LLM が指摘</span></div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot dot-purple"></div>
+      <div>InBody CSV を投入 → 体脂肪率の推定 26.9% → 実測 <span class="accent">20.7%</span> → <span class="accent">戦略が自動シフト</span></div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot dot-green"></div>
+      <div>食事 3 日分を入力 → 「<span class="highlight">プロテイン 1 杯追加するだけ</span>」という結論</div>
+    </div>
+  </div>
+  <p class="footer-info">2 週間で 61 ファイル / 10 コミット。個人データと一般知識が統合された Wiki が育った</p>
+</div>
+
+<!-- Slide 6: Why it works -->
+<div class="slide">
+  <h3>Why this works</h3>
+  <h2>なぜこのパターンが強いか</h2>
+  <table>
+    <tr>
+      <th></th>
+      <th>RAG</th>
+      <th style="color: #38bdf8;">LLM Wiki</th>
+    </tr>
+    <tr>
+      <td>知識の蓄積</td>
+      <td>しない</td>
+      <td><span class="highlight">複利で増える</span></td>
+    </tr>
+    <tr>
+      <td>クロスリファレンス</td>
+      <td>毎回発見</td>
+      <td><span class="highlight">事前に構築済み</span></td>
+    </tr>
+    <tr>
+      <td>個人データ × 一般知識</td>
+      <td>分離</td>
+      <td><span class="highlight">統合して判断</span></td>
+    </tr>
+    <tr>
+      <td>メンテナンスコスト</td>
+      <td>人間がやる</td>
+      <td><span class="highlight">LLM がやる（≈ 0）</span></td>
+    </tr>
+    <tr>
+      <td>インフラ</td>
+      <td>embedding DB 等</td>
+      <td><span class="highlight">Git + Markdown</span></td>
+    </tr>
+  </table>
+  <ul style="margin-top: 20px;">
+    <li>応用: 技術調査、チーム Wiki、競合分析、インシデント管理 ...</li>
+    <li>条件: 知識が蓄積する領域 × クロスリファレンスに価値がある × メンテを人間が放棄しがち</li>
+  </ul>
+</div>
+
+<!-- Slide 7: Key Message -->
+<div class="slide title-slide">
+  <div class="quote">
+    LLM は検索エンジンではなく<br>知識のメンテナーとして使う
+  </div>
+  <div style="margin-top: 48px;">
+    <ul style="text-align: left; display: inline-block;">
+      <li>原案: Andrej Karpathy「LLM Wiki」パターン</li>
+      <li>ツール: Claude Code + Obsidian + Git</li>
+      <li>実例: github.com/yuichi-tanaka-1013/lifting-lab</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
