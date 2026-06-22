@@ -62,6 +62,7 @@ last_updated: 2026-05-18
 - [[復帰プログラム: Week 1-4]] — 出戻り最初の4週間のトレーニング設計（Plan vs Actual 付き）
 - [[復帰プログラム: Week 5-8]] — Month 2: 下半身導入 + 上半身の筋肥大フェーズ
 - [[復帰プログラム: Month 3]] — LP 継続 + アイソレーション段階導入 + Phase 2 移行準備
+- [[Strength Roadmap]] — 中級者・上級者への道（80kgクラス、Phase 1-3）
 
 ## Personal（個人データ分析）
 
