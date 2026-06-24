@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lifting Progress</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 24px;
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .subtitle {
+    font-size: 13px;
+    color: #64748b;
+    margin-bottom: 20px;
+  }
+  .chart-container {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    height: 420px;
+    margin: 0 auto;
+  }
+  canvas { width: 100%; height: 100%; }
+  .legend {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 16px;
+    flex-wrap: wrap;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #94a3b8;
+    cursor: pointer;
+    user-select: none;
+  }
+  .legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  .legend-item.disabled { opacity: 0.3; }
+  .tooltip {
+    position: absolute;
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 12px;
+    pointer-events: none;
+    display: none;
+    z-index: 10;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+
+<h1>Lifting Progress — Working Weight Over Time</h1>
+<p class="subtitle">点線 = ピーク時の推定 1RM</p>
+
+<div class="chart-container">
+  <canvas id="chart"></canvas>
+  <div class="tooltip" id="tooltip"></div>
+</div>
+
+<div class="legend" id="legend"></div>
+
+<script>
+const DATA = {
+  "Bench Press": {
+    color: "#ef4444",
+    peak: 100,
+    peakLabel: "Bench Peak 1RM ~100kg",
+    points: [
+      ["2026-04-18", 40], ["2026-04-25", 45], ["2026-05-02", 50],
+      ["2026-05-09", 57.5], ["2026-05-16", 60], ["2026-05-22", 60],
+      ["2026-05-29", 60], ["2026-05-31", 57.5], ["2026-06-05", 57.5],
+      ["2026-06-13", 60], ["2026-06-15", 62.5], ["2026-06-18", 62.5],
+      ["2026-06-21", 65], ["2026-06-24", 65]
+    ]
+  },
+  "Squat": {
+    color: "#3b82f6",
+    peak: 67,
+    peakLabel: "Squat Peak 1RM ~67kg",
+    points: [
+      ["2026-05-22", 20], ["2026-06-03", 30], ["2026-06-10", 35],
+      ["2026-06-16", 40], ["2026-06-22", 45]
+    ]
+  },
+  "Deadlift": {
+    color: "#22c55e",
+    peak: 133,
+    peakLabel: "DL Peak 1RM ~133kg",
+    points: [
+      ["2026-05-29", 40], ["2026-06-06", 45], ["2026-06-13", 50],
+      ["2026-06-20", 55]
+    ]
+  },
+  "Lat Pulldown": {
+    color: "#a855f7",
+    peak: 110,
+    peakLabel: "Lat PD Peak 1RM ~110kg",
+    points: [
+      ["2026-04-18", 40], ["2026-05-16", 54], ["2026-05-29", 59],
+      ["2026-05-31", 54], ["2026-06-05", 54.3], ["2026-06-18", 54.3],
+      ["2026-06-24", 56.6]
+    ]
+  }
+};
+
+const canvas = document.getElementById("chart");
+const ctx = canvas.getContext("2d");
+const tooltipEl = document.getElementById("tooltip");
+const legendEl = document.getElementById("legend");
+
+let hidden = {};
+let dpr = window.devicePixelRatio || 1;
+
+function parseDate(s) { return new Date(s + "T00:00:00"); }
+
+function getAllDates() {
+  const dates = new Set();
+  for (const k in DATA) {
+    if (hidden[k]) continue;
+    DATA[k].points.forEach(p => dates.add(p[0]));
+  }
+  return [...dates].map(parseDate).sort((a, b) => a - b);
+}
+
+function getRange() {
+  let minW = Infinity, maxW = -Infinity;
+  for (const k in DATA) {
+    if (hidden[k]) continue;
+    DATA[k].points.forEach(p => {
+      if (p[1] < minW) minW = p[1];
+      if (p[1] > maxW) maxW = p[1];
+    });
+    if (DATA[k].peak > maxW) maxW = DATA[k].peak;
+  }
+  return [Math.floor(minW / 10) * 10 - 5, Math.ceil(maxW / 10) * 10 + 10];
+}
+
+function resize() {
+  const rect = canvas.parentElement.getBoundingClientRect();
+  canvas.width = rect.width * dpr;
+  canvas.height = rect.height * dpr;
+  canvas.style.width = rect.width + "px";
+  canvas.style.height = rect.height + "px";
+  ctx.scale(dpr, dpr);
+}
+
+const PAD = { top: 20, right: 30, bottom: 50, left: 50 };
+
+function draw() {
+  const W = canvas.width / dpr;
+  const H = canvas.height / dpr;
+  const cw = W - PAD.left - PAD.right;
+  const ch = H - PAD.top - PAD.bottom;
+
+  ctx.clearRect(0, 0, W, H);
+
+  const allDates = getAllDates();
+  if (allDates.length === 0) return;
+  const minDate = allDates[0].getTime();
+  const maxDate = allDates[allDates.length - 1].getTime();
+  const dateRange = maxDate - minDate || 1;
+  const [minW, maxW] = getRange();
+  const wRange = maxW - minW || 1;
+
+  const xOf = d => PAD.left + ((d.getTime() - minDate) / dateRange) * cw;
+  const yOf = w => PAD.top + ch - ((w - minW) / wRange) * ch;
+
+  // Grid
+  ctx.strokeStyle = "#1e293b";
+  ctx.lineWidth = 0.5;
+  for (let w = Math.ceil(minW / 10) * 10; w <= maxW; w += 10) {
+    const y = yOf(w);
+    ctx.beginPath(); ctx.moveTo(PAD.left, y); ctx.lineTo(W - PAD.right, y); ctx.stroke();
+    ctx.fillStyle = "#475569";
+    ctx.font = "11px sans-serif";
+    ctx.textAlign = "right";
+    ctx.fillText(w + "kg", PAD.left - 8, y + 4);
+  }
+
+  // Date labels
+  ctx.fillStyle = "#475569";
+  ctx.font = "11px sans-serif";
+  ctx.textAlign = "center";
+  const weeks = [];
+  let d = new Date(allDates[0]);
+  d.setDate(d.getDate() - d.getDay() + 1);
+  while (d <= allDates[allDates.length - 1]) {
+    weeks.push(new Date(d));
+    d.setDate(d.getDate() + 7);
+  }
+  weeks.forEach(w => {
+    const x = xOf(w);
+    if (x >= PAD.left && x <= W - PAD.right) {
+      ctx.save();
+      ctx.translate(x, H - PAD.bottom + 16);
+      ctx.rotate(-0.5);
+      ctx.fillText((w.getMonth()+1) + "/" + w.getDate(), 0, 0);
+      ctx.restore();
+    }
+  });
+
+  // Peak lines & data
+  for (const name in DATA) {
+    if (hidden[name]) continue;
+    const series = DATA[name];
+
+    // Peak dashed line
+    if (series.peak <= maxW) {
+      const py = yOf(series.peak);
+      ctx.setLineDash([6, 4]);
+      ctx.strokeStyle = series.color + "40";
+      ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(PAD.left, py); ctx.lineTo(W - PAD.right, py); ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.fillStyle = series.color + "80";
+      ctx.font = "10px sans-serif";
+      ctx.textAlign = "left";
+      ctx.fillText(series.peakLabel, PAD.left + 4, py - 5);
+    }
+
+    // Line
+    ctx.strokeStyle = series.color;
+    ctx.lineWidth = 2.5;
+    ctx.lineJoin = "round";
+    ctx.beginPath();
+    series.points.forEach((p, i) => {
+      const x = xOf(parseDate(p[0]));
+      const y = yOf(p[1]);
+      if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    });
+    ctx.stroke();
+
+    // Dots
+    series.points.forEach(p => {
+      const x = xOf(parseDate(p[0]));
+      const y = yOf(p[1]);
+      ctx.beginPath();
+      ctx.arc(x, y, 5, 0, Math.PI * 2);
+      ctx.fillStyle = series.color;
+      ctx.fill();
+      ctx.strokeStyle = "#0f172a";
+      ctx.lineWidth = 2;
+      ctx.stroke();
+    });
+  }
+
+  // Store positions for tooltip
+  canvas._positions = [];
+  for (const name in DATA) {
+    if (hidden[name]) continue;
+    DATA[name].points.forEach(p => {
+      canvas._positions.push({
+        x: xOf(parseDate(p[0])),
+        y: yOf(p[1]),
+        name, date: p[0], weight: p[1]
+      });
+    });
+  }
+}
+
+// Legend
+for (const name in DATA) {
+  const item = document.createElement("div");
+  item.className = "legend-item";
+  item.innerHTML = `<span class="legend-dot" style="background:${DATA[name].color}"></span>${name}`;
+  item.addEventListener("click", () => {
+    hidden[name] = !hidden[name];
+    item.classList.toggle("disabled");
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    resize();
+    draw();
+  });
+  legendEl.appendChild(item);
+}
+
+// Tooltip
+canvas.addEventListener("mousemove", e => {
+  const rect = canvas.getBoundingClientRect();
+  const mx = e.clientX - rect.left;
+  const my = e.clientY - rect.top;
+  let closest = null, minDist = 20;
+
+  (canvas._positions || []).forEach(p => {
+    const dist = Math.sqrt((p.x - mx) ** 2 + (p.y - my) ** 2);
+    if (dist < minDist) { minDist = dist; closest = p; }
+  });
+
+  if (closest) {
+    tooltipEl.style.display = "block";
+    tooltipEl.style.left = (closest.x + 12) + "px";
+    tooltipEl.style.top = (closest.y - 10) + "px";
+    tooltipEl.innerHTML = `<strong style="color:${DATA[closest.name].color}">${closest.name}</strong><br>${closest.date}<br><strong>${closest.weight} kg</strong>`;
+  } else {
+    tooltipEl.style.display = "none";
+  }
+});
+
+canvas.addEventListener("mouseleave", () => { tooltipEl.style.display = "none"; });
+
+window.addEventListener("resize", () => {
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  resize();
+  draw();
+});
+
+resize();
+draw();
+</script>
+</body>
+</html>
