@@ -1,16 +1,24 @@
 ---
 type: overview
-tags: [#returning-lifter, #programming, #my-priority]
+tags: [#returning-lifter, #programming, #my-priority, #phase-1]
 created: 2026-06-20
-last_updated: 2026-06-20
-sources: [[Current State]], [[Month 1 Learnings]], [[Body Composition Timeline]]
+last_updated: 2026-07-05
+sources: [[Current State]], [[Month 1 Learnings]], [[Body Composition Timeline]], [[筋肥大目的でのフェーズ設計]]
 confidence: medium
 ---
 
-# 復帰プログラム: Month 3（Week 9〜）
+# 復帰プログラム: Month 3（Week 9〜17）— Phase 1 最終ブロック
 
+> **これは Phase 1 の最終ブロック**（[[筋肥大目的でのフェーズ設計]] の 3-Phase モデルにおける Phase 1 詳細）
 > Month 2 を完了し、下半身の導入・ベンチの安定化・Upper/Lower 4分割への移行が成功。
-> Month 3 では LP を継続しつつ、Phase 2 への移行準備とアイソレーション種目の段階的導入を行う。
+> Month 3 では LP を継続、Phase 2 卒業条件到達を目指す。カット完了と同時期に Phase 2 準備へ移行。
+> Phase 2 の詳細は [[Phase 2 Hypertrophy Block]] を参照。
+
+## 体調不良による +1週遅延（Week 10）
+
+Week 10 に 38.6度の発熱で慣らし週（週2回・重量据え置き）となった。
+オリジナルの Week 10 漸進プランは Week 11 に持ち越し済み。
+Phase 1 全体のタイムラインは 1週間後ろ倒し（Week 15-17 が卒業期）。
 
 ## Month 2 → Month 3 の引き継ぎ
 
@@ -77,13 +85,16 @@ confidence: medium
 
 → 種目ごとに判断。ベンチが Phase 2 に入っても、スクワットは LP を継続する可能性あり。
 
-### Phase 2 の移行先（予定）
+### Phase 2 の移行先
+
+**詳細プログラムは [[Phase 2 Hypertrophy Block]] を参照。** 概要のみここに示す：
 
 | 手法 | 内容 |
 |------|------|
-| DUP（Daily Undulating Periodization） | 同じ種目で日によってレップ数を変える（例: 月 5x5 重い / 木 3x10 軽い） |
-| ボリューム増加 | 3セット → 4セット |
-| バリエーション追加 | インクラインDB、クローズグリップベンチ等 |
+| DUP（Daily Undulating Periodization） | 各 lift を「重い日 3x3-5 RIR 1」+「軽い日 3x8-12 RIR 2」の週2回 |
+| ボリューム増加 | 各筋群 週2回頻度、MEV → MAV レンジで漸増 |
+| バリエーション追加 | インクラインDB、リアデルトフライ、ヒップスラスト等の hypertrophy 特化種目 |
+| Isolation 本格導入 | サイドレイズ、カール、プッシュダウン等を Main に格上げ |
 
 ---
 
@@ -171,6 +182,10 @@ confidence: medium
 
 ## 関連ページ
 
+- [[筋肥大目的でのフェーズ設計]] — 全体の Phase モデル（上位ドキュメント）
+- [[Phase 2 Hypertrophy Block]] — Phase 1 卒業後の Phase 2 プログラム
+- [[Strength Roadmap]] — 1RM 目標（副次指標）
+- [[Weight Target Ranges]] — 体組成目標
 - [[Current State]] — 最新の体組成・パフォーマンス
 - [[Body Composition Timeline]] — InBody 比較（ピーク vs 現在）
 - [[復帰プログラム: Week 1-4]] — Month 1（Plan vs Actual）

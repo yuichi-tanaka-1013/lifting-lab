@@ -130,3 +130,96 @@ last_updated: 2026-05-18
   - タンパク質が 15-20g 不足 → トレ後にプロテイン1スクープ追加で 147g/日に到達
   - EAA・マルチビタミンの追加は現時点で不要と判断
 - Week 6 Upper A 記録: ベンチ57.5kg x8x3 RIR3 全セット完遂。計画遵守。ベンチ安定感改善傾向
+
+## 2026-06-24
+
+- [[Weight Target Ranges]] 作成
+  - 身長 181.6 cm × ピーク LBM 71.6 kg を基準にレンジ算出
+  - メンテ目標 83-84 kg / 14-15%、バルク上限 88 kg / 17%、カット末期 80 kg / 11%
+  - InBody 測定時の方向性判断（次フェーズ移行 / 継続）の地図として使用
+  - confidence: medium（目的・年齢進行で年 1 見直し前提）
+
+## 2026-06-27
+
+- Week 9 Lower B 完遂 → Week 9 全セッション完了
+  - **BB DL 60kg 3x5 RIR 3+ で baseline 到達のマイルストーン**
+  - ゴブレット SQ 26kg、レッグカール 35kg、デッドバグ 計画通り
+  - DB RDL の1セット目 15レップ実施（計画 10 を超過）→ 重量固定 or 集中の問題か要検証
+  - カーフレイズ 31.3kg 3x15 RIR 3
+  - raw/personal/workouts/2026-06-27-lower-b.md に保存
+- Week 10 cheatsheet 作成 (wiki/personal/cheatsheets/week10-cheatsheet.md)
+  - BIG3 全て +2.5kg: ベンチ 67.5, SQ 47.5, DL 62.5
+  - DBショルダープレス 18kg x 2 初挑戦
+  - ケーブルロウ 52kg / レッグカール 35kg は据え置き（揃える）
+  - DB RDL は 16kg 据え置きで 10rep 揃える
+  - アイソレーション正式導入は SQ 条件未達のため Week 10 では保留
+  - InBody 再測定を Week 10-11 中に予約推奨
+
+## 2026-06-30
+
+- Week 10 cheatsheet を「慣らし版」に書き換え
+  - 経緯: 2026-06-27 夜から 38.6度発熱、6/30 時点で平熱・空咳・睡眠正常
+  - 構成: 木 7/2 Upper A + 土 7/4 Lower B（週2回、Main のみ、2セット）
+  - 重量はすべて Week 9 据え置き、RIR +2、オプション全スキップ
+  - 食事: 米休息日 1.2 → 1.5合、プロテイン 1 → 2スクープ（実質メンテ寄り）
+  - Week 11 で 67.5/47.5/62.5/18kg などの漸進を再挑戦予定
+  - InBody は咳完全消失後（7月第2-3週目安）
+  - Phase 2 / アイソレーション判定への影響なし（例外1週間）
+
+## 2026-07-02
+
+- Week 10 Upper A（慣らし）完遂: ベンチ 65 3x8 RIR 4-5、ケーブルロウ 52 3x10、DBショルダー 16 3x10（1セット7）、フェイスプル 9.1 3x15
+  - 計画超過: 予定2セット → 実施3セット（本人判断）
+  - Week 9 で3セット目落ちたケーブルロウが 3x10 揃った
+  - DBショルダー 16kg でレップ落ち → Week 11 の 18kg 漸進は見直し検討
+  - raw/personal/workouts/2026-07-02-upper-a.md に保存
+
+## 2026-07-04
+
+- Week 10 Lower B（慣らし）完遂: DL 60kg 2x5 RIR 5+、ゴブレット SQ 26kg 2x8 RIR 4、レッグカール 35kg 2x10 RIR 4、デッドバグ 2x8/側
+  - **DL RIR 5+ = 予定より余力あり、体調ほぼ完全復帰**
+  - 2セット計画厳守（木曜の 3セット計画超過を修正）
+  - Week 10 完了。Week 11 で通常漸進プラン（67.5/47.5/62.5）挑戦へ
+  - raw/personal/workouts/2026-07-04-lower-b.md に保存
+
+## 2026-07-05
+
+- Week 11 cheatsheet 作成 (wiki/personal/cheatsheets/week11-cheatsheet.md)
+  - Week 10 慣らし完遂・体調完全復帰を受けて、Week 10 で持ち越した漸進プランに挑戦
+  - DBショルダーは 3セット目 7 レップ = 累積疲労パターンと判断 → 18kg 挑戦 GO
+  - BIG3 全て +2.5kg: ベンチ 67.5, SQ 47.5, DL 62.5
+  - レッグカール 35 → 40kg（5kg 刻みマシン、疲労蓄積なし報告受け）
+  - アイソレーション導入判定はリセット（週4回連続性が Week 10 で途切れたため）
+  - InBody 再測定を今週中に実施推奨
+- Week 9 Lower B（DL 60kg baseline 到達）後の腰の状態を最終確認: 問題なし
+  - Week 9 → Week 10 慣らしの全期間で腰トラブル発生せず
+  - DL 62.5kg 漸進の GO サイン確定
+- DL 漸進を +2.5kg → +5kg (65kg) に修正
+  - 根拠: Week 10 で 60kg 2x5 RIR 5+ = 推定 1RM ~80kg、65kg = 81% で LP レンジ内
+  - 本人からの「物足りない」フィードバックが数学的にも正しかった
+  - 安全弁: 1セット目 RIR 2 未満なら 62.5kg にドロップ
+  - この判断パターンを memory に記録（デフォルト +2.5kg 機械適用しない）
+- 筋肥大目的でのフェーズ設計 + Phase 2 プランを wiki に保存
+  - [[筋肥大目的でのフェーズ設計]] (wiki/overviews/) — Phase 1/2/3 全体像、rep レンジ配分、諸説併記
+  - [[Phase 2 Hypertrophy Block]] (wiki/protocols/) — Upper/Lower 4分割の具体プログラム、週間ボリューム表、進捗ルール
+  - Phase 2 移行タイミング: Week 15-17 準備、Week 18- 本格開始（Phase 1 卒業条件次第）
+  - 「3-rep 中心 = 筋肥大」は誤解と明示。BIG3 のみ 3-5 rep で強度基盤、主軸は 6-12 rep
+- プログラム文書の全体再整理（Phase モデル統一）
+  - 問題: 「Phase 1/2/3」の定義が Strength Roadmap / 筋肥大設計 / Return Program Month 3 で異なっていた
+  - 統一 Phase モデル定義（全文書共通）:
+    - Phase 1 = LP（Week 1-17、Return Programs で詳細記述）
+    - Phase 2 = Volume Block / 筋肥大加速（Week 20+、[[Phase 2 Hypertrophy Block]] で詳細記述）
+    - Phase 3 = Block Periodization（未設計、Phase 2 中に設計）
+  - [[Strength Roadmap]] を「1RM マイルストーン参照のみ」に縮小（programming 削除、タイムライン後ろ倒し）
+  - [[筋肥大目的でのフェーズ設計]] を「全体入口」として書き換え、文書階層図を追加
+  - [[Phase 2 Hypertrophy Block]] の移行タイミングを Week 20+ に調整（体調不良 +1週遅延反映）
+  - [[復帰プログラム: Month 3]] に Phase 2 pointer と体調不良ノートを追加
+  - Week 11 cheatsheet の Phase 2 references を統一モデルにアライン
+  - wiki/index.md の説明・順序を整理
+- [[Current State]] を Week 11 開始時点の情報に全面更新（前回 Month 1 相当で止まっていた）
+  - Phase 1 卒業条件の進捗を明示化（3条件中 ベンチ達成、DL 見込み、SQ+週4回連続 が残タスク）
+  - パフォーマンスを Week 9-11 の実績＋Week 11 予定に更新
+  - 直近イベント表（Week 9 baseline 到達、Week 10 illness、Week 11 復帰）
+  - リスクマップを Week 11 時点に更新（DL 65kg フォームリスクを最上位に）
+  - InBody 未実施を明示、今週予約推奨
+  - 関連ページに Phase 設計 4文書へのリンクを追加

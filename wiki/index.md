@@ -1,10 +1,14 @@
 ---
 type: overview
 created: 2026-05-18
-last_updated: 2026-05-18
+last_updated: 2026-07-05
 ---
 
 # Wiki Index
+
+> **プログラム設計の入口**: [[筋肥大目的でのフェーズ設計]]（3-Phase モデル全体入口）
+> **現在の Phase**: Phase 1 LP（Week 11、Month 3）→ 詳細は [[復帰プログラム: Month 3]]
+> **次の Phase**: Phase 2 Volume Block（Week 20+ 見込み）→ 詳細は [[Phase 2 Hypertrophy Block]]
 
 ## Entities（人物・物）
 
@@ -48,6 +52,7 @@ last_updated: 2026-05-18
 - [[Pre-Workout RAMP: Lower Body]] — 下半身セッション前の動的ウォームアップ（ROM基準付き）
 - [[Post-Workout Cooldown]] — セッション後の静的ストレッチ（エビデンス注記付き）
 - [[Dragon Flag Progression]] — ドラゴンフラッグ達成へのLv.1-5ロードマップ
+- [[Phase 2 Hypertrophy Block]] ★ **次の Phase** — Phase 1 卒業後の筋肥大特化 Upper/Lower 4分割プログラム（Week 20+）
 
 ## References（リファレンス）
 
@@ -59,15 +64,17 @@ last_updated: 2026-05-18
 
 ## Overviews（テーマ横断）
 
-- [[復帰プログラム: Week 1-4]] — 出戻り最初の4週間のトレーニング設計（Plan vs Actual 付き）
-- [[復帰プログラム: Week 5-8]] — Month 2: 下半身導入 + 上半身の筋肥大フェーズ
-- [[復帰プログラム: Month 3]] — LP 継続 + アイソレーション段階導入 + Phase 2 移行準備
-- [[Strength Roadmap]] — 中級者・上級者への道（80kgクラス、Phase 1-3）
+- [[筋肥大目的でのフェーズ設計]] ★ **プログラム設計の入口** — 3-Phase モデル、rep レンジ配分、現在地
+- [[復帰プログラム: Week 1-4]] — Phase 1 詳細 Month 1（フルボディ導入）
+- [[復帰プログラム: Week 5-8]] — Phase 1 詳細 Month 2（Upper/Lower 移行）
+- [[復帰プログラム: Month 3]] — Phase 1 詳細 Month 3（Week 9-17、現在ここ）
+- [[Strength Roadmap]] — 1RM マイルストーン参照（副次指標、programming は含まず）
 
 ## Personal（個人データ分析）
 
-- [[Current State]] — 2026-05 ベースライン・出戻り再開時の現在地（Month 1 終了時点で更新済）
+- [[Current State]] — 現在地サマリ（Week 11 開始時点、2026-07-05 更新）
 - [[Month 1 Learnings]] — 復帰1ヶ月目の経験知（6つの Finding）
 - [[Hypotheses: ROM Preservation]] — なぜ2年9ヶ月のブランクでも ROM が保たれたか
 - [[Body Composition Timeline]] — InBody 470 実測データの時系列比較（ピーク vs 現在）
+- [[Weight Target Ranges]] — 減量末期・メンテ・バルク期の体重レンジ設計（InBody 測定時の判断基準）
 - [[Supplement Protocol]] — 現在のサプリメント摂取内容・タイミング・予算
