@@ -69,6 +69,7 @@ last_updated: 2026-07-05
 - [[復帰プログラム: Week 5-8]] — Phase 1 詳細 Month 2（Upper/Lower 移行）
 - [[復帰プログラム: Month 3]] — Phase 1 詳細 Month 3（Week 9-17、現在ここ）
 - [[Strength Roadmap]] — 1RM マイルストーン参照（副次指標、programming は含まず）
+- [[big3-potential-2026-07]] — 現在の筋量から見た BIG3 ポテンシャル推定（300-350kg は筋量の裏付けあり）
 
 ## Personal（個人データ分析）
 
