@@ -27,7 +27,8 @@ last_updated: 2026-07-05
 ## Concepts（概念）
 
 - [[Volume Landmarks]] — MV/MEV/MAV/MRV
-- [[RIR and RPE]] — 主観的強度の測定
+- [[RIR and RPE]] — 主観的強度の測定（記録は最終セット基準）
+- [[Fat Distribution]] — 脂肪分布の個人差（本人は体幹集中型、内臓脂肪は最初に落ちる）
 - [[Mechanical Tension]] — ハイパートロフィーの主要メカニズム
 - [[Progressive Overload]] — 漸進性過負荷
 - [[Muscle Memory]] — 出戻り組の核心トピック
