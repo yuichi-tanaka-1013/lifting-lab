@@ -12,7 +12,7 @@ all_md = [f for f in glob.glob('**/*.md', recursive=True)
           if not f.startswith(EXCLUDE_DIRS)]
 attachments = [f for f in glob.glob('**/*', recursive=True)
                if not f.startswith(EXCLUDE_DIRS) and os.path.isfile(f)
-               and f.endswith(('.csv', '.html', '.pdf', '.png', '.jpg'))]
+               and f.endswith(('.csv', '.html', '.pdf', '.png', '.jpg', '.canvas'))]
 
 # Obsidian の実際の解決規則: ファイル名 (stem / basename / フルパス) の
 # 大文字小文字non区別・完全一致のみ。**aliases は生リンクを解決しない**
@@ -28,6 +28,7 @@ def links_of(path):
     c = open(path).read()
     c = re.sub(r'```.*?```', '', c, flags=re.S)   # fenced code blocks
     c = re.sub(r'`[^`\n]*`', '', c)               # inline code
+    c = c.replace('\\|', '|')                     # テーブル内のパイプエスケープ
     return [l.strip() for l in re.findall(r'\[\[([^\]|#]+)(?:\|[^\]]*)?\]\]', c)]
 
 degree = {f: 0 for f in all_md}

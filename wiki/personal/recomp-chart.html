@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>リコンプの二軸チャート — 体重↓ × BIG3↑</title>
+<style>
+  body { font-family: -apple-system, "Hiragino Sans", sans-serif; background:#1e1e1e; color:#ddd; max-width: 900px; margin: 24px auto; }
+  h1 { font-size: 1.2em; } .sub { color:#999; font-size: .85em; }
+  svg { background:#252525; border-radius: 8px; }
+  .note { font-size:.8em; color:#888; margin-top:8px; }
+</style>
+</head>
+<body>
+<h1>リコンプの二軸チャート — 体重を落としながら強くなる</h1>
+<p class="sub">上: 体重 (kg) と体脂肪率 / 下: BIG3 推定1RM合計 (kg)。実線 = 実測、破線 = 計画。データ出典: InBody 実測 + workout 記録の推定1RM。</p>
+
+<svg viewBox="0 0 900 560" width="900" height="560">
+  <!-- 時間軸: 4/15=x60, 9/15=x860. 1日 ≈ 5.23px -->
+  <!-- 月グリッド -->
+  <g stroke="#3a3a3a" stroke-width="1">
+    <line x1="139" y1="30" x2="139" y2="530"/><line x1="301" y1="30" x2="301" y2="530"/>
+    <line x1="458" y1="30" x2="458" y2="530"/><line x1="620" y1="30" x2="620" y2="530"/>
+    <line x1="782" y1="30" x2="782" y2="530"/>
+  </g>
+  <g fill="#888" font-size="12" text-anchor="middle">
+    <text x="139" y="550">5月</text><text x="301" y="550">6月</text><text x="458" y="550">7月</text>
+    <text x="620" y="550">8月</text><text x="782" y="550">9月</text>
+  </g>
+
+  <!-- ===== 上パネル: 体重 (y: 88kg=40, 83kg=240 → 1kg=40px) ===== -->
+  <text x="60" y="50" fill="#ff6b9d" font-size="14" font-weight="bold">体重 (kg) / 体脂肪率</text>
+  <g fill="#666" font-size="11" text-anchor="end">
+    <text x="52" y="84">87</text><text x="52" y="124">86</text><text x="52" y="164">85</text>
+    <text x="52" y="204">84</text><text x="52" y="244">83</text>
+  </g>
+  <!-- 実測: 5/29 86.8 (x=212, y=112), 7/6 86.0 (x=411, y=144) -->
+  <polyline points="212,112 411,144" fill="none" stroke="#ff6b9d" stroke-width="3"/>
+  <!-- 計画: 7/6 → 9/1 83.5 (x=709, y=224) -->
+  <polyline points="411,144 709,224" fill="none" stroke="#ff6b9d" stroke-width="2" stroke-dasharray="6 5" opacity=".7"/>
+  <circle cx="212" cy="112" r="5" fill="#ff6b9d"/><circle cx="411" cy="144" r="5" fill="#ff6b9d"/>
+  <circle cx="709" cy="224" r="5" fill="none" stroke="#ff6b9d" stroke-width="2"/>
+  <g fill="#ffb3cd" font-size="12">
+    <text x="150" y="98">5/29: 86.8kg / BF 20.7%</text>
+    <text x="420" y="136">7/6: 86.0kg / BF 18.5%</text>
+    <text x="600" y="250">9/1 目標: 83.5kg / BF ~15%</text>
+  </g>
+
+  <!-- ===== 下パネル: BIG3 (y: 260kg=300, 160kg=500 → 1kg=2px) ===== -->
+  <text x="60" y="300" fill="#2ecc71" font-size="14" font-weight="bold">BIG3 推定1RM合計 (kg)</text>
+  <g fill="#666" font-size="11" text-anchor="end">
+    <text x="52" y="324">260</text><text x="52" y="364">240</text><text x="52" y="404">220</text>
+    <text x="52" y="444">200</text><text x="52" y="484">180</text><text x="52" y="524">160</text>
+  </g>
+  <!-- 実測: 5/31 ~170 (x=222, y=500), 6/23 217 (x=343, y=406), 7/6 238 (x=411, y=364), 7/24 250 (x=505, y=340) -->
+  <polyline points="222,500 343,406 411,364 505,340" fill="none" stroke="#2ecc71" stroke-width="3"/>
+  <!-- 計画: 7/24 → 9月末 卒業~270 (x=860, y=300) -->
+  <polyline points="505,340 860,302" fill="none" stroke="#2ecc71" stroke-width="2" stroke-dasharray="6 5" opacity=".7"/>
+  <circle cx="222" cy="500" r="5" fill="#2ecc71"/><circle cx="343" cy="406" r="5" fill="#2ecc71"/>
+  <circle cx="411" cy="364" r="5" fill="#2ecc71"/><circle cx="505" cy="340" r="5" fill="#2ecc71"/>
+  <g fill="#a9eec8" font-size="12">
+    <text x="170" y="520">5月末: ~170</text>
+    <text x="300" y="430">6/23: 217</text>
+    <text x="360" y="352">7/6: 238</text>
+    <text x="512" y="332">7/24: ~250 (ベンチ70昇格)</text>
+  </g>
+
+  <!-- 注釈: カット帯 -->
+  <rect x="222" y="30" width="487" height="8" fill="#4a9eff" opacity=".5"/>
+  <text x="230" y="26" fill="#4a9eff" font-size="11">カット期間 (-500kcal/日): 6/1 〜 8月末</text>
+</svg>
+
+<p class="note">
+ハサミが開く形 = リコンプ (筋量+1.0kg・脂肪-2.1kg を6週で確認済み)。カット中に BIG3 が +80kg 伸びるのは Muscle Memory を持つ出戻り期に特有。
+更新方法: InBody 測定時と月次に、このファイルの座標コメントに沿って点を追記する。
+</p>
+</body>
+</html>

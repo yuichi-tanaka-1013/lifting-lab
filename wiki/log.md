@@ -413,3 +413,8 @@ last_updated: 2026-05-18
   - 種目ハブ: wiki/exercises/ 新設、負荷管理中の13種目 (BIG3 + 主要種目 + クラムシェル) をページ化。各ページ = 現在地・漸進方針・安全弁・関連概念。exercises-moc を8番目の MOC として index に追加
   - week14 チートシートの種目名をリンク化 (以降の週も同規約: CLAUDE.md ルール6)。グラフ色分けに exercises (赤) を追加
   - 検証 CLEAN: 125 md、孤立0・未解決0
+- **面白い使い方 3本を実装**（本人選定: 1,3,5。週次自動運転(6)は保留）
+  - prediction-tracking.md: 予測vs実績の台帳 (W12-13 で n=15)。所見: 押し系メインは較正済み・プル系/カーフは保守的すぎ (刻み1段早め可)・下振れは全て疲労文脈
+  - recomp-chart.html: 体重↓×BIG3↑ の二軸チャート (実測+計画破線、カット帯注釈)
+  - annual-cycle.canvas: 2アンカー年間サイクル + 3-Phase モデルの Canvas 視覚マップ
+  - personal-moc / weight-target-ranges / strength-roadmap から配線
