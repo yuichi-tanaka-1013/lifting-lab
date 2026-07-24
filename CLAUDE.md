@@ -74,6 +74,16 @@ confidence: high | medium | low | contested
 - 概念: `[[Mechanical Tension]]`, `[[Volume Landmarks]]`
 - プログラム: `[[PPL Split]]`, `[[5x5 Program]]`
 
+### グラフ (エッジ) を切らないためのルール — 2026-07-25 制定
+
+ファイル名は kebab-case、リンクはタイトル表記のため、**frontmatter の `aliases` がないと Obsidian でエッジが結ばれない**。
+
+1. **新規ページ作成時は必ず frontmatter に `aliases: [<リンクで使う表記>]` を入れる**（例: `current-state.md` → `aliases: [Current State]`）
+2. ページを作ったら **wiki/index.md に登録**し、関連ページと**双方向**にリンクする（片方向だけにしない）
+3. **workout 記録 (raw/personal/workouts/) は末尾に `## 関連 → [[weekN-cheatsheet]]`** を付ける
+4. 存在しないページへのリンクを sources 等に書かない（書くなら実ページを作るか平文にする）
+5. 検証: `python3 scripts/check-graph.py`（孤立ノードと未解決リンクを検出）を月1目安で実行
+
 ## オペレーション
 
 ### /ingest — 新しいソースを wiki に統合

@@ -1,3 +1,10 @@
+---
+type: personal
+tags: [#cheatsheet, #phase-1]
+created: 2026-06-13
+aliases: [Week 8 Cheat Sheet]
+---
+
 # Week 8 Cheat Sheet — Upper/Lower 4分割
 
 > Month 2 最終週。ベンチ 60kg 復帰済み。今週は全種目で漸進。

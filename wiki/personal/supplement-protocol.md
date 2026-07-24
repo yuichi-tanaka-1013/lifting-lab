@@ -5,6 +5,7 @@ created: 2026-05-31
 last_updated: 2026-05-31
 sources: []
 confidence: medium
+aliases: [Supplement Protocol]
 ---
 
 # Supplement Protocol — 現在のサプリメントプロトコル

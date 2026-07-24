@@ -5,6 +5,7 @@ created: 2026-05-18
 last_updated: 2026-05-18
 sources: []
 confidence: medium
+aliases: [岡田隆]
 ---
 
 # 岡田隆

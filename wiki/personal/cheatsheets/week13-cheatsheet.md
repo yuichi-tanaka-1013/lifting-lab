@@ -1,3 +1,10 @@
+---
+type: personal
+tags: [#cheatsheet, #phase-1]
+created: 2026-07-17
+aliases: [Week 13 Cheat Sheet]
+---
+
 # Week 13 Cheat Sheet — 再開週・67.5kg 揃えから 70kg 昇格判定
 
 > Week 12 は家庭の事情で週2回（日月のみ）で終了。**前回セッション（7/13）から中5-6日空けての再開週**。

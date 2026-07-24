@@ -1,3 +1,10 @@
+---
+type: personal
+tags: [#cheatsheet, #phase-1]
+created: 2026-06-05
+aliases: [Week 7 Cheat Sheet]
+---
+
 # Week 7 Cheat Sheet — 短縮版（水金の2日）
 
 > 月火木は仕事で欠席。水金の2日で実施。Upper B は今週スキップ。

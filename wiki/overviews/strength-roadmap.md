@@ -5,6 +5,7 @@ created: 2026-06-23
 last_updated: 2026-07-20
 sources: [[Current State]], [[Body Composition Timeline]], [[筋肥大目的でのフェーズ設計]]
 confidence: medium
+aliases: [Strength Roadmap]
 ---
 
 # Strength Roadmap — 1RM マイルストーン参照
@@ -128,7 +129,7 @@ confidence: medium
 ## 進捗の追跡方法
 
 - 週次: cheatsheet で working weight を記録（1RM は推定値）
-- 月次: [[progress-chart.html]] で BIG3 のグラフ更新時に 1RM 推定を並記
+- 月次: `wiki/personal/progress-chart.html` で BIG3 のグラフ更新時に 1RM 推定を並記
 - 四半期: InBody + BIG3 実測で中級者/上級者ラインとの距離を再評価
 
 ## 諸説あり

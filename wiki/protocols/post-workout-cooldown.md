@@ -5,6 +5,7 @@ created: 2026-05-19
 last_updated: 2026-05-19
 sources: []
 confidence: medium
+aliases: [Post-Workout Cooldown]
 ---
 
 # Post-Workout Cooldown — セッション後の静的ストレッチ

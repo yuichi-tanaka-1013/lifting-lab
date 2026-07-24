@@ -5,6 +5,7 @@ created: 2026-05-18
 last_updated: 2026-07-05
 sources: [[raw/personal/baseline-2026-05.md]], [[raw/personal/inbody-2026-05-29.csv]], [[SBS: Detraining]], [[Body Composition Timeline]], [[筋肥大目的でのフェーズ設計]]
 confidence: high
+aliases: [Current State]
 ---
 
 # Current State — 2026-07-05 更新（Week 11 開始時点）

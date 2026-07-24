@@ -5,6 +5,7 @@ created: 2026-07-21
 last_updated: 2026-07-21
 sources: [[Body Composition Timeline]], 双子研究・GWAS 系の体脂肪分布研究群
 confidence: high
+aliases: [Fat Distribution]
 ---
 
 # Fat Distribution（脂肪分布の個人差）

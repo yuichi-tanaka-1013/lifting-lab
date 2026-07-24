@@ -1,3 +1,10 @@
+---
+type: personal
+tags: [#cheatsheet, #phase-1]
+created: 2026-07-12
+aliases: [Week 12 Cheat Sheet]
+---
+
 # Week 12 Cheat Sheet — LP 継続・揃え週
 
 > Month 3 後半。Week 11 で週4回復帰 + BIG3 漸進すべて成功（ベンチ 67.5 / SQ 47.5 / DL 65）。

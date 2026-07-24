@@ -5,6 +5,7 @@ created: 2026-05-19
 last_updated: 2026-05-19
 sources: []
 confidence: high
+aliases: [Mobility vs Flexibility]
 ---
 
 # Mobility vs Flexibility

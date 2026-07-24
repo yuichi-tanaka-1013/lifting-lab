@@ -1,3 +1,10 @@
+---
+type: personal
+tags: [#cheatsheet, #phase-1]
+created: 2026-06-20
+aliases: [Week 9 Cheat Sheet]
+---
+
 # Week 9 Cheat Sheet — Upper/Lower 4分割 + オプション
 
 > Month 3 開始。全種目で漸進。InBody 再測定は再来週末（Week 10-11）を予定。

@@ -5,6 +5,7 @@ created: 2026-05-31
 last_updated: 2026-07-06
 sources: [[raw/personal/inbody-2023-09-01.csv]], [[raw/personal/inbody-2026-05-29.csv]], [[raw/personal/inbody-2026-07-06.csv]]
 confidence: high
+aliases: [Body Composition Timeline]
 ---
 
 # Body Composition Timeline — InBody 470 実測データ

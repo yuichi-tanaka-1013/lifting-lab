@@ -1,3 +1,10 @@
+---
+type: personal
+tags: [#cheatsheet, #phase-1]
+created: 2026-07-25
+aliases: [Week 14 Cheat Sheet]
+---
+
 # Week 14 Cheat Sheet — ベンチ 70kg 作業重量デビュー・SQ 57.5
 
 > Week 13 は 4/4 完遂・全種目前進の完勝週（ベンチ 70 昇格確定 / SQ 55 / DL 70 / BIG3 推定 ~250kg）。

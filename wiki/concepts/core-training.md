@@ -5,6 +5,7 @@ created: 2026-06-21
 last_updated: 2026-06-21
 sources: []
 confidence: high
+aliases: [Core Training]
 ---
 
 # Core Training

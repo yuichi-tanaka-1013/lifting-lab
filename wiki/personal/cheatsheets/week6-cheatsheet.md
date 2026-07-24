@@ -1,3 +1,10 @@
+---
+type: personal
+tags: [#cheatsheet, #phase-1]
+created: 2026-05-29
+aliases: [Week 6 Cheat Sheet]
+---
+
 # Week 6 Cheat Sheet — Upper/Lower 4分割
 
 > **書いてある重量を守る。「もっといける」は muscle memory であって結合組織の準備完了ではない。**

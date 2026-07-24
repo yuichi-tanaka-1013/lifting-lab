@@ -1,3 +1,10 @@
+---
+type: personal
+tags: [#cheatsheet, #phase-1]
+created: 2026-07-05
+aliases: [Week 10 Cheat Sheet]
+---
+
 # Week 10 Cheat Sheet — 体調不良からの慣らし週（週2回構成）
 
 > **2026-06-27（土）夜から 38.6度の発熱、6-30 時点で平熱・空咳のみ・睡眠正常**

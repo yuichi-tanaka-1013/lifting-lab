@@ -5,6 +5,7 @@ created: 2026-05-18
 last_updated: 2026-05-18
 sources: [[SBS: Detraining]]
 confidence: high
+aliases: [Volume Landmarks]
 ---
 
 # Volume Landmarks

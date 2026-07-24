@@ -5,6 +5,7 @@ created: 2026-05-18
 last_updated: 2026-05-18
 sources: [[SBS: Detraining]], [[Current State]], [[Month 1 Learnings]]
 confidence: medium
+aliases: [復帰プログラム: Week 1-4]
 ---
 
 # 復帰プログラム: Week 1-4 — Plan vs Actual
