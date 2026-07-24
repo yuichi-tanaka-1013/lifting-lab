@@ -1,11 +1,11 @@
 ---
 type: concept
-tags: [#intensity, #programming, #autoregulation, #my-priority]
+tags: [intensity, programming, autoregulation, my-priority]
 created: 2026-05-18
 last_updated: 2026-07-20
-sources: [[Eric Helms]] の RPE/RIR 系研究群
+sources: ["[[Eric Helms]] の RPE/RIR 系研究群"]
 confidence: high
-aliases: [RIR and RPE]
+aliases: ["RIR and RPE"]
 ---
 
 # RIR and RPE

@@ -1,11 +1,11 @@
 ---
 type: overview
-tags: [#returning-lifter, #programming, #my-priority, #phase-1]
+tags: [returning-lifter, programming, my-priority, phase-1]
 created: 2026-06-20
 last_updated: 2026-07-05
-sources: [[Current State]], [[Month 1 Learnings]], [[Body Composition Timeline]], [[筋肥大目的でのフェーズ設計]]
+sources: ["[[Current State]]", "[[Month 1 Learnings]]", "[[Body Composition Timeline]]", "[[筋肥大目的でのフェーズ設計]]"]
 confidence: medium
-aliases: [復帰プログラム: Month 3]
+aliases: ["復帰プログラム: Month 3"]
 ---
 
 # 復帰プログラム: Month 3（Week 9〜17）— Phase 1 最終ブロック

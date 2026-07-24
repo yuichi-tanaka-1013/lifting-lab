@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [#returning-lifter, #physiology, #my-priority]
+tags: [returning-lifter, physiology, my-priority]
 created: 2026-05-18
 last_updated: 2026-05-18
-sources: [[SBS: Detraining]]
+sources: ["[[SBS: Detraining]]"]
 confidence: high
 ---
 

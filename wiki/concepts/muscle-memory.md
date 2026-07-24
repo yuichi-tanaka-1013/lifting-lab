@@ -1,11 +1,11 @@
 ---
 type: concept
-tags: [#returning-lifter, #hypertrophy, #mechanism, #my-priority]
+tags: [returning-lifter, hypertrophy, mechanism, my-priority]
 created: 2026-05-18
 last_updated: 2026-05-18
-sources: [[SBS: Detraining]]
+sources: ["[[SBS: Detraining]]"]
 confidence: high
-aliases: [Muscle Memory]
+aliases: ["Muscle Memory"]
 ---
 
 # Muscle Memory

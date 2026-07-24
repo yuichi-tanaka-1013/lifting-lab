@@ -1,11 +1,11 @@
 ---
 type: entity
-tags: [#hypertrophy, #volume, #researcher]
+tags: [hypertrophy, volume, researcher]
 created: 2026-05-18
 last_updated: 2026-05-18
 sources: []
 confidence: high
-aliases: [Mike Israetel]
+aliases: ["Mike Israetel"]
 ---
 
 # Mike Israetel

@@ -1,11 +1,11 @@
 ---
 type: entity
-tags: [#researcher, #natural-bodybuilding]
+tags: [researcher, natural-bodybuilding]
 created: 2026-05-18
 last_updated: 2026-05-18
 sources: []
 confidence: high
-aliases: [Eric Helms]
+aliases: ["Eric Helms"]
 ---
 
 # Eric Helms

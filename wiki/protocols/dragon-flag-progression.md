@@ -1,11 +1,11 @@
 ---
 type: protocol
-tags: [#core, #progression, #goal, #my-priority]
+tags: [core, progression, goal, my-priority]
 created: 2026-06-21
 last_updated: 2026-06-21
 sources: []
 confidence: medium
-aliases: [Dragon Flag Progression, ドラゴンフラッグ]
+aliases: ["Dragon Flag Progression", "ドラゴンフラッグ"]
 ---
 
 # Dragon Flag Progression

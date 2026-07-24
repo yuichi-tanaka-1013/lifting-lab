@@ -1,11 +1,11 @@
 ---
 type: personal
-tags: [#returning-lifter, #empirical, #month1]
+tags: [returning-lifter, empirical, month1]
 created: 2026-05-18
 last_updated: 2026-05-18
-sources: [[raw/personal/retrospective-month1.md]], [[Current State]]
+sources: ["[[raw/personal/retrospective-month1.md]]", "[[Current State]]"]
 confidence: medium
-aliases: [Month 1 Learnings]
+aliases: ["Month 1 Learnings"]
 ---
 
 # Month 1 Learnings — 復帰1ヶ月目の経験知

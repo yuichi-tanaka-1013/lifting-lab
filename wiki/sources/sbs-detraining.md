@@ -1,11 +1,11 @@
 ---
 type: source
-tags: [#detraining, #muscle-memory, #returning-lifter, #volume]
+tags: [detraining, muscle-memory, returning-lifter, volume]
 created: 2026-05-18
 last_updated: 2026-05-18
 sources: []
 confidence: high
-aliases: [SBS: Detraining]
+aliases: ["SBS: Detraining"]
 ---
 
 # SBS: Detraining — What Happens When You Stop Training?

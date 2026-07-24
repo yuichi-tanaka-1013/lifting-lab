@@ -1,11 +1,11 @@
 ---
 type: protocol
-tags: [#mobility, #core, #daily, #returning-lifter, #my-priority]
+tags: [mobility, core, daily, returning-lifter, my-priority]
 created: 2026-05-19
 last_updated: 2026-06-21
 sources: []
 confidence: medium
-aliases: [Daily Home Routine, Daily Mobility 5min]
+aliases: ["Daily Home Routine", "Daily Mobility 5min"]
 ---
 
 # Daily Home Routine — RC 強化 + ROM 維持 + 腹筋

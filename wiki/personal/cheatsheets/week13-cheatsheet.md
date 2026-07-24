@@ -1,8 +1,8 @@
 ---
 type: personal
-tags: [#cheatsheet, #phase-1]
+tags: [cheatsheet, phase-1]
 created: 2026-07-17
-aliases: [Week 13 Cheat Sheet]
+aliases: ["Week 13 Cheat Sheet"]
 ---
 
 # Week 13 Cheat Sheet — 再開週・67.5kg 揃えから 70kg 昇格判定

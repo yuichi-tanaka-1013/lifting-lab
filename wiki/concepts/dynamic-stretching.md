@@ -1,11 +1,11 @@
 ---
 type: concept
-tags: [#mobility, #stretching, #warm-up]
+tags: [mobility, stretching, warm-up]
 created: 2026-05-19
 last_updated: 2026-05-19
 sources: []
 confidence: high
-aliases: [Dynamic Stretching]
+aliases: ["Dynamic Stretching"]
 ---
 
 # Dynamic Stretching

@@ -1,11 +1,11 @@
 ---
 type: concept
-tags: [#warm-up, #mobility, #protocol]
+tags: [warm-up, mobility, protocol]
 created: 2026-05-19
 last_updated: 2026-05-19
 sources: []
 confidence: medium
-aliases: [RAMP Protocol]
+aliases: ["RAMP Protocol"]
 ---
 
 # RAMP Protocol

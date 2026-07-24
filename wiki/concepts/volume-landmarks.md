@@ -1,11 +1,11 @@
 ---
 type: concept
-tags: [#hypertrophy, #volume, #programming]
+tags: [hypertrophy, volume, programming]
 created: 2026-05-18
 last_updated: 2026-05-18
-sources: [[SBS: Detraining]]
+sources: ["[[SBS: Detraining]]"]
 confidence: high
-aliases: [Volume Landmarks]
+aliases: ["Volume Landmarks"]
 ---
 
 # Volume Landmarks

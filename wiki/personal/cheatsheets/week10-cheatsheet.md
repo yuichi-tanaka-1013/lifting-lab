@@ -1,8 +1,8 @@
 ---
 type: personal
-tags: [#cheatsheet, #phase-1]
+tags: [cheatsheet, phase-1]
 created: 2026-07-05
-aliases: [Week 10 Cheat Sheet]
+aliases: ["Week 10 Cheat Sheet"]
 ---
 
 # Week 10 Cheat Sheet — 体調不良からの慣らし週（週2回構成）

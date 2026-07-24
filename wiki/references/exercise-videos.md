@@ -1,9 +1,9 @@
 ---
 type: overview
-tags: [#reference, #video]
+tags: [reference, video]
 created: 2026-05-23
 last_updated: 2026-05-23
-aliases: [Exercise Video Reference]
+aliases: ["Exercise Video Reference"]
 ---
 
 # Exercise Video Reference

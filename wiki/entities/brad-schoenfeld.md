@@ -1,11 +1,11 @@
 ---
 type: entity
-tags: [#hypertrophy, #researcher]
+tags: [hypertrophy, researcher]
 created: 2026-05-18
 last_updated: 2026-05-18
 sources: []
 confidence: high
-aliases: [Brad Schoenfeld]
+aliases: ["Brad Schoenfeld"]
 ---
 
 # Brad Schoenfeld

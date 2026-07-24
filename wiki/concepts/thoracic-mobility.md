@@ -1,11 +1,11 @@
 ---
 type: concept
-tags: [#mobility, #thoracic-spine, #posture]
+tags: [mobility, thoracic-spine, posture]
 created: 2026-05-19
 last_updated: 2026-05-19
 sources: []
 confidence: medium
-aliases: [Thoracic Mobility]
+aliases: ["Thoracic Mobility"]
 ---
 
 # Thoracic Mobility

@@ -1,11 +1,11 @@
 ---
 type: concept
-tags: [#mobility, #hip, #squat]
+tags: [mobility, hip, squat]
 created: 2026-05-19
 last_updated: 2026-05-19
 sources: []
 confidence: medium
-aliases: [Hip Mobility]
+aliases: ["Hip Mobility"]
 ---
 
 # Hip Mobility

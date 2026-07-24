@@ -1,11 +1,11 @@
 ---
 type: entity
-tags: [#supplement, #nutrition, #protein]
+tags: [supplement, nutrition, protein]
 created: 2026-05-31
 last_updated: 2026-05-31
 sources: []
 confidence: high
-aliases: [Whey Protein]
+aliases: ["Whey Protein"]
 ---
 
 # Whey Protein

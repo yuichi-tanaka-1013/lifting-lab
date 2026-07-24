@@ -1,8 +1,8 @@
 ---
 type: personal
-tags: [#cheatsheet, #phase-1]
+tags: [cheatsheet, phase-1]
 created: 2026-07-25
-aliases: [Week 14 Cheat Sheet]
+aliases: ["Week 14 Cheat Sheet"]
 ---
 
 # Week 14 Cheat Sheet — ベンチ 70kg 作業重量デビュー・SQ 57.5

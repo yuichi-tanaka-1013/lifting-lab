@@ -1,11 +1,11 @@
 ---
 type: personal
-tags: [#returning-lifter, #empirical, #hypothesis]
+tags: [returning-lifter, empirical, hypothesis]
 created: 2026-05-19
 last_updated: 2026-05-19
-sources: [[Current State]]
+sources: ["[[Current State]]"]
 confidence: low
-aliases: [Hypotheses: ROM Preservation]
+aliases: ["Hypotheses: ROM Preservation"]
 ---
 
 # Hypotheses — 個人実験の仮説帳

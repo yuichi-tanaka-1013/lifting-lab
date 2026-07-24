@@ -1,8 +1,8 @@
 ---
 type: personal
-tags: [#cheatsheet, #phase-1]
+tags: [cheatsheet, phase-1]
 created: 2026-07-12
-aliases: [Week 12 Cheat Sheet]
+aliases: ["Week 12 Cheat Sheet"]
 ---
 
 # Week 12 Cheat Sheet — LP 継続・揃え週

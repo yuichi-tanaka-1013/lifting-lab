@@ -1,8 +1,8 @@
 ---
 type: personal
-tags: [#cheatsheet, #phase-1]
+tags: [cheatsheet, phase-1]
 created: 2026-07-05
-aliases: [Week 11 Cheat Sheet]
+aliases: ["Week 11 Cheat Sheet"]
 ---
 
 # Week 11 Cheat Sheet — 通常運転復帰・LP 継続

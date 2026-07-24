@@ -1,11 +1,11 @@
 ---
 type: concept
-tags: [#mobility, #ankle, #squat]
+tags: [mobility, ankle, squat]
 created: 2026-05-19
 last_updated: 2026-05-19
 sources: []
 confidence: medium
-aliases: [Ankle Mobility]
+aliases: ["Ankle Mobility"]
 ---
 
 # Ankle Mobility

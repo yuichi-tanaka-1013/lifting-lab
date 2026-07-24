@@ -1,11 +1,11 @@
 ---
 type: concept
-tags: [#mobility, #rotator-cuff, #shoulder, #my-priority]
+tags: [mobility, rotator-cuff, shoulder, my-priority]
 created: 2026-05-19
 last_updated: 2026-05-19
 sources: []
 confidence: medium
-aliases: [Rotator Cuff Mobility]
+aliases: ["Rotator Cuff Mobility"]
 ---
 
 # Rotator Cuff Mobility

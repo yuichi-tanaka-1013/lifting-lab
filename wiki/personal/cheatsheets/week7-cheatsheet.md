@@ -1,8 +1,8 @@
 ---
 type: personal
-tags: [#cheatsheet, #phase-1]
+tags: [cheatsheet, phase-1]
 created: 2026-06-05
-aliases: [Week 7 Cheat Sheet]
+aliases: ["Week 7 Cheat Sheet"]
 ---
 
 # Week 7 Cheat Sheet — 短縮版（水金の2日）

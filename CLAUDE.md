@@ -45,13 +45,18 @@
 ```yaml
 ---
 type: entity | concept | protocol | source | overview | personal
-tags: [#hypertrophy, #strength, #nutrition, ...]
+tags: [hypertrophy, strength, nutrition]   # 「#」は付けない (YAML でコメント化して frontmatter 全体が壊れる)
 created: 2026-05-18
 last_updated: 2026-05-18
-sources: `[[Source Page 1]]`, `[[Source Page 2]]`
+sources: ["[[Source Page 1]]", "[[Source Page 2]]"]   # wikilink は必ずダブルクォートで囲む
+aliases: ["Page Title", "別名"]            # リンクで使う表記。コロンを含む場合も必ずクォート
 confidence: high | medium | low | contested
 ---
 ```
+
+⚠️ **frontmatter は正しい YAML であること**。1行でも壊れると Obsidian はそのファイルの
+aliases / tags を全て無視し、グラフのエッジが消える (2026-07-25 に全62ファイルで発覚・修復済み)。
+検証は `python3 scripts/check-graph.py` に含まれる。
 
 - **confidence** が contested の場合、必ず両論併記すること
 - 出戻り組に特に関係する話題には `#returning-lifter` タグを付ける

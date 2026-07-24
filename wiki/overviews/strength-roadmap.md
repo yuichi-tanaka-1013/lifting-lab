@@ -1,11 +1,11 @@
 ---
 type: overview
-tags: [#strength, #milestones, #returning-lifter]
+tags: [strength, milestones, returning-lifter]
 created: 2026-06-23
 last_updated: 2026-07-20
-sources: [[Current State]], [[Body Composition Timeline]], [[筋肥大目的でのフェーズ設計]]
+sources: ["[[Current State]]", "[[Body Composition Timeline]]", "[[筋肥大目的でのフェーズ設計]]"]
 confidence: medium
-aliases: [Strength Roadmap]
+aliases: ["Strength Roadmap"]
 ---
 
 # Strength Roadmap — 1RM マイルストーン参照

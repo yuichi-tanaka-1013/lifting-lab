@@ -1,11 +1,11 @@
 ---
 type: concept
-tags: [#programming, #principle, #my-priority]
+tags: [programming, principle, my-priority]
 created: 2026-05-18
 last_updated: 2026-05-18
 sources: []
 confidence: high
-aliases: [Progressive Overload]
+aliases: ["Progressive Overload"]
 ---
 
 # Progressive Overload

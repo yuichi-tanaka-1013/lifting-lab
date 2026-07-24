@@ -1,11 +1,11 @@
 ---
 type: entity
-tags: [#researcher, #evidence-based, #content-creator]
+tags: [researcher, evidence-based, content-creator]
 created: 2026-05-18
 last_updated: 2026-05-18
-sources: [[SBS: Detraining]]
+sources: ["[[SBS: Detraining]]"]
 confidence: high
-aliases: [Greg Nuckols]
+aliases: ["Greg Nuckols"]
 ---
 
 # Greg Nuckols

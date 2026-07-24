@@ -47,12 +47,32 @@ for f in all_md:
         elif f.startswith('wiki/'):
             unresolved.append((f, l))
 
+yaml_errors = []
+try:
+    import yaml as _yaml
+    for f in all_md:
+        c = open(f).read()
+        if c.startswith('---') and '\n---' in c[3:]:
+            fm = c[3:c.index('\n---', 3)]
+            try:
+                d = _yaml.safe_load(fm)
+                al = d.get('aliases') if isinstance(d, dict) else None
+                if al is not None and not (isinstance(al, list) and all(isinstance(a, str) for a in al)):
+                    yaml_errors.append((f, f'aliases が文字列リストでない: {al!r}'))
+            except Exception as e:
+                yaml_errors.append((f, str(e).splitlines()[0]))
+except ImportError:
+    print('(PyYAML なし: frontmatter 検証はスキップ)')
+
 isolated = [f for f, d in degree.items() if d == 0]
 print(f"nodes: {len(all_md)} md + {len(attachments)} attachments")
+print(f"frontmatter YAML エラー (壊れていると Obsidian が aliases/tags を無視する): {len(yaml_errors)}")
+for f, e in yaml_errors:
+    print(f"  - {f}: {e}")
 print(f"完全孤立ノード (次数0): {len(isolated)}")
 for f in sorted(isolated):
     print("  -", f)
 print(f"wiki 内の未解決リンク: {len(unresolved)}")
 for f, l in unresolved:
     print(f"  - {f}: [[{l}]]")
-sys.exit(1 if isolated or unresolved else 0)
+sys.exit(1 if isolated or unresolved or yaml_errors else 0)

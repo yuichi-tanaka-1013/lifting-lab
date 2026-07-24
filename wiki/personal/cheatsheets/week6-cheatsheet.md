@@ -1,8 +1,8 @@
 ---
 type: personal
-tags: [#cheatsheet, #phase-1]
+tags: [cheatsheet, phase-1]
 created: 2026-05-29
-aliases: [Week 6 Cheat Sheet]
+aliases: ["Week 6 Cheat Sheet"]
 ---
 
 # Week 6 Cheat Sheet — Upper/Lower 4分割

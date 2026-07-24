@@ -1,11 +1,11 @@
 ---
 type: concept
-tags: [#hypertrophy, #mechanism]
+tags: [hypertrophy, mechanism]
 created: 2026-05-18
 last_updated: 2026-05-18
 sources: []
 confidence: high
-aliases: [Mechanical Tension]
+aliases: ["Mechanical Tension"]
 ---
 
 # Mechanical Tension

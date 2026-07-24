@@ -1,11 +1,11 @@
 ---
 type: concept
-tags: [#mobility, #stretching, #recovery]
+tags: [mobility, stretching, recovery]
 created: 2026-05-19
 last_updated: 2026-05-19
 sources: []
 confidence: high
-aliases: [Static Stretching]
+aliases: ["Static Stretching"]
 ---
 
 # Static Stretching

@@ -1,11 +1,11 @@
 ---
 type: entity
-tags: [#jp-source, #bodybuilding]
+tags: [jp-source, bodybuilding]
 created: 2026-05-18
 last_updated: 2026-05-18
 sources: []
 confidence: medium
-aliases: [山本義徳]
+aliases: ["山本義徳"]
 ---
 
 # 山本義徳

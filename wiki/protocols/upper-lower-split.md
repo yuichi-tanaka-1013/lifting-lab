@@ -1,11 +1,11 @@
 ---
 type: protocol
-tags: [#programming, #split]
+tags: [programming, split]
 created: 2026-05-18
 last_updated: 2026-05-18
 sources: []
 confidence: high
-aliases: [Upper Lower Split]
+aliases: ["Upper Lower Split"]
 ---
 
 # Upper Lower Split

@@ -1,9 +1,9 @@
 ---
 type: overview
-tags: [#strength, #returning-lifter, #body-composition]
+tags: [strength, returning-lifter, body-composition]
 created: 2026-07-20
 last_updated: 2026-07-20
-sources: [[Current State]], [[Body Composition Timeline]], [[Strength Roadmap]], [[Muscle Memory]]
+sources: ["[[Current State]]", "[[Body Composition Timeline]]", "[[Strength Roadmap]]", "[[Muscle Memory]]"]
 confidence: medium
 ---
 

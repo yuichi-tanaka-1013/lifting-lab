@@ -1,11 +1,11 @@
 ---
 type: protocol
-tags: [#programming, #split, #returning-lifter, #my-priority]
+tags: [programming, split, returning-lifter, my-priority]
 created: 2026-05-18
 last_updated: 2026-05-18
 sources: []
 confidence: medium
-aliases: [Full Body for Returning Lifters]
+aliases: ["Full Body for Returning Lifters"]
 ---
 
 # Full Body for Returning Lifters

@@ -1,11 +1,11 @@
 ---
 type: entity
-tags: [#supplement, #creatine]
+tags: [supplement, creatine]
 created: 2026-05-18
 last_updated: 2026-05-18
 sources: []
 confidence: high
-aliases: [Creatine Monohydrate]
+aliases: ["Creatine Monohydrate"]
 ---
 
 # Creatine Monohydrate

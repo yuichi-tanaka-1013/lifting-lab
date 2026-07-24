@@ -1,11 +1,11 @@
 ---
 type: protocol
-tags: [#warm-up, #mobility, #lower-body, #returning-lifter, #my-priority]
+tags: [warm-up, mobility, lower-body, returning-lifter, my-priority]
 created: 2026-05-19
 last_updated: 2026-05-19
 sources: []
 confidence: medium
-aliases: [Pre-Workout RAMP: Lower Body]
+aliases: ["Pre-Workout RAMP: Lower Body"]
 ---
 
 # Pre-Workout RAMP: Lower Body

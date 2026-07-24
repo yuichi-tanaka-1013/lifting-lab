@@ -1,8 +1,8 @@
 ---
 type: source
-tags: [#meta, #catalog]
+tags: [meta, catalog]
 created: 2026-07-25
-aliases: [Raw Source Catalog, Raw カタログ]
+aliases: ["Raw Source Catalog", "Raw カタログ"]
 ---
 
 # Raw Source Catalog — raw 層の全ソース一覧

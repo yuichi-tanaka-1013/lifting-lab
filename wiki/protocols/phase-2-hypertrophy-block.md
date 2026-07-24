@@ -1,11 +1,11 @@
 ---
 type: protocol
-tags: [#hypertrophy, #upper-lower, #returning-lifter, #phase-2]
+tags: [hypertrophy, upper-lower, returning-lifter, phase-2]
 created: 2026-07-05
 last_updated: 2026-07-05
-sources: [[筋肥大目的でのフェーズ設計]], [[Volume Landmarks]]
+sources: ["[[筋肥大目的でのフェーズ設計]]", "[[Volume Landmarks]]"]
 confidence: high
-aliases: [Phase 2 Hypertrophy Block]
+aliases: ["Phase 2 Hypertrophy Block"]
 ---
 
 # Phase 2 Hypertrophy Block — Upper/Lower 4分割（筋肥大特化）

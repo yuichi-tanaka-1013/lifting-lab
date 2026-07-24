@@ -1,11 +1,11 @@
 ---
 type: personal
-tags: [#body-composition, #returning-lifter, #cutting, #bulking]
+tags: [body-composition, returning-lifter, cutting, bulking]
 created: 2026-06-24
 last_updated: 2026-07-20
-sources: [[Body Composition Timeline]], [[raw/personal/baseline-2026-05.md]]
+sources: ["[[Body Composition Timeline]]", "[[raw/personal/baseline-2026-05.md]]"]
 confidence: medium
-aliases: [Weight Target Ranges]
+aliases: ["Weight Target Ranges"]
 ---
 
 # Weight Target Ranges — 減量末期とバルク期の体重設計

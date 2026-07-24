@@ -1,11 +1,11 @@
 ---
 type: concept
-tags: [#core, #hypertrophy, #aesthetics]
+tags: [core, hypertrophy, aesthetics]
 created: 2026-06-21
 last_updated: 2026-06-21
 sources: []
 confidence: high
-aliases: [Core Training]
+aliases: ["Core Training"]
 ---
 
 # Core Training
