@@ -7,6 +7,9 @@ aliases: ["Week 9 Cheat Sheet"]
 
 # Week 9 Cheat Sheet — Upper/Lower 4分割 + オプション
 
+> 週ナビ: ◀ 前週 [[week8-cheatsheet|Week 8]] | [[training-log-moc|Training Log MOC]] | 次週 [[week10-cheatsheet|Week 10]] ▶
+
+
 > Month 3 開始。全種目で漸進。InBody 再測定は再来週末（Week 10-11）を予定。
 > **90分取れる日は Option 行まで実施。60分なら Main まででOK。**
 

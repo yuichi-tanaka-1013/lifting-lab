@@ -7,6 +7,9 @@ aliases: ["Week 5 Cheat Sheet"]
 
 # Week 5 Cheat Sheet
 
+> 週ナビ: ◀ 前週 [[return-program-week1-4|復帰プログラム: Week 1-4]] | [[training-log-moc|Training Log MOC]] | 次週 [[week6-cheatsheet|Week 6]] ▶
+
+
 ---
 
 ## Day A（スクワット導入）— 実施済み 2026-05-22

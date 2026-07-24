@@ -7,6 +7,9 @@ aliases: ["Week 12 Cheat Sheet"]
 
 # Week 12 Cheat Sheet — LP 継続・揃え週
 
+> 週ナビ: ◀ 前週 [[week11-cheatsheet|Week 11]] | [[training-log-moc|Training Log MOC]] | 次週 [[week13-cheatsheet|Week 13]] ▶
+
+
 > Month 3 後半。Week 11 で週4回復帰 + BIG3 漸進すべて成功（ベンチ 67.5 / SQ 47.5 / DL 65）。
 > **Week 12 のテーマ: 下半身は漸進継続（SQ 52.5 / DL 70）、ベンチは月曜 70kg 初挑戦（本人決定）+ 木曜 67.5kg 揃え。**
 > 腰・ハム違和感なし報告済み（7/12）で DL 70kg は GO 確定。

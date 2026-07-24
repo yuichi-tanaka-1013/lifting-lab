@@ -7,6 +7,9 @@ aliases: ["Week 11 Cheat Sheet"]
 
 # Week 11 Cheat Sheet — 通常運転復帰・LP 継続
 
+> 週ナビ: ◀ 前週 [[week10-cheatsheet|Week 10]] | [[training-log-moc|Training Log MOC]] | 次週 [[week12-cheatsheet|Week 12]] ▶
+
+
 > Month 3 中盤。Week 10 の慣らし（週2回・重量据え置き）で体調復帰確認済。
 > **Week 11 は Week 10 で持ち越した漸進プランに挑戦。BIG3 全種目 +2.5kg。**
 > 咳完全消失・DL RIR 5+ の余力を確認したうえで通常運転再開。

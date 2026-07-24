@@ -7,6 +7,9 @@ aliases: ["Week 6 Cheat Sheet"]
 
 # Week 6 Cheat Sheet — Upper/Lower 4分割
 
+> 週ナビ: ◀ 前週 [[week5-cheatsheet|Week 5]] | [[training-log-moc|Training Log MOC]] | 次週 [[week7-cheatsheet|Week 7]] ▶
+
+
 > **書いてある重量を守る。「もっといける」は muscle memory であって結合組織の準備完了ではない。**
 
 ---

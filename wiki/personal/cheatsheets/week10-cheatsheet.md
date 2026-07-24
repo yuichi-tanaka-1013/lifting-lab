@@ -7,6 +7,9 @@ aliases: ["Week 10 Cheat Sheet"]
 
 # Week 10 Cheat Sheet — 体調不良からの慣らし週（週2回構成）
 
+> 週ナビ: ◀ 前週 [[week9-cheatsheet|Week 9]] | [[training-log-moc|Training Log MOC]] | 次週 [[week11-cheatsheet|Week 11]] ▶
+
+
 > **2026-06-27（土）夜から 38.6度の発熱、6-30 時点で平熱・空咳のみ・睡眠正常**
 > Week 10 は漸進を諦め、Week 9 の重量に戻して動作確認の「慣らし週」に変更。
 > Week 11 から通常の漸進プラン（67.5/47.5/62.5/18kg）に再挑戦予定。

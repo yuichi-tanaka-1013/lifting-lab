@@ -408,3 +408,8 @@ last_updated: 2026-05-18
   - 再編: wiki/mocs/ に7つのカテゴリハブを新設 (Program / Training Log / Personal / Concepts / Protocols / Entities / Library)。index は現在地 + 7 MOC + Meta のみの薄い入口に変更
   - 期待される見え方: index を中心に7本のスポーク、各スポークの先にカテゴリのクラスタ、Training Log から週次チートシート→実施記録の時系列の房
   - CLAUDE.md: 構造説明・type enum (moc 追加)・/query 手順を更新。検証 CLEAN (111 md、孤立0・未解決0)
+- **週の鎖 + 種目ハブを導入**（構造診断の弱点2つを本人承認で実装）
+  - 週の鎖: week5〜14 の全チートシートに前週/次週ナビを追加 (時系列がグラフ上で鎖になる)
+  - 種目ハブ: wiki/exercises/ 新設、負荷管理中の13種目 (BIG3 + 主要種目 + クラムシェル) をページ化。各ページ = 現在地・漸進方針・安全弁・関連概念。exercises-moc を8番目の MOC として index に追加
+  - week14 チートシートの種目名をリンク化 (以降の週も同規約: CLAUDE.md ルール6)。グラフ色分けに exercises (赤) を追加
+  - 検証 CLEAN: 125 md、孤立0・未解決0

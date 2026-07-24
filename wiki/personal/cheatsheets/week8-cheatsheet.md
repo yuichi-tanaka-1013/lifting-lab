@@ -7,6 +7,9 @@ aliases: ["Week 8 Cheat Sheet"]
 
 # Week 8 Cheat Sheet — Upper/Lower 4分割
 
+> 週ナビ: ◀ 前週 [[week7-cheatsheet|Week 7]] | [[training-log-moc|Training Log MOC]] | 次週 [[week9-cheatsheet|Week 9]] ▶
+
+
 > Month 2 最終週。ベンチ 60kg 復帰済み。今週は全種目で漸進。
 
 ---

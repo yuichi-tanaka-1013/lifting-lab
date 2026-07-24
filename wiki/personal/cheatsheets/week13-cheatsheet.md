@@ -7,6 +7,9 @@ aliases: ["Week 13 Cheat Sheet"]
 
 # Week 13 Cheat Sheet — 再開週・67.5kg 揃えから 70kg 昇格判定
 
+> 週ナビ: ◀ 前週 [[week12-cheatsheet|Week 12]] | [[training-log-moc|Training Log MOC]] | 次週 [[week14-cheatsheet|Week 14]] ▶
+
+
 > Week 12 は家庭の事情で週2回（日月のみ）で終了。**前回セッション（7/13）から中5-6日空けての再開週**。
 > 開始日は **日 7/19 or 月 7/20 のどちらでも可**（Day 1 = 最初の実施日として読み替える。木金は固定）。
 > **Week 13 のテーマ: (1) ベンチ Day 1 70kg 3x8 揃え（本人決定 7/17）+ 木 67.5kg 揃え → 両立で Week 14 から 70kg 正式昇格、(2) DL 70kg 初挑戦（持ち越し）、(3) 週4回連続カウントの再スタート（1週目）。**

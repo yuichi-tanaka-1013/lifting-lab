@@ -7,6 +7,9 @@ aliases: ["Week 7 Cheat Sheet"]
 
 # Week 7 Cheat Sheet — 短縮版（水金の2日）
 
+> 週ナビ: ◀ 前週 [[week6-cheatsheet|Week 6]] | [[training-log-moc|Training Log MOC]] | 次週 [[week8-cheatsheet|Week 8]] ▶
+
+
 > 月火木は仕事で欠席。水金の2日で実施。Upper B は今週スキップ。
 
 ---

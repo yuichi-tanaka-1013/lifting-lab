@@ -15,6 +15,7 @@ last_updated: 2026-07-25
 - [[program-moc|Program MOC]] — フェーズ設計・復帰プログラム・ロードマップ
 - [[training-log-moc|Training Log MOC]] — 週次プランと実施記録（時系列）
 - [[personal-moc|Personal MOC]] — 体組成・現在地・仮説（個人データ分析）
+- [[exercises-moc|Exercises MOC]] — 種目ごとの現在地・漸進方針のハブ
 - [[concepts-moc|Concepts MOC]] — トレーニング理論・生理学の概念
 - [[protocols-moc|Protocols MOC]] — 分割法・ルーティン・種目プログレッション
 - [[entities-moc|Entities MOC]] — 人物・サプリ・物

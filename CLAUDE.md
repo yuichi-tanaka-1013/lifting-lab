@@ -29,7 +29,8 @@
 
 ### Layer 2: wiki/ — LLM が完全に管理
 
-- `wiki/entities/` — 固有名詞（人物、種目、サプリ、器具）
+- `wiki/entities/` — 固有名詞（人物、サプリ、器具）
+- `wiki/exercises/` — 種目ハブ（現在地・漸進方針。週次チートシートの種目名からリンク）
 - `wiki/concepts/` — 抽象概念（ボリューム理論、RIR/RPE、メカニカルテンション等）
 - `wiki/protocols/` — 具体的なプログラム（PPL、5x5、Upper/Lower等の比較・解説）
 - `wiki/sources/` — 各ソースの構造化サマリ
@@ -89,7 +90,8 @@ aliases / tags を全て無視し、グラフのエッジが消える (2026-07-2
 3. ページを作ったら **該当カテゴリの MOC (wiki/mocs/) に登録**し、関連ページと**双方向**にリンクする（index に直接ページを足さない — index は MOC のみを持つ薄いハブ）
 4. **workout 記録 (raw/personal/workouts/) は末尾に `## 関連 → [[weekN-cheatsheet]]`** を付ける（チートシート側の「実績記録」にも逆リンクを追加して双方向にする）
 5. 存在しないページへのリンクを書かない（書くなら実ページを作るか平文にする）。文書中の記法例はインラインコードでフェンスする
-6. 検証: `python3 scripts/check-graph.py`（YAML 検証・孤立ノード・未解決リンクを Obsidian の実解決規則で検出）を月1目安で実行
+6. **チートシートの Main/Option 表の種目名は種目ページへリンクする**（例: `[[bench-press|ベンチプレス]]`。ページがない小物種目は平文のまま）
+7. 検証: `python3 scripts/check-graph.py`（YAML 検証・孤立ノード・未解決リンクを Obsidian の実解決規則で検出）を月1目安で実行
 
 ## オペレーション
 
