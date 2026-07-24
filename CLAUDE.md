@@ -86,7 +86,7 @@ aliases / tags を全て無視し、グラフのエッジが消える (2026-07-2
 
 1. **リンクは必ずパイプ形式 `[[ファイル名|表示名]]` で書く**（例: `[[okada-takashi|岡田隆]]`, `[[current-state|Current State]]`）。ファイル名と表示が同じ場合のみ `[[week14-cheatsheet]]` の生形式で可
 2. frontmatter の `aliases` は補完・検索用として維持する（クォート必須: `aliases: ["Current State"]`）
-3. ページを作ったら **wiki/index.md に登録**し、関連ページと**双方向**にリンクする（片方向だけにしない）
+3. ページを作ったら **該当カテゴリの MOC (wiki/mocs/) に登録**し、関連ページと**双方向**にリンクする（index に直接ページを足さない — index は MOC のみを持つ薄いハブ）
 4. **workout 記録 (raw/personal/workouts/) は末尾に `## 関連 → [[weekN-cheatsheet]]`** を付ける（チートシート側の「実績記録」にも逆リンクを追加して双方向にする）
 5. 存在しないページへのリンクを書かない（書くなら実ページを作るか平文にする）。文書中の記法例はインラインコードでフェンスする
 6. 検証: `python3 scripts/check-graph.py`（YAML 検証・孤立ノード・未解決リンクを Obsidian の実解決規則で検出）を月1目安で実行
