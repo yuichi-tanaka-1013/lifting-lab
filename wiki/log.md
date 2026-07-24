@@ -387,6 +387,10 @@ last_updated: 2026-05-18
 - 本人申告: ゴブレット SQ のボトム2秒ポーズは既に実践済み → 現在の 30kg RIR 4- はポーズ込みの実力。漸進ラダーを修正: ポーズ維持のまま rep 漸進 (→3x12) → エキセントリック3-4秒 or 1.5レップ → Phase 2 バーベル化
 - **wiki リンクグラフ再構築**（本人指摘「ある日を境にエッジが繋がっていない」への対応）
   - 診断: 全62ノード中 aliases ゼロ → タイトル表記リンク ([[Current State]] 等) が kebab-case ファイル名に解決されず、Obsidian 上で大半のエッジが幽霊ノード行きだった。加えてチートシート11枚・log・hypotheses が孤立、workout 記録は無リンク
-  - 修正: ① 全ページに被リンク表記を aliases として付与 (46ファイル) ② チートシートに frontmatter 追加 + index に Cheatsheets/Meta セクション新設 ③ workout 記録 (Week 5〜) に [[weekN-cheatsheet]] リンクを一括付与 ④ 壊れリンク修正 (Helms研究群→Eric Helms、progress-chart.html を平文化)
+  - 修正: ① 全ページに被リンク表記を aliases として付与 (46ファイル) ② チートシートに frontmatter 追加 + index に Cheatsheets/Meta セクション新設 ③ workout 記録 (Week 5〜) に `[[weekN-cheatsheet]]` リンクを一括付与 ④ 壊れリンク修正 (Helms研究群→Eric Helms、progress-chart.html を平文化)
   - 検証: scripts/check-graph.py 新設 — 孤立ノード 0 / wiki 内未解決リンク 0 を確認
   - 再発防止: CLAUDE.md にグラフ規約を制定 (新規ページは aliases 必須 + index 登録 + 双方向リンク + 記録→チートシートリンク)
+- **グラフ再構築 第2弾: vault 全体 (リポジトリルート) に拡張**（本人指摘「wiki 外にも孤立がある」）
+  - 発見: raw の非セッション資料 (karpathy パターン/記事/プレゼン/食事記録/ベースライン)・April 初期記録5本・CLAUDE.md が孤立。CLAUDE.md と log.md の記法例が幽霊ノードを生成
+  - 設計判断: ① wiki/sources/raw-catalog.md 新設 = raw 層の入口ハブ ② チートシートに「実績記録」逆リンク = 週クラスタを双方向化 ③ 初期記録は return-program-week1-4 へ接続 ④ 記法例はインラインコードで無効化 ⑤ index Meta に CLAUDE.md を配線
+  - check-graph.py を vault 全体の次数0検出に拡張 (コードフェンス内のリンクは除外)。結果: **104 md + 5 添付で孤立0・未解決0**

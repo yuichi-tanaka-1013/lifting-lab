@@ -392,3 +392,11 @@ Week 4 終了時に以下を判断:
 - [[Full Body for Returning Lifters]] — プログラム形式の根拠
 - [[SBS: Detraining]] — 復帰プロトコルの元ソース
 - [[Greg Nuckols]] — 復帰プロトコルの提唱者
+
+## 実績記録
+
+- [[2026-04-18-upper]]
+- [[2026-04-25-upper]]
+- [[2026-05-02-upper]]
+- [[2026-05-09-upper]]
+- [[2026-05-16-upper]]

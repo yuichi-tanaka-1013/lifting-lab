@@ -1,16 +1,26 @@
 #!/usr/bin/env python3
-"""wiki のリンクグラフ検査: Obsidian の解決規則 (ファイル名 or aliases の
-大文字小文字non区別・完全一致) で、孤立ノードと未解決リンクを検出する。
-実行: リポジトリルートで python3 scripts/check-graph.py"""
+"""vault 全体のリンクグラフ検査 (Obsidian の解決規則で判定)。
+検出するもの:
+  1. 完全孤立ノード — 次数 (被リンク + 発リンク) が 0 の md ファイル
+  2. wiki/ 内の未解決リンク — リンク先が存在しない (raw/ は不変層のため対象外)
+実行: リポジトリルートで python3 scripts/check-graph.py
+インラインコード (バッククォート) 内の [[...]] はリンクとして数えない。"""
 import os, re, glob, sys
 
-wiki_files = sorted(glob.glob('wiki/**/*.md', recursive=True))
-raw_files = sorted(glob.glob('raw/**/*.md', recursive=True))
+EXCLUDE_DIRS = ('.obsidian', '.claude', '.git', 'scripts')
+all_md = [f for f in glob.glob('**/*.md', recursive=True)
+          if not f.startswith(EXCLUDE_DIRS)]
+attachments = [f for f in glob.glob('**/*', recursive=True)
+               if not f.startswith(EXCLUDE_DIRS) and os.path.isfile(f)
+               and f.endswith(('.csv', '.html', '.pdf', '.png', '.jpg'))]
 
-resolve = {}  # lowercase name -> path
-for f in wiki_files + raw_files:
+resolve = {}
+for f in all_md + attachments:
+    resolve[f.lower()] = f                                   # full path
+    resolve[os.path.basename(f).lower()] = f                 # basename with ext
     stem = os.path.splitext(os.path.basename(f))[0]
-    resolve[stem.lower()] = f
+    resolve.setdefault(stem.lower(), f)                      # basename stem
+for f in all_md:
     c = open(f).read()
     m = re.search(r'^aliases: \[(.*)\]$', c, re.M)
     if m:
@@ -19,25 +29,30 @@ for f in wiki_files + raw_files:
             if a:
                 resolve[a.lower()] = f
 
-incoming = {f: 0 for f in wiki_files}
+def links_of(path):
+    c = open(path).read()
+    c = re.sub(r'```.*?```', '', c, flags=re.S)   # fenced code blocks
+    c = re.sub(r'`[^`\n]*`', '', c)               # inline code
+    return [l.strip() for l in re.findall(r'\[\[([^\]|#]+)(?:\|[^\]]*)?\]\]', c)]
+
+degree = {f: 0 for f in all_md}
 unresolved = []
-for f in wiki_files + raw_files:
-    for l in re.findall(r'\[\[([^\]|#]+)(?:\|[^\]]*)?\]\]', open(f).read()):
-        l = l.strip()
-        t = resolve.get(l.lower()) or resolve.get(os.path.basename(l).lower().removesuffix('.md').removesuffix('.csv'))
+for f in all_md:
+    for l in links_of(f):
+        t = resolve.get(l.lower()) or resolve.get((l + '.md').lower())
         if t:
-            if t in incoming:
-                incoming[t] += 1
-        elif not l.endswith('.csv') and not l.endswith('.html') and f.startswith('wiki/'):
-            # raw/ は不変ソース層のため未解決リンクの修正対象外 (記法例などが含まれる)
+            degree[f] += 1
+            if t in degree:
+                degree[t] += 1
+        elif f.startswith('wiki/'):
             unresolved.append((f, l))
 
-orphans = [f for f, c in incoming.items() if c == 0 and 'index' not in f]
-print(f"nodes={len(wiki_files)} (wiki) + {len(raw_files)} (raw)")
-print(f"孤立ノード (wiki 内・被リンク0): {len(orphans)}")
-for f in orphans:
+isolated = [f for f, d in degree.items() if d == 0]
+print(f"nodes: {len(all_md)} md + {len(attachments)} attachments")
+print(f"完全孤立ノード (次数0): {len(isolated)}")
+for f in sorted(isolated):
     print("  -", f)
-print(f"未解決リンク: {len(unresolved)}")
+print(f"wiki 内の未解決リンク: {len(unresolved)}")
 for f, l in unresolved:
     print(f"  - {f}: [[{l}]]")
-sys.exit(1 if orphans or unresolved else 0)
+sys.exit(1 if isolated or unresolved else 0)

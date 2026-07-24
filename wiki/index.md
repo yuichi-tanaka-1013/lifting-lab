@@ -62,6 +62,7 @@ last_updated: 2026-07-05
 ## Sources（ソースサマリ）
 
 - [[SBS: Detraining]] — Greg Nuckols による Detraining の包括的レビュー（MASS 2022-09）
+- [[raw-catalog|Raw Source Catalog]] — raw 層 (不変ソース) の全ファイル入口
 
 ## Overviews（テーマ横断）
 
@@ -97,4 +98,5 @@ last_updated: 2026-07-05
 ## Meta
 
 - [[log]] — 追記専用の活動ログ
+- [[CLAUDE]] — この wiki の運用ルール (3層構造・オペレーション定義)
 - [[hypotheses|Hypotheses: ROM Preservation]] — ROM 保持の仮説

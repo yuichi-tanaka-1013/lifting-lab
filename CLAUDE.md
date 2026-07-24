@@ -48,7 +48,7 @@ type: entity | concept | protocol | source | overview | personal
 tags: [#hypertrophy, #strength, #nutrition, ...]
 created: 2026-05-18
 last_updated: 2026-05-18
-sources: [[Source Page 1]], [[Source Page 2]]
+sources: `[[Source Page 1]]`, `[[Source Page 2]]`
 confidence: high | medium | low | contested
 ---
 ```
@@ -80,7 +80,7 @@ confidence: high | medium | low | contested
 
 1. **新規ページ作成時は必ず frontmatter に `aliases: [<リンクで使う表記>]` を入れる**（例: `current-state.md` → `aliases: [Current State]`）
 2. ページを作ったら **wiki/index.md に登録**し、関連ページと**双方向**にリンクする（片方向だけにしない）
-3. **workout 記録 (raw/personal/workouts/) は末尾に `## 関連 → [[weekN-cheatsheet]]`** を付ける
+3. **workout 記録 (raw/personal/workouts/) は末尾に `## 関連 → [[weekN-cheatsheet]]`** を付ける（チートシート側の「実績記録」にも逆リンクを追加して双方向にする）
 4. 存在しないページへのリンクを sources 等に書かない（書くなら実ページを作るか平文にする）
 5. 検証: `python3 scripts/check-graph.py`（孤立ノードと未解決リンクを検出）を月1目安で実行
 
@@ -103,7 +103,7 @@ confidence: high | medium | low | contested
 
 1. wiki/index.md を読んで関連ページを特定
 2. 関連ページを読んで回答を合成
-3. 引用元の [[wikilink]] を必ず含める
+3. 引用元の wikilink を必ず含める
 4. 重要な query の回答は wiki/overviews/ に新規ページとして保存
 5. 出戻り組の私に特に関係する論点を最後に必ず明示
 

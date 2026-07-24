@@ -67,3 +67,10 @@ aliases: [Week 7 Cheat Sheet]
 ---
 
 詳細: [[復帰プログラム: Week 5-8]]
+
+---
+
+## 実績記録
+
+- [[2026-06-10-lower-a]]
+- [[2026-06-13-fullbody]]

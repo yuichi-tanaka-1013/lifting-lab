@@ -129,7 +129,7 @@ aliases: [Strength Roadmap]
 ## 進捗の追跡方法
 
 - 週次: cheatsheet で working weight を記録（1RM は推定値）
-- 月次: `wiki/personal/progress-chart.html` で BIG3 のグラフ更新時に 1RM 推定を並記
+- 月次: [[wiki/personal/progress-chart.html|progress-chart]] で BIG3 のグラフ更新時に 1RM 推定を並記
 - 四半期: InBody + BIG3 実測で中級者/上級者ラインとの距離を再評価
 
 ## 諸説あり
