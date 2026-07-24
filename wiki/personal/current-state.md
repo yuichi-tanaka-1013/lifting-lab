@@ -3,7 +3,7 @@ type: personal
 tags: [returning-lifter, baseline, phase-1]
 created: 2026-05-18
 last_updated: 2026-07-05
-sources: ["[[raw/personal/baseline-2026-05.md]]", "[[raw/personal/inbody-2026-05-29.csv]]", "[[SBS: Detraining]]", "[[Body Composition Timeline]]", "[[筋肥大目的でのフェーズ設計]]"]
+sources: ["[[raw/personal/baseline-2026-05.md]]", "[[raw/personal/inbody-2026-05-29.csv]]", "[[sbs-detraining|SBS: Detraining]]", "[[body-composition-timeline|Body Composition Timeline]]", "[[筋肥大目的でのフェーズ設計]]"]
 confidence: high
 aliases: ["Current State"]
 ---
@@ -21,8 +21,8 @@ BIG3 は全て baseline 到達（Week 9-11）、Phase 1 卒業条件 3つのう�
 ## 現在の Phase と次のステップ
 
 **フェーズ設計の全体像**: [[筋肥大目的でのフェーズ設計]]
-**現在の Phase**: Phase 1 LP（[[復帰プログラム: Month 3]] の中盤）
-**次の Phase**: Phase 2 Volume Block（[[Phase 2 Hypertrophy Block]]、Week 20+ 想定）
+**現在の Phase**: Phase 1 LP（[[return-program-month3|復帰プログラム: Month 3]] の中盤）
+**次の Phase**: Phase 2 Volume Block（[[phase-2-hypertrophy-block|Phase 2 Hypertrophy Block]]、Week 20+ 想定）
 
 ### Phase 1 卒業条件の進捗
 
@@ -53,10 +53,10 @@ BIG3 は全て baseline 到達（Week 9-11）、Phase 1 卒業条件 3つのう�
 | 骨ミネラル量 | 3.74 kg | 3.92 kg | +0.18 | 3.85（**ピーク超え済**） |
 
 **リコンプ達成**: カット中（-500 kcal/日）にも関わらず筋量 +1.0kg、脂肪 -2.1kg。
-[[Muscle Memory]] の教科書的発現。詳細は [[Body Composition Timeline]]。
+[[muscle-memory|Muscle Memory]] の教科書的発現。詳細は [[body-composition-timeline|Body Composition Timeline]]。
 
-体組成の詳細な時系列比較は [[Body Composition Timeline]] を参照。
-体重・BF% の目標レンジ設計は [[Weight Target Ranges]] を参照。
+体組成の詳細な時系列比較は [[body-composition-timeline|Body Composition Timeline]] を参照。
+体重・BF% の目標レンジ設計は [[weight-target-ranges|Weight Target Ranges]] を参照。
 
 #### 部位別データ（2026-07-06、Week 11）
 
@@ -89,7 +89,7 @@ BIG3 は全て baseline 到達（Week 9-11）、Phase 1 卒業条件 3つのう�
 | ゴブレットスクワット | 26 kg 3x8 RIR 4 | 26 kg 2x8 RIR 4 | **28 kg** 3x8 RIR 4 | — |
 | レッグカール | 35 kg 3x10 RIR 4 | 35 kg 2x10 RIR 4 | **40 kg** 3x10 RIR 2-3（+5kg 刻み） | — |
 
-1RM 目標のマイルストーンは [[Strength Roadmap]] を参照。
+1RM 目標のマイルストーンは [[strength-roadmap|Strength Roadmap]] を参照。
 
 #### 補助・オプション種目
 
@@ -176,7 +176,7 @@ BIG3 は全て baseline 到達（Week 9-11）、Phase 1 卒業条件 3つのう�
 
 **2年9ヶ月のブランクがある出戻りトレーニーとしては passive ROM が顕著に良好。**
 Week 9 の BB SQ 45kg フルレンジ実施でも問題なく、実運用でも ROM 保持を確認。
-背景考察は [[Hypotheses: ROM Preservation]] を参照。
+背景考察は [[hypotheses|Hypotheses: ROM Preservation]] を参照。
 
 **次回測定**: Week 15-17（Phase 1 卒業期）に再確認。負荷下トレーニングの継続で ROM に変化がないか確認。
 
@@ -200,20 +200,20 @@ Week 9 の BB SQ 45kg フルレンジ実施でも問題なく、実運用でも 
 ## 関連ページ
 
 - [[筋肥大目的でのフェーズ設計]] — 全体の Phase モデル（上位ドキュメント）
-- [[復帰プログラム: Month 3]] — 現在の Phase 1 プログラム詳細
-- [[Phase 2 Hypertrophy Block]] — 次の Phase の具体プログラム
-- [[Strength Roadmap]] — 1RM マイルストーン参照
-- [[Weight Target Ranges]] — 体組成目標
-- [[Body Composition Timeline]] — InBody 時系列比較
-- [[Month 1 Learnings]] — 復帰1ヶ月目の経験知
-- [[Hypotheses: ROM Preservation]] — ROM 保持の背景考察
-- [[Supplement Protocol]] — サプリメント
-- [[Muscle Memory]]
+- [[return-program-month3|復帰プログラム: Month 3]] — 現在の Phase 1 プログラム詳細
+- [[phase-2-hypertrophy-block|Phase 2 Hypertrophy Block]] — 次の Phase の具体プログラム
+- [[strength-roadmap|Strength Roadmap]] — 1RM マイルストーン参照
+- [[weight-target-ranges|Weight Target Ranges]] — 体組成目標
+- [[body-composition-timeline|Body Composition Timeline]] — InBody 時系列比較
+- [[month1-learnings|Month 1 Learnings]] — 復帰1ヶ月目の経験知
+- [[hypotheses|Hypotheses: ROM Preservation]] — ROM 保持の背景考察
+- [[supplement-protocol|Supplement Protocol]] — サプリメント
+- [[muscle-memory|Muscle Memory]]
 - [[Detraining]]
-- [[Progressive Overload]]
-- [[RIR and RPE]]
-- [[Volume Landmarks]]
-- [[SBS: Detraining]] — ソースサマリ
-- [[Daily Mobility 5min]] — 毎日のモビリティ
-- [[Pre-Workout RAMP: Upper Body]] / [[Pre-Workout RAMP: Lower Body]] — ウォームアップ
-- [[Post-Workout Cooldown]] — クールダウン
+- [[progressive-overload|Progressive Overload]]
+- [[rir-and-rpe|RIR and RPE]]
+- [[volume-landmarks|Volume Landmarks]]
+- [[sbs-detraining|SBS: Detraining]] — ソースサマリ
+- [[daily-mobility-5min|Daily Mobility 5min]] — 毎日のモビリティ
+- [[pre-workout-ramp-upper|Pre-Workout RAMP: Upper Body]] / [[pre-workout-ramp-lower|Pre-Workout RAMP: Lower Body]] — ウォームアップ
+- [[post-workout-cooldown|Post-Workout Cooldown]] — クールダウン

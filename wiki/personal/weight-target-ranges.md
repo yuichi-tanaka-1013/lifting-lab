@@ -3,7 +3,7 @@ type: personal
 tags: [body-composition, returning-lifter, cutting, bulking]
 created: 2026-06-24
 last_updated: 2026-07-20
-sources: ["[[Body Composition Timeline]]", "[[raw/personal/baseline-2026-05.md]]"]
+sources: ["[[body-composition-timeline|Body Composition Timeline]]", "[[raw/personal/baseline-2026-05.md]]"]
 confidence: medium
 aliases: ["Weight Target Ranges"]
 ---
@@ -68,7 +68,7 @@ LBM = 74 kg（+2.4 kg、現実的な伸びしろ）の場合:
 
 - 着地点: **83–84 kg @ 14–15%**（ピーク再現ライン）
 - ここから先（80 kg 切り）は明確な目的（撮影・コンテスト等）がない限り推奨しない
-- 関連: [[Body Composition Timeline]] のカット計画（-500 kcal/日、2026 年 8 月末目標）
+- 関連: [[body-composition-timeline|Body Composition Timeline]] のカット計画（-500 kcal/日、2026 年 8 月末目標）
 
 ### 長期視点（2027 年以降のバルク）
 
@@ -127,7 +127,7 @@ GW明け ───── 7月末     本カット 12-13週（84.5 → **80-81 kg
 
 - 4月時点の目標値: **体重 84-85 kg / BF 14-15% / ウエスト ≤ 90 cm / WHR ≤ 0.90 / 内臓脂肪 ≤ 7**
 - **8月上旬の目標値: 80-81 kg / BF 11-12%（本人決定）**。腹筋 4パック明確〜6パックの影、腕・肩の血管が出るライン
-- **トレードオフ（本人了承の上で採用）**: 旧2アンカー案にあった「4-6月のバルク後半」を廃止し、年間の増量は 10月-2月の約4.5ヶ月に集約。LBM ゲイン見込みは +2.5-3.5 → **+1.5-2.5 kg/年** に低下し、[[Strength Roadmap]] の上級ライン到達は約半年〜1年後ろ倒し（2029年想定）
+- **トレードオフ（本人了承の上で採用）**: 旧2アンカー案にあった「4-6月のバルク後半」を廃止し、年間の増量は 10月-2月の約4.5ヶ月に集約。LBM ゲイン見込みは +2.5-3.5 → **+1.5-2.5 kg/年** に低下し、[[strength-roadmap|Strength Roadmap]] の上級ライン到達は約半年〜1年後ろ倒し（2029年想定）
 - カットの数値検証: 84.5 kg/15% → 80.5 kg/11.5% は脂肪 -3.4 kg。12-13週 × -0.3 kg/週 ≒ -4 kg で**ブレイク込みでも余裕を持って到達可能**
 - 深いカット終盤（12% 台）の挙上は「維持できれば成功」。減少 5% 以内は正常範囲
 - リバースダイエットを省くと秋のリバウンドで脂肪から戻るため必須（8-9月に急いで食べ戻さない）
@@ -174,10 +174,10 @@ GW明け ───── 7月末     本カット 12-13週（84.5 → **80-81 kg
 
 ## 関連ページ
 
-- [[Body Composition Timeline]] — InBody 実測データの時系列
-- [[Current State]] — 最新の体組成
-- [[Muscle Memory]] — リコンプ効果の根拠
-- [[Strength Roadmap]] — 体重×筋力の対応関係
+- [[body-composition-timeline|Body Composition Timeline]] — InBody 実測データの時系列
+- [[current-state|Current State]] — 最新の体組成
+- [[muscle-memory|Muscle Memory]] — リコンプ効果の根拠
+- [[strength-roadmap|Strength Roadmap]] — 体重×筋力の対応関係
 
 ## 確信度の根拠
 

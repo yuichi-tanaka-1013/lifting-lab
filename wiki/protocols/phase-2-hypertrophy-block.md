@@ -3,7 +3,7 @@ type: protocol
 tags: [hypertrophy, upper-lower, returning-lifter, phase-2]
 created: 2026-07-05
 last_updated: 2026-07-05
-sources: ["[[筋肥大目的でのフェーズ設計]]", "[[Volume Landmarks]]"]
+sources: ["[[筋肥大目的でのフェーズ設計]]", "[[volume-landmarks|Volume Landmarks]]"]
 confidence: high
 aliases: ["Phase 2 Hypertrophy Block"]
 ---
@@ -11,9 +11,9 @@ aliases: ["Phase 2 Hypertrophy Block"]
 # Phase 2 Hypertrophy Block — Upper/Lower 4分割（筋肥大特化）
 
 > Phase 1 LP 卒業後の具体プログラム。筋肥大を主目的、BIG3 は強度維持。
-> 制約: 週4回 x 60-90分、[[復帰プログラム: Month 3]] からの継続
+> 制約: 週4回 x 60-90分、[[return-program-month3|復帰プログラム: Month 3]] からの継続
 > 概念背景は [[筋肥大目的でのフェーズ設計]] を参照（この文書の上位）
-> 1RM 目標は [[Strength Roadmap]]、体組成目標は [[Weight Target Ranges]] を参照
+> 1RM 目標は [[strength-roadmap|Strength Roadmap]]、体組成目標は [[weight-target-ranges|Weight Target Ranges]] を参照
 
 ## この文書の役割
 
@@ -22,7 +22,7 @@ aliases: ["Phase 2 Hypertrophy Block"]
 - ✅ 進捗ルール（BIG3 / 主軸 compound / Isolation）
 - ✅ Phase 3 移行判定
 - ❌ Phase 2 中の週次重量調整 → 開始後に weekN cheatsheet を作成
-- ❌ 1RM 目標 → [[Strength Roadmap]]
+- ❌ 1RM 目標 → [[strength-roadmap|Strength Roadmap]]
 
 ## Phase 2 移行タイミング（体調不良反映済）
 
@@ -48,7 +48,7 @@ Week 10 の体調不良 +1週遅延を織り込んだ現実的タイムライン
 1. **BIG3 は強度維持のみ**（3x3-5 RIR 1、週1回 per lift）
 2. **主軸種目は 6-12 rep**（RIR 1-2）
 3. **Isolation は 12-20 rep**（RIR 0-1）
-4. **筋群ごとの週セット数を管理**（[[Volume Landmarks]] の MAV レンジ）
+4. **筋群ごとの週セット数を管理**（[[volume-landmarks|Volume Landmarks]] の MAV レンジ）
 5. **rep 進捗優先、重量は最後**（10 → 12 → 15 が揃ってから +2.5kg）
 
 ## 週間構成
@@ -219,8 +219,8 @@ Week 10 の体調不良 +1週遅延を織り込んだ現実的タイムライン
 ## 関連ページ
 
 - [[筋肥大目的でのフェーズ設計]] — 概念背景
-- [[Volume Landmarks]] — MV/MEV/MAV/MRV
-- [[RIR and RPE]] — 主観的強度
-- [[復帰プログラム: Month 3]] — Phase 1 の詳細
-- [[Upper Lower Split]] — 分割の背景
-- [[Weight Target Ranges]] — Phase 2 中の体重管理
+- [[volume-landmarks|Volume Landmarks]] — MV/MEV/MAV/MRV
+- [[rir-and-rpe|RIR and RPE]] — 主観的強度
+- [[return-program-month3|復帰プログラム: Month 3]] — Phase 1 の詳細
+- [[upper-lower-split|Upper Lower Split]] — 分割の背景
+- [[weight-target-ranges|Weight Target Ranges]] — Phase 2 中の体重管理

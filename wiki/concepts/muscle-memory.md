@@ -3,7 +3,7 @@ type: concept
 tags: [returning-lifter, hypertrophy, mechanism, my-priority]
 created: 2026-05-18
 last_updated: 2026-05-18
-sources: ["[[SBS: Detraining]]"]
+sources: ["[[sbs-detraining|SBS: Detraining]]"]
 confidence: high
 aliases: ["Muscle Memory"]
 ---
@@ -16,7 +16,7 @@ aliases: ["Muscle Memory"]
 
 ## 再獲得速度の推定
 
-[[Greg Nuckols]] の推定（[[SBS: Detraining]] より）:
+[[greg-nuckols|Greg Nuckols]] の推定（[[sbs-detraining|SBS: Detraining]] より）:
 
 > **再獲得期間 ≈ 中断期間の約1/2（信頼区間: 1/3〜2/3）**
 
@@ -74,7 +74,7 @@ Jacko et al. 2022:
 
 ## 私の実体験（Month 1）
 
-→ 詳細は [[Month 1 Learnings]] を参照
+→ 詳細は [[month1-learnings|Month 1 Learnings]] を参照
 
 **ベンチプレス 40kg → 60kg を8セッション（4週間）で達成。**
 
@@ -97,7 +97,7 @@ Jacko et al. 2022:
 ## 関連ページ
 
 - [[Detraining]] — 中断による生理学的変化
-- [[Volume Landmarks]] — 維持に必要な最小ボリューム
-- [[Progressive Overload]] — 復帰時の漸進戦略
-- [[Greg Nuckols]] — SBS/MASS 創設者
-- [[SBS: Detraining]] — ソースサマリ
+- [[volume-landmarks|Volume Landmarks]] — 維持に必要な最小ボリューム
+- [[progressive-overload|Progressive Overload]] — 復帰時の漸進戦略
+- [[greg-nuckols|Greg Nuckols]] — SBS/MASS 創設者
+- [[sbs-detraining|SBS: Detraining]] — ソースサマリ

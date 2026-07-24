@@ -3,7 +3,7 @@ type: overview
 tags: [strength, returning-lifter, body-composition]
 created: 2026-07-20
 last_updated: 2026-07-20
-sources: ["[[Current State]]", "[[Body Composition Timeline]]", "[[Strength Roadmap]]", "[[Muscle Memory]]"]
+sources: ["[[current-state|Current State]]", "[[body-composition-timeline|Body Composition Timeline]]", "[[strength-roadmap|Strength Roadmap]]", "[[muscle-memory|Muscle Memory]]"]
 confidence: medium
 ---
 
@@ -36,7 +36,7 @@ confidence: medium
 
 ### 根拠1: 自分自身の実績（最も信頼できる証拠）
 
-ピーク時 (2023-09) の BIG3 合計は **~300 kg**（[[Strength Roadmap]]）。当時の SMM 40.9 kg に対し現在 40.3 kg — **差はわずか 1.5%**。つまり**ほぼ同じ筋量で 300 kg を実際に挙げた実績がある**。これは推定ではなく実測。
+ピーク時 (2023-09) の BIG3 合計は **~300 kg**（[[strength-roadmap|Strength Roadmap]]）。当時の SMM 40.9 kg に対し現在 40.3 kg — **差はわずか 1.5%**。つまり**ほぼ同じ筋量で 300 kg を実際に挙げた実績がある**。これは推定ではなく実測。
 
 ### 根拠2: FFMI / 体重比の一般水準
 
@@ -74,11 +74,11 @@ FFMI 21.3・86 kg 級の鍛錬済みナチュラルの典型到達域（Symmetri
 |---------|-----|---------|--------|-----|-----|---------|------------|
 | FFMI 20.9 | 68.8 | 39.3 | ~73 | ~40+ | ~57+ | **~170+**（当時のプログラム重量から逆算、過小評価気味） | **5/29 実測**（復帰 Week 6、再適応初期） |
 | **FFMI 21.3（現在）** | **70.1** | **40.3** | **90** | **65** | **83** | **238（実測）** | **7/6 InBody × Week 12 挙上** |
-| FFMI 21.3 再適応完了 | 70.1 | 40.3 | 95-105 | 100-120 | 130-145 | **300-350** | 同じ筋量のまま到達可能（[[Muscle Memory]] 圏内） |
+| FFMI 21.3 再適応完了 | 70.1 | 40.3 | 95-105 | 100-120 | 130-145 | **300-350** | 同じ筋量のまま到達可能（[[muscle-memory|Muscle Memory]] 圏内） |
 | FFMI 21.5（ピーク 2023） | 71.6 | 40.9 | — | — | — | **~300（実測）** | 2023-09 の到達点 |
 | FFMI 22 | ~72.6 | ~41.7 | 105-115 | 125-140 | 145-165 | **~380-420** | Phase 2 前半（LBM +2.5kg） |
 | FFMI 23 | ~75.9 | ~43.6 | 120 | 160 | 190 | **~470（上級ライン）** | Phase 2-3（LBM +5.8kg、年単位） |
-| FFMI 24-25 | ~79-82 | ~45.5+ | 130+ | 175+ | 210+ | **~520+** | ナチュラル上限域（[[Strength Roadmap]] 対象外） |
+| FFMI 24-25 | ~79-82 | ~45.5+ | 130+ | 175+ | 210+ | **~520+** | ナチュラル上限域（[[strength-roadmap|Strength Roadmap]] 対象外） |
 
 **このマトリックスの読み方（相関の核心）**:
 - **縦方向（筋量→挙上）の相関は長期で強い** — 天井は筋量が決める（集団相関 r~0.8）
@@ -100,13 +100,13 @@ FFMI 21.3・86 kg 級の鍛錬済みナチュラルの典型到達域（Symmetri
 ## 諸説あり
 
 - FFMI・体重比と 1RM の相関は集団レベルでは強い (r~0.8) が、**個人差 ±15% 程度**（四肢長・モーメントアーム・筋線維タイプ・腱付着位置）。本推定のレンジ幅はこれを反映
-- 「中級/上級」の体重比基準はソースにより異なる（[[Strength Roadmap]] の諸説ありと同様）
+- 「中級/上級」の体重比基準はソースにより異なる（[[strength-roadmap|Strength Roadmap]] の諸説ありと同様）
 - InBody の SMM は DEXA 比で誤差あり。ただし同一機器の経時比較なので傾向は信頼できる
 
 ## 出戻り組への示唆
 
 1. **「300kg までは筋量の借金なしで戻れる」が本推定の核心**。焦って重量を追わなくても、LP を回し続ければ筋量側の裏付けは既にある
-2. ⚠️ ただし**この数字を毎週の作業重量のアンカーにしないこと**（[[Current State]] のリスクマップ通り、結合組織の回復は筋力より遅い）。ポテンシャル ≠ 今週挙げていい重量
+2. ⚠️ ただし**この数字を毎週の作業重量のアンカーにしないこと**（[[current-state|Current State]] のリスクマップ通り、結合組織の回復は筋力より遅い）。ポテンシャル ≠ 今週挙げていい重量
 3. SQ/DL の伸び代が大きい = 今後数ヶ月の LP で合計が最も速く伸びるのは下半身。ベンチの停滞を感じてもプログラム全体は前進している
 4. 470kg (上級) は現筋量では届かない。Phase 2 以降の筋肥大 (+5-6kg LBM) とセットの長期目標
 
@@ -126,7 +126,7 @@ FFMI 21.3・86 kg 級の鍛錬済みナチュラルの典型到達域（Symmetri
 
 ## 関連ページ
 
-- [[Strength Roadmap]] — マイルストーンと時期見込み
-- [[Body Composition Timeline]] — 筋量の実測推移
-- [[Muscle Memory]] — 再適応が速い根拠
-- [[Current State]] — 最新パフォーマンス
+- [[strength-roadmap|Strength Roadmap]] — マイルストーンと時期見込み
+- [[body-composition-timeline|Body Composition Timeline]] — 筋量の実測推移
+- [[muscle-memory|Muscle Memory]] — 再適応が速い根拠
+- [[current-state|Current State]] — 最新パフォーマンス

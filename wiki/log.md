@@ -133,7 +133,7 @@ last_updated: 2026-05-18
 
 ## 2026-06-24
 
-- [[Weight Target Ranges]] 作成
+- [[weight-target-ranges|Weight Target Ranges]] 作成
   - 身長 181.6 cm × ピーク LBM 71.6 kg を基準にレンジ算出
   - メンテ目標 83-84 kg / 14-15%、バルク上限 88 kg / 17%、カット末期 80 kg / 11%
   - InBody 測定時の方向性判断（次フェーズ移行 / 継続）の地図として使用
@@ -201,22 +201,22 @@ last_updated: 2026-05-18
   - この判断パターンを memory に記録（デフォルト +2.5kg 機械適用しない）
 - 筋肥大目的でのフェーズ設計 + Phase 2 プランを wiki に保存
   - [[筋肥大目的でのフェーズ設計]] (wiki/overviews/) — Phase 1/2/3 全体像、rep レンジ配分、諸説併記
-  - [[Phase 2 Hypertrophy Block]] (wiki/protocols/) — Upper/Lower 4分割の具体プログラム、週間ボリューム表、進捗ルール
+  - [[phase-2-hypertrophy-block|Phase 2 Hypertrophy Block]] (wiki/protocols/) — Upper/Lower 4分割の具体プログラム、週間ボリューム表、進捗ルール
   - Phase 2 移行タイミング: Week 15-17 準備、Week 18- 本格開始（Phase 1 卒業条件次第）
   - 「3-rep 中心 = 筋肥大」は誤解と明示。BIG3 のみ 3-5 rep で強度基盤、主軸は 6-12 rep
 - プログラム文書の全体再整理（Phase モデル統一）
   - 問題: 「Phase 1/2/3」の定義が Strength Roadmap / 筋肥大設計 / Return Program Month 3 で異なっていた
   - 統一 Phase モデル定義（全文書共通）:
     - Phase 1 = LP（Week 1-17、Return Programs で詳細記述）
-    - Phase 2 = Volume Block / 筋肥大加速（Week 20+、[[Phase 2 Hypertrophy Block]] で詳細記述）
+    - Phase 2 = Volume Block / 筋肥大加速（Week 20+、[[phase-2-hypertrophy-block|Phase 2 Hypertrophy Block]] で詳細記述）
     - Phase 3 = Block Periodization（未設計、Phase 2 中に設計）
-  - [[Strength Roadmap]] を「1RM マイルストーン参照のみ」に縮小（programming 削除、タイムライン後ろ倒し）
+  - [[strength-roadmap|Strength Roadmap]] を「1RM マイルストーン参照のみ」に縮小（programming 削除、タイムライン後ろ倒し）
   - [[筋肥大目的でのフェーズ設計]] を「全体入口」として書き換え、文書階層図を追加
-  - [[Phase 2 Hypertrophy Block]] の移行タイミングを Week 20+ に調整（体調不良 +1週遅延反映）
-  - [[復帰プログラム: Month 3]] に Phase 2 pointer と体調不良ノートを追加
+  - [[phase-2-hypertrophy-block|Phase 2 Hypertrophy Block]] の移行タイミングを Week 20+ に調整（体調不良 +1週遅延反映）
+  - [[return-program-month3|復帰プログラム: Month 3]] に Phase 2 pointer と体調不良ノートを追加
   - Week 11 cheatsheet の Phase 2 references を統一モデルにアライン
   - wiki/index.md の説明・順序を整理
-- [[Current State]] を Week 11 開始時点の情報に全面更新（前回 Month 1 相当で止まっていた）
+- [[current-state|Current State]] を Week 11 開始時点の情報に全面更新（前回 Month 1 相当で止まっていた）
   - Phase 1 卒業条件の進捗を明示化（3条件中 ベンチ達成、DL 見込み、SQ+週4回連続 が残タスク）
   - パフォーマンスを Week 9-11 の実績＋Week 11 予定に更新
   - 直近イベント表（Week 9 baseline 到達、Week 10 illness、Week 11 復帰）
@@ -386,7 +386,7 @@ last_updated: 2026-05-18
 - Week 14 修正（本人決定 7/25）: ① 木曜ベンチも 70kg で週2統一（推奨 67.5 に対し本人採用。安全弁: 1セット目 8rep未達/RIR1未満 → 67.5、スポッター必須） ② ゴブレット SQ はジムの DB 上限 30kg 到達 → rep 漸進 (3x8→3x10→3x12→ボトムポーズ→Phase 2 でバーベル化) に切替。DB RDL も将来同じ天井のためバーベル RDL 移行を予定に記載
 - 本人申告: ゴブレット SQ のボトム2秒ポーズは既に実践済み → 現在の 30kg RIR 4- はポーズ込みの実力。漸進ラダーを修正: ポーズ維持のまま rep 漸進 (→3x12) → エキセントリック3-4秒 or 1.5レップ → Phase 2 バーベル化
 - **wiki リンクグラフ再構築**（本人指摘「ある日を境にエッジが繋がっていない」への対応）
-  - 診断: 全62ノード中 aliases ゼロ → タイトル表記リンク ([[Current State]] 等) が kebab-case ファイル名に解決されず、Obsidian 上で大半のエッジが幽霊ノード行きだった。加えてチートシート11枚・log・hypotheses が孤立、workout 記録は無リンク
+  - 診断: 全62ノード中 aliases ゼロ → タイトル表記リンク ([[current-state|Current State]] 等) が kebab-case ファイル名に解決されず、Obsidian 上で大半のエッジが幽霊ノード行きだった。加えてチートシート11枚・log・hypotheses が孤立、workout 記録は無リンク
   - 修正: ① 全ページに被リンク表記を aliases として付与 (46ファイル) ② チートシートに frontmatter 追加 + index に Cheatsheets/Meta セクション新設 ③ workout 記録 (Week 5〜) に `[[weekN-cheatsheet]]` リンクを一括付与 ④ 壊れリンク修正 (Helms研究群→Eric Helms、progress-chart.html を平文化)
   - 検証: scripts/check-graph.py 新設 — 孤立ノード 0 / wiki 内未解決リンク 0 を確認
   - 再発防止: CLAUDE.md にグラフ規約を制定 (新規ページは aliases 必須 + index 登録 + 双方向リンク + 記録→チートシートリンク)
@@ -398,3 +398,8 @@ last_updated: 2026-05-18
   - 真因: 初期からの `tags: [#...]` 記法で **62ファイル中61ファイルの YAML が構文エラー** → Obsidian は壊れた frontmatter の aliases/tags を全て無視 → 第1弾で付けた aliases が1つも効いていなかった
   - 修復: tags の # 除去・aliases/sources の全要素をクォート化 (61ファイル、PyYAML で全件検証)。check-graph.py に YAML 検証を追加し、クォート対応のバグも修正
   - CLAUDE.md の frontmatter 規約例を正しい YAML に更新
+- **グラフ再構築 第4弾 (最終): 全リンクをパイプ形式に変換**（本人指摘「okada-takashi がまだ孤立」で判明）
+  - 確定事実: Obsidian は aliases では生リンク ([[岡田隆]] 等) を解決しない — aliases は補完・検索用。エッジを作れるのはファイル名一致のみ
+  - 対応: wiki + workout 記録の全タイトル表記リンクを [[ファイル名|表示名]] のパイプ形式へ一括変換 (41ファイル)。表示は従来のまま
+  - check-graph.py を Obsidian の実解決規則 (ファイル名のみ) に修正 → **YAML エラー0・孤立0・未解決0 を厳密規則で達成**
+  - CLAUDE.md 規約を改訂: リンクはパイプ形式必須、aliases は補完用として維持

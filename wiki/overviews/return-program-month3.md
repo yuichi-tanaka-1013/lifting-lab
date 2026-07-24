@@ -3,7 +3,7 @@ type: overview
 tags: [returning-lifter, programming, my-priority, phase-1]
 created: 2026-06-20
 last_updated: 2026-07-05
-sources: ["[[Current State]]", "[[Month 1 Learnings]]", "[[Body Composition Timeline]]", "[[筋肥大目的でのフェーズ設計]]"]
+sources: ["[[current-state|Current State]]", "[[month1-learnings|Month 1 Learnings]]", "[[body-composition-timeline|Body Composition Timeline]]", "[[筋肥大目的でのフェーズ設計]]"]
 confidence: medium
 aliases: ["復帰プログラム: Month 3"]
 ---
@@ -13,7 +13,7 @@ aliases: ["復帰プログラム: Month 3"]
 > **これは Phase 1 の最終ブロック**（[[筋肥大目的でのフェーズ設計]] の 3-Phase モデルにおける Phase 1 詳細）
 > Month 2 を完了し、下半身の導入・ベンチの安定化・Upper/Lower 4分割への移行が成功。
 > Month 3 では LP を継続、Phase 2 卒業条件到達を目指す。カット完了と同時期に Phase 2 準備へ移行。
-> Phase 2 の詳細は [[Phase 2 Hypertrophy Block]] を参照。
+> Phase 2 の詳細は [[phase-2-hypertrophy-block|Phase 2 Hypertrophy Block]] を参照。
 
 ## 体調不良による +1週遅延（Week 10）
 
@@ -88,7 +88,7 @@ Phase 1 全体のタイムラインは 1週間後ろ倒し（Week 15-17 が卒�
 
 ### Phase 2 の移行先
 
-**詳細プログラムは [[Phase 2 Hypertrophy Block]] を参照。** 概要のみここに示す：
+**詳細プログラムは [[phase-2-hypertrophy-block|Phase 2 Hypertrophy Block]] を参照。** 概要のみここに示す：
 
 | 手法 | 内容 |
 |------|------|
@@ -184,13 +184,13 @@ Phase 1 全体のタイムラインは 1週間後ろ倒し（Week 15-17 が卒�
 ## 関連ページ
 
 - [[筋肥大目的でのフェーズ設計]] — 全体の Phase モデル（上位ドキュメント）
-- [[Phase 2 Hypertrophy Block]] — Phase 1 卒業後の Phase 2 プログラム
-- [[Strength Roadmap]] — 1RM 目標（副次指標）
-- [[Weight Target Ranges]] — 体組成目標
-- [[Current State]] — 最新の体組成・パフォーマンス
-- [[Body Composition Timeline]] — InBody 比較（ピーク vs 現在）
-- [[復帰プログラム: Week 1-4]] — Month 1（Plan vs Actual）
-- [[復帰プログラム: Week 5-8]] — Month 2
-- [[Supplement Protocol]] — サプリメント
-- [[Muscle Memory]] — LP 期間中の回復メカニズム
-- [[Progressive Overload]] — 漸進ルール
+- [[phase-2-hypertrophy-block|Phase 2 Hypertrophy Block]] — Phase 1 卒業後の Phase 2 プログラム
+- [[strength-roadmap|Strength Roadmap]] — 1RM 目標（副次指標）
+- [[weight-target-ranges|Weight Target Ranges]] — 体組成目標
+- [[current-state|Current State]] — 最新の体組成・パフォーマンス
+- [[body-composition-timeline|Body Composition Timeline]] — InBody 比較（ピーク vs 現在）
+- [[return-program-week1-4|復帰プログラム: Week 1-4]] — Month 1（Plan vs Actual）
+- [[return-program-week5-8|復帰プログラム: Week 5-8]] — Month 2
+- [[supplement-protocol|Supplement Protocol]] — サプリメント
+- [[muscle-memory|Muscle Memory]] — LP 期間中の回復メカニズム
+- [[progressive-overload|Progressive Overload]] — 漸進ルール

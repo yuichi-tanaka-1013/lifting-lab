@@ -3,7 +3,7 @@ type: concept
 tags: [body-composition, genetics, health]
 created: 2026-07-21
 last_updated: 2026-07-21
-sources: ["[[Body Composition Timeline]]", "双子研究・GWAS 系の体脂肪分布研究群"]
+sources: ["[[body-composition-timeline|Body Composition Timeline]]", "双子研究・GWAS 系の体脂肪分布研究群"]
 confidence: high
 aliases: ["Fat Distribution"]
 ---
@@ -31,7 +31,7 @@ aliases: ["Fat Distribution"]
 
 ## 本人への実務的含意
 
-1. **腹筋の見えは遅い** — 見た目マトリックス（[[Weight Target Ranges]]）で BF% 目安を 1-2% 厳しめに補正済み
+1. **腹筋の見えは遅い** — 見た目マトリックス（[[weight-target-ranges|Weight Target Ranges]]）で BF% 目安を 1-2% 厳しめに補正済み
 2. **内臓脂肪レベルが最重要監視項目** — 体幹集中型は代謝リスクが出やすいタイプ（InBody チェックリスト該当）
 3. **バルク上限 88kg 厳守の根拠** — 超過すると内臓脂肪が再加速する体質前提の設計
 4. **カットはこの体質への正攻法** — 変えられない「場所」を嘆くより、反応が速い「量」を管理する
@@ -43,6 +43,6 @@ aliases: ["Fat Distribution"]
 
 ## 関連ページ
 
-- [[Body Composition Timeline]] — 体幹脂肪の実測推移
-- [[Weight Target Ranges]] — 本人補正済みの見た目マトリックス
-- [[Current State]] — 内臓脂肪レベルの現在値
+- [[body-composition-timeline|Body Composition Timeline]] — 体幹脂肪の実測推移
+- [[weight-target-ranges|Weight Target Ranges]] — 本人補正済みの見た目マトリックス
+- [[current-state|Current State]] — 内臓脂肪レベルの現在値

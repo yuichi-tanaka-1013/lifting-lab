@@ -145,9 +145,9 @@ aliases: ["Body Composition Timeline"]
 
 ## 関連ページ
 
-- [[Current State]] — 最新の全体像
-- [[Weight Target Ranges]] — 体重レンジ設計
-- [[Muscle Memory]] — リコンプの根拠
-- [[Supplement Protocol]] — タンパク質摂取
+- [[current-state|Current State]] — 最新の全体像
+- [[weight-target-ranges|Weight Target Ranges]] — 体重レンジ設計
+- [[muscle-memory|Muscle Memory]] — リコンプの根拠
+- [[supplement-protocol|Supplement Protocol]] — タンパク質摂取
 - [[Detraining]] — 中断中の変化
 - [[筋肥大目的でのフェーズ設計]] — Phase 別の体組成指標

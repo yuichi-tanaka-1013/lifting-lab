@@ -236,4 +236,4 @@ aliases: ["Week 14 Cheat Sheet"]
 
 ---
 
-詳細: [[復帰プログラム: Month 3]], [[Strength Roadmap]], [[Weight Target Ranges]], [[Phase 2 Hypertrophy Block]]
+詳細: [[return-program-month3|復帰プログラム: Month 3]], [[strength-roadmap|Strength Roadmap]], [[weight-target-ranges|Weight Target Ranges]], [[phase-2-hypertrophy-block|Phase 2 Hypertrophy Block]]

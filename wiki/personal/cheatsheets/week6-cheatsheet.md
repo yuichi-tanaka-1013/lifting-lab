@@ -155,7 +155,7 @@ aliases: ["Week 6 Cheat Sheet"]
 
 ---
 
-詳細: [[復帰プログラム: Week 5-8]]
+詳細: [[return-program-week5-8|復帰プログラム: Week 5-8]]
 
 ---
 

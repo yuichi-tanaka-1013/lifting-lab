@@ -3,7 +3,7 @@ type: overview
 tags: [returning-lifter, programming, my-priority]
 created: 2026-05-18
 last_updated: 2026-05-18
-sources: ["[[SBS: Detraining]]", "[[Current State]]", "[[Month 1 Learnings]]"]
+sources: ["[[sbs-detraining|SBS: Detraining]]", "[[current-state|Current State]]", "[[month1-learnings|Month 1 Learnings]]"]
 confidence: medium
 aliases: ["復帰プログラム: Week 1-4"]
 ---
@@ -16,7 +16,7 @@ aliases: ["復帰プログラム: Week 1-4"]
 
 > **注記（2026-05-18）**: このプログラムは Plan として設計されたが、実際には本人が独自に1ヶ月間の
 > トレーニングを先行して実施していた。以下の「Plan vs Actual」セクションで計画と実績を比較する。
-> 詳細は [[Month 1 Learnings]] を参照。
+> 詳細は [[month1-learnings|Month 1 Learnings]] を参照。
 
 ---
 
@@ -70,14 +70,14 @@ aliases: ["復帰プログラム: Week 1-4"]
 
 | 原則 | ソース | 適用 |
 |------|--------|------|
-| 復帰第1週は中断前の 1/3 重量 | [[SBS: Detraining]] (Huang 2019) | Week 1 の重量設定 |
-| 1年超の中断 → 初心者的な線形進行 | [[SBS: Detraining]] ([[Greg Nuckols]]) | 週単位の重量増加ルール |
-| RIR 3-5 からスタート | [[RIR and RPE]], [[SBS: Detraining]] | 強度管理 |
+| 復帰第1週は中断前の 1/3 重量 | [[sbs-detraining|SBS: Detraining]] (Huang 2019) | Week 1 の重量設定 |
+| 1年超の中断 → 初心者的な線形進行 | [[sbs-detraining|SBS: Detraining]] ([[greg-nuckols|Greg Nuckols]]) | 週単位の重量増加ルール |
+| RIR 3-5 からスタート | [[rir-and-rpe|RIR and RPE]], [[sbs-detraining|SBS: Detraining]] | 強度管理 |
 | 結合組織の回復 << 筋力の回復 | [[Detraining]] | 保守的な漸進の根拠 |
-| Push:Pull = 1:1.5-2 | [[Current State]] リスクマップ | 巻き肩・RC 対策 |
-| 1/9 ボリュームで維持可能 | [[Volume Landmarks]] (Bickel 2011) | MV フォールバック設計 |
+| Push:Pull = 1:1.5-2 | [[current-state|Current State]] リスクマップ | 巻き肩・RC 対策 |
+| 1/9 ボリュームで維持可能 | [[volume-landmarks|Volume Landmarks]] (Bickel 2011) | MV フォールバック設計 |
 
-### 私の現在地（[[Current State]] より）
+### 私の現在地（[[current-state|Current State]] より）
 
 | 項目 | 値 |
 |------|-----|
@@ -90,7 +90,7 @@ aliases: ["復帰プログラム: Week 1-4"]
 
 ### プログラム形式
 
-**フルボディ A/B 交互** — [[Full Body for Returning Lifters]] に準拠
+**フルボディ A/B 交互** — [[full-body-for-returning-lifters|Full Body for Returning Lifters]] に準拠
 
 - 週2回: A → B（中2-3日）
 - 週3回: A → B → A → 翌週 B → A → B...（中1-2日）
@@ -100,7 +100,7 @@ aliases: ["復帰プログラム: Week 1-4"]
 
 **ベンチプレスをバーベルではなくダンベルで行う理由:**
 
-肩のローテーターカフに違和感があり、バーベルベンチで不安定感がある状態（[[Current State]] リスクマップ）。ダンベルベンチは:
+肩のローテーターカフに違和感があり、バーベルベンチで不安定感がある状態（[[current-state|Current State]] リスクマップ）。ダンベルベンチは:
 - 肩関節が自然な軌道で動ける（バーベルは固定軌道を強制する）
 - 可動域を個人に合わせて調整可能
 - 左右差の検出と修正が可能
@@ -159,7 +159,7 @@ aliases: ["復帰プログラム: Week 1-4"]
 
 ### Week 2 で特に注意すべきこと
 
-[[SBS: Detraining]] からの引用:
+[[sbs-detraining|SBS: Detraining]] からの引用:
 
 > セット間でパフォーマンスが予測不能に変動する可能性がある。
 > 急速な疲労（デコンディショニング）が起きたり、
@@ -172,7 +172,7 @@ aliases: ["復帰プログラム: Week 1-4"]
 
 ## Week 3: 漸進開始（線形増加の起点）
 
-**目的**: [[Progressive Overload]] を開始する。ただし依然として保守的に。
+**目的**: [[progressive-overload|Progressive Overload]] を開始する。ただし依然として保守的に。
 
 | 種目 | 重量 | RIR目標 |
 |------|------|---------|
@@ -239,11 +239,11 @@ aliases: ["復帰プログラム: Week 1-4"]
 | 肩（前部） | プレス種目でカバー | — |
 | 肩（後部/RC） | 6-8（フェイスプル + バンドワーク） | プリハブ目的 |
 
-→ 背中のボリュームが意図的に多い。Push:Pull ≈ 1:1.5 で巻き肩対策（[[Current State]]）。
+→ 背中のボリュームが意図的に多い。Push:Pull ≈ 1:1.5 で巻き肩対策（[[current-state|Current State]]）。
 
 ---
 
-## 漸進性過負荷ルール（[[Progressive Overload]]）
+## 漸進性過負荷ルール（[[progressive-overload|Progressive Overload]]）
 
 ### 増やす条件
 
@@ -259,8 +259,8 @@ aliases: ["復帰プログラム: Week 1-4"]
 
 | カテゴリ | 増加幅/週 | 根拠 |
 |----------|----------|------|
-| スクワット/デッドリフト | **+5 kg** | [[SBS: Detraining]]: 下半身 +5-10lb/週 |
-| DBベンチ/DBインクライン | **+2 kg/手** | [[SBS: Detraining]]: 上半身 +2.5-5lb/週 |
+| スクワット/デッドリフト | **+5 kg** | [[sbs-detraining|SBS: Detraining]]: 下半身 +5-10lb/週 |
+| DBベンチ/DBインクライン | **+2 kg/手** | [[sbs-detraining|SBS: Detraining]]: 上半身 +2.5-5lb/週 |
 | ケーブル/マシン | **+1ノッチ** | feel ベースで調整 |
 
 ### 増やさない判断をした場合
@@ -276,7 +276,7 @@ aliases: ["復帰プログラム: Week 1-4"]
 
 ## MV フォールバックプラン: 週3回が取れなかった場合
 
-[[Volume Landmarks]] の Bickel 2011 に基づき、**「ゼロにしない」** ための最小プラン。
+[[volume-landmarks|Volume Landmarks]] の Bickel 2011 に基づき、**「ゼロにしない」** ための最小プラン。
 
 ### パターン1: 週2回に減った場合
 
@@ -350,22 +350,22 @@ aliases: ["復帰プログラム: Week 1-4"]
 
 ### 1. 1RMテストおよび RIR 0-1 のセットを行うこと
 
-**理由**: 結合組織が2年8ヶ月間デコンディショニングされている（[[Detraining]]）。筋力は [[Muscle Memory]] で速く回復するが、腱・靭帯は追いつかない。最大努力の挙上は、筋力が結合組織の耐性を超えるリスクがある。特にローテーターカフの違和感がある状態での max effort ベンチは、肩の怪我に直結する。
+**理由**: 結合組織が2年8ヶ月間デコンディショニングされている（[[Detraining]]）。筋力は [[muscle-memory|Muscle Memory]] で速く回復するが、腱・靭帯は追いつかない。最大努力の挙上は、筋力が結合組織の耐性を超えるリスクがある。特にローテーターカフの違和感がある状態での max effort ベンチは、肩の怪我に直結する。
 
-> [[SBS: Detraining]]: 「低ボリューム高重量で筋力だけ急回復させるアプローチは避けるべき。
+> [[sbs-detraining|SBS: Detraining]]: 「低ボリューム高重量で筋力だけ急回復させるアプローチは避けるべき。
 > 腱・結合組織がデコンディショニングされたまま高重量を扱うことになる」
 
 **最初の4週間は RIR 3 を下限とする。**
 
 ### 2. ベンチプレスをバーベルで行うこと（この4週間は）
 
-**理由**: 肩関節でベンチが不安定に感じる + ローテーターカフの違和感（[[Current State]]）。バーベルベンチはバーの軌道が固定されるため、肩関節に不自然な負荷がかかりやすい。ダンベルで肩の安定性と可動域を再構築してから、バーベルに移行する。
+**理由**: 肩関節でベンチが不安定に感じる + ローテーターカフの違和感（[[current-state|Current State]]）。バーベルベンチはバーの軌道が固定されるため、肩関節に不自然な負荷がかかりやすい。ダンベルで肩の安定性と可動域を再構築してから、バーベルに移行する。
 
 **例外**: スミスマシンでの低負荷ベンチ（ウォームアップの一環として RIR 8+ で）は許容範囲。ただし working set にはしない。
 
 ### 3. 「昔の重量」を基準に漸進ペースを決めること
 
-**理由**: アンカリングバイアス（[[Current State]], [[Detraining]]）。ピーク時の重量は **今の身体とは無関係**。漸進は今週の RIR と身体のフィードバックのみで判断する。「前は○○kg 挙がってたのに」という思考が浮かんだら、それは muscle memory が仕事をしている途中であり、結合組織はまだ追いついていないという事実を思い出す。
+**理由**: アンカリングバイアス（[[current-state|Current State]], [[Detraining]]）。ピーク時の重量は **今の身体とは無関係**。漸進は今週の RIR と身体のフィードバックのみで判断する。「前は○○kg 挙がってたのに」という思考が浮かんだら、それは muscle memory が仕事をしている途中であり、結合組織はまだ追いついていないという事実を思い出す。
 
 ---
 
@@ -382,16 +382,16 @@ Week 4 終了時に以下を判断:
 
 ## 関連ページ
 
-- [[Current State]] — 私の現在地
-- [[Month 1 Learnings]] — 実際の1ヶ月の経験知
-- [[Muscle Memory]] — 再獲得のメカニズムと推定期間
+- [[current-state|Current State]] — 私の現在地
+- [[month1-learnings|Month 1 Learnings]] — 実際の1ヶ月の経験知
+- [[muscle-memory|Muscle Memory]] — 再獲得のメカニズムと推定期間
 - [[Detraining]] — 結合組織のデコンディショニング
-- [[Volume Landmarks]] — MV/MEV の概念と Bickel 2011
-- [[Progressive Overload]] — 漸進性過負荷の原則
-- [[RIR and RPE]] — 強度管理
-- [[Full Body for Returning Lifters]] — プログラム形式の根拠
-- [[SBS: Detraining]] — 復帰プロトコルの元ソース
-- [[Greg Nuckols]] — 復帰プロトコルの提唱者
+- [[volume-landmarks|Volume Landmarks]] — MV/MEV の概念と Bickel 2011
+- [[progressive-overload|Progressive Overload]] — 漸進性過負荷の原則
+- [[rir-and-rpe|RIR and RPE]] — 強度管理
+- [[full-body-for-returning-lifters|Full Body for Returning Lifters]] — プログラム形式の根拠
+- [[sbs-detraining|SBS: Detraining]] — 復帰プロトコルの元ソース
+- [[greg-nuckols|Greg Nuckols]] — 復帰プロトコルの提唱者
 
 ## 実績記録
 

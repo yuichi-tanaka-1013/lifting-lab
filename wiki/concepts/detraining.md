@@ -3,7 +3,7 @@ type: concept
 tags: [returning-lifter, physiology, my-priority]
 created: 2026-05-18
 last_updated: 2026-05-18
-sources: ["[[SBS: Detraining]]"]
+sources: ["[[sbs-detraining|SBS: Detraining]]"]
 confidence: high
 ---
 
@@ -33,7 +33,7 @@ Bosquet et al. 2013 メタアナリシス（103研究）による:
 - 1ヶ月以降に低下が加速
 - 全筋サイズ（thickness, CSA）は低下するが、筋線維断面積（fiber CSA）は比較的維持される
   - 見た目の変化は筋浮腫・グリコーゲン・血流の減少が先行 → 実際の筋量低下はやや遅れる
-- [[Greg Nuckols]] の実践的推定: 筋量低下は筋力低下とおおよそ並行
+- [[greg-nuckols|Greg Nuckols]] の実践的推定: 筋量低下は筋力低下とおおよそ並行
 
 ### 見た目と実質のギャップ
 
@@ -59,9 +59,9 @@ Bosquet et al. 2013 メタアナリシス（103研究）による:
 
 ## Retraining における回復速度
 
-→ 詳細は [[Muscle Memory]] を参照
+→ 詳細は [[muscle-memory|Muscle Memory]] を参照
 
-核心的推定（[[Greg Nuckols]]）:
+核心的推定（[[greg-nuckols|Greg Nuckols]]）:
 - **再獲得期間 ≈ 中断期間の約1/2（CI: 1/3〜2/3）**
 - 12週の detraining → 約6週（4-8週）で回復
 
@@ -73,11 +73,11 @@ Bosquet et al. 2013 メタアナリシス（103研究）による:
 - 週1-2回、30-45分の自重トレ（腕立て・懸垂・スプリットスクワット・ヒップスラスト）
 - 栄養面: 除脂肪体重 × 1.3-1.4 g/日のタンパク質、極端なカロリー過不足を避ける
 
-→ 詳細は [[Volume Landmarks]] の MV セクションを参照
+→ 詳細は [[volume-landmarks|Volume Landmarks]] の MV セクションを参照
 
 ## 私の実体験（Month 1）
 
-→ 詳細は [[Month 1 Learnings]] を参照
+→ 詳細は [[month1-learnings|Month 1 Learnings]] を参照
 
 2年8ヶ月の中断後、上半身プッシュ/プルのみで復帰した1ヶ月:
 
@@ -96,9 +96,9 @@ Bosquet et al. 2013 メタアナリシス（103研究）による:
 
 ## 関連ページ
 
-- [[Muscle Memory]] — 再獲得のメカニズム
-- [[Volume Landmarks]] — 維持に必要な最小ボリューム
-- [[Progressive Overload]] — 復帰時の漸進戦略
-- [[RIR and RPE]] — 復帰時のオートレギュレーション
-- [[Full Body for Returning Lifters]] — 復帰時のプログラム
-- [[SBS: Detraining]] — ソースサマリ
+- [[muscle-memory|Muscle Memory]] — 再獲得のメカニズム
+- [[volume-landmarks|Volume Landmarks]] — 維持に必要な最小ボリューム
+- [[progressive-overload|Progressive Overload]] — 復帰時の漸進戦略
+- [[rir-and-rpe|RIR and RPE]] — 復帰時のオートレギュレーション
+- [[full-body-for-returning-lifters|Full Body for Returning Lifters]] — 復帰時のプログラム
+- [[sbs-detraining|SBS: Detraining]] — ソースサマリ

@@ -3,7 +3,7 @@ type: overview
 tags: [strength, milestones, returning-lifter]
 created: 2026-06-23
 last_updated: 2026-07-20
-sources: ["[[Current State]]", "[[Body Composition Timeline]]", "[[筋肥大目的でのフェーズ設計]]"]
+sources: ["[[current-state|Current State]]", "[[body-composition-timeline|Body Composition Timeline]]", "[[筋肥大目的でのフェーズ設計]]"]
 confidence: medium
 aliases: ["Strength Roadmap"]
 ---
@@ -83,7 +83,7 @@ aliases: ["Strength Roadmap"]
 |------|-------|-------------|--------|--------------------------|
 | **2026 Q3**（now） | Phase 1 LP 終盤 | **260-280** | カット継続 → 8月末-9月上旬 84kg/15% でメンテ移行 | ベンチ 70kg 昇格（Week 13-14）、**Phase 1 卒業（Week 15-17、8-9月）**: SQ 60超 / 週4×2-3週連続。9月中旬 InBody |
 | **2026 Q4** | **Phase 2 Volume Block 開始**（Week 20+、10月頃） | **300-320** | メンテ→リーンバルク開始（+200-300 kcal）。**開始条件: 83-84kg / BF 14-15%（体重より BF% を優先判定）+ メンテ 2-4週を挟む** | **ピーク復帰 300kg（2026 秋〜冬）** = 2023 の自分に戻る。アイソレーション正式導入（腕の筋量回復開始） |
-| **2027 Q1** | Phase 2 | **320-340** | LBM +0.5-1kg。**2月中旬〜3月末ミニカット → 4月健診を 84-85kg / BF~15% で受診**（[[Weight Target Ranges]] の4月アンカー） | **ベンチ 100kg（心理的マイルストーン）**。SQ 100 / DL 130 台に乗る想定。ミニカット中の挙上停滞は正常 |
+| **2027 Q1** | Phase 2 | **320-340** | LBM +0.5-1kg。**2月中旬〜3月末ミニカット → 4月健診を 84-85kg / BF~15% で受診**（[[weight-target-ranges|Weight Target Ranges]] の4月アンカー） | **ベンチ 100kg（心理的マイルストーン）**。SQ 100 / DL 130 台に乗る想定。ミニカット中の挙上停滞は正常 |
 | **2027 Q2** | Phase 2（4月メンテ → GW明け本カット開始） | **340-355** | 4月 84-85kg 維持 → GW明けから -0.3〜-0.4kg/週（6月末 ~82kg / ~13%）。6月中旬にダイエットブレイク1週 | **ベンチ 100kg は Q2 前半（カット深化前の4-5月）に挑戦**。中級 350 はカットのため Q4 へ後ろ倒し |
 | **2027 Q3** | Phase 2（カット完遂 → リバース） | **340-360（維持基調）** | 7月末 **80-81kg / BF 11-12% 到達 → 8月上旬 海（本人決定の年間ピーク）** → 8-9月リバースダイエット（→82kg 前後） | 深いカット終盤は**挙上維持が目標**（-5% 以内は正常）。体重比は逆に向上（懸垂・相対筋力） |
 | **2027 Q4** | Phase 2 再開 | **360-380** | 10月バルク再開（82 → 12月 ~84）。LBM 累計 +1.5-2kg | **中級ライン 350kg をここで確定**（カット明けはリバウンドゲインで速い）。復帰から約1年半 |
@@ -94,7 +94,7 @@ aliases: ["Strength Roadmap"]
 
 ### この表の使い方
 
-- **本人スタンス（2026-07-20）**: マイルストーンは「やりながら調整する前提の仮置き」。筋力の伸びは個体差が大きく、年齢（40代、[[Weight Target Ranges]] の LBM プラトー考慮）もあるため、数値に固執せず四半期レビューで実測に合わせて動かす。遅れても失敗ではなく、キャリブレーションの入力として扱う
+- **本人スタンス（2026-07-20）**: マイルストーンは「やりながら調整する前提の仮置き」。筋力の伸びは個体差が大きく、年齢（40代、[[weight-target-ranges|Weight Target Ranges]] の LBM プラトー考慮）もあるため、数値に固執せず四半期レビューで実測に合わせて動かす。遅れても失敗ではなく、キャリブレーションの入力として扱う
 
 - **答え合わせは四半期ごと**: InBody（LBM）と BIG3 推定 1RM の2軸で、上の行とズレたら「重量が遅れているのか、筋量が遅れているのか」を切り分けて対処する（重量遅れ → プログラム調整、筋量遅れ → 食事・ボリューム調整）
 - 2027 Q2 の 350kg までは筋量の裏付けが既にある（[[big3-potential-2026-07]]）ため**確度高**。2027 Q4 以降は筋量の増加実績に依存するため**確度中**
@@ -124,7 +124,7 @@ aliases: ["Strength Roadmap"]
 | 絶対筋力は微減の可能性 | ただしリコンプ効果で最小化可能 |
 
 **80kg / 15% BF で BIG3 350kg** が「健康 × 動ける × 見た目」全部を満たすターゲット。
-体組成目標の詳細は [[Weight Target Ranges]] を参照。
+体組成目標の詳細は [[weight-target-ranges|Weight Target Ranges]] を参照。
 
 ## 進捗の追跡方法
 
@@ -140,9 +140,9 @@ aliases: ["Strength Roadmap"]
 ## 関連ページ
 
 - [[筋肥大目的でのフェーズ設計]] — プログラミング全体設計（本ドキュメントの上位）
-- [[Phase 2 Hypertrophy Block]] — Phase 2 の具体プログラム
-- [[復帰プログラム: Month 3]] — Phase 1 の現在の詳細
-- [[Weight Target Ranges]] — 体組成目標
-- [[Current State]] — 最新のパフォーマンス
-- [[Body Composition Timeline]] — 体組成の推移
-- [[Muscle Memory]] — ピーク復帰の根拠
+- [[phase-2-hypertrophy-block|Phase 2 Hypertrophy Block]] — Phase 2 の具体プログラム
+- [[return-program-month3|復帰プログラム: Month 3]] — Phase 1 の現在の詳細
+- [[weight-target-ranges|Weight Target Ranges]] — 体組成目標
+- [[current-state|Current State]] — 最新のパフォーマンス
+- [[body-composition-timeline|Body Composition Timeline]] — 体組成の推移
+- [[muscle-memory|Muscle Memory]] — ピーク復帰の根拠

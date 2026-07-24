@@ -79,15 +79,16 @@ aliases / tags を全て無視し、グラフのエッジが消える (2026-07-2
 - 概念: `[[Mechanical Tension]]`, `[[Volume Landmarks]]`
 - プログラム: `[[PPL Split]]`, `[[5x5 Program]]`
 
-### グラフ (エッジ) を切らないためのルール — 2026-07-25 制定
+### グラフ (エッジ) を切らないためのルール — 2026-07-25 制定・同日改訂
 
-ファイル名は kebab-case、リンクはタイトル表記のため、**frontmatter の `aliases` がないと Obsidian でエッジが結ばれない**。
+**Obsidian はリンクをファイル名でしか解決しない。aliases は入力補完・検索用で、`[[別名]]` と生で書いてもエッジにならない** (2026-07-25 に okada-takashi の孤立で確定した事実)。
 
-1. **新規ページ作成時は必ず frontmatter に `aliases: [<リンクで使う表記>]` を入れる**（例: `current-state.md` → `aliases: [Current State]`）
-2. ページを作ったら **wiki/index.md に登録**し、関連ページと**双方向**にリンクする（片方向だけにしない）
-3. **workout 記録 (raw/personal/workouts/) は末尾に `## 関連 → [[weekN-cheatsheet]]`** を付ける（チートシート側の「実績記録」にも逆リンクを追加して双方向にする）
-4. 存在しないページへのリンクを sources 等に書かない（書くなら実ページを作るか平文にする）
-5. 検証: `python3 scripts/check-graph.py`（孤立ノードと未解決リンクを検出）を月1目安で実行
+1. **リンクは必ずパイプ形式 `[[ファイル名|表示名]]` で書く**（例: `[[okada-takashi|岡田隆]]`, `[[current-state|Current State]]`）。ファイル名と表示が同じ場合のみ `[[week14-cheatsheet]]` の生形式で可
+2. frontmatter の `aliases` は補完・検索用として維持する（クォート必須: `aliases: ["Current State"]`）
+3. ページを作ったら **wiki/index.md に登録**し、関連ページと**双方向**にリンクする（片方向だけにしない）
+4. **workout 記録 (raw/personal/workouts/) は末尾に `## 関連 → [[weekN-cheatsheet]]`** を付ける（チートシート側の「実績記録」にも逆リンクを追加して双方向にする）
+5. 存在しないページへのリンクを書かない（書くなら実ページを作るか平文にする）。文書中の記法例はインラインコードでフェンスする
+6. 検証: `python3 scripts/check-graph.py`（YAML 検証・孤立ノード・未解決リンクを Obsidian の実解決規則で検出）を月1目安で実行
 
 ## オペレーション
 

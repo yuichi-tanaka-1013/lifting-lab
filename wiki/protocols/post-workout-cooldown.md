@@ -12,7 +12,7 @@ aliases: ["Post-Workout Cooldown"]
 
 > トレーニング後に行う静的ストレッチのプロトコル。
 > **セッション前ではなくセッション後に行う理由**: 60秒以上の静的ストレッチは筋力を急性的に
-> 低下させるエビデンスがあるため（[[Static Stretching]]）。
+> 低下させるエビデンスがあるため（[[static-stretching|Static Stretching]]）。
 > セッション後なら筋力低下の影響を受けず、ROM 向上の恩恵だけを得られる。
 > 所要時間: **約5-8分**。
 
@@ -42,7 +42,7 @@ aliases: ["Post-Workout Cooldown"]
 |---|------|------|---------|------|
 | 1 | **ドアフレーム胸ストレッチ** | 30秒 x 2/側 | 大胸筋・前部デルト | ベンチ後に短縮した胸筋を伸ばす。巻き肩対策 |
 | 2 | **クロスボディショルダーストレッチ** | 30秒 x 2/側 | 後部デルト・RC 周辺 | 引っ張りすぎない。痛みが出ない範囲 |
-| 3 | **ソラシックエクステンション（フォームローラー）** | 1分 | [[Thoracic Mobility|T-spine]] | フォームローラーの上に仰向けで胸椎を伸展。ローラーがなければ壁に背中をつけて伸展 |
+| 3 | **ソラシックエクステンション（フォームローラー）** | 1分 | [[thoracic-mobility|T-spine]] | フォームローラーの上に仰向けで胸椎を伸展。ローラーがなければ壁に背中をつけて伸展 |
 | 4 | **トライセプスストレッチ** | 20秒 x 2/側 | 上腕三頭筋 | ベンチ/プレス後の補助 |
 
 ## 下半身セッション後のルーティン（6分）
@@ -72,14 +72,14 @@ Month 2 のプログラムでは上半身+下半身を毎回行うので、以�
 
 - **フォームローラーで全身をゴリゴリ転がす**: セルフ筋膜リリースの効果はエビデンスが限定的。T-spine の伸展ツールとしては有効だが、全身に時間をかける必要はない
 - **ストレッチで「痛気持ちいい」を追求する**: 4-6/10 の強度で十分。痛みを感じるレベルは伸張反射を引き起こし逆効果
-- **ストレッチを筋力トレーニングの代替と考える**: ストレッチは ROM 向上のツール。筋力・筋量の維持/向上にはレジスタンストレーニングが必要（[[Volume Landmarks]]）
+- **ストレッチを筋力トレーニングの代替と考える**: ストレッチは ROM 向上のツール。筋力・筋量の維持/向上にはレジスタンストレーニングが必要（[[volume-landmarks|Volume Landmarks]]）
 
 ## 関連ページ
 
-- [[Static Stretching]] — エビデンスの詳細
-- [[Dynamic Stretching]] — セッション前に使うべきもの
-- [[Mobility vs Flexibility]] — 概念の違い
-- [[Thoracic Mobility]]
-- [[Hip Mobility]]
-- [[Rotator Cuff Mobility]]
-- [[Daily Mobility 5min]] — セッション日以外のルーティン
+- [[static-stretching|Static Stretching]] — エビデンスの詳細
+- [[dynamic-stretching|Dynamic Stretching]] — セッション前に使うべきもの
+- [[mobility-vs-flexibility|Mobility vs Flexibility]] — 概念の違い
+- [[thoracic-mobility|Thoracic Mobility]]
+- [[hip-mobility|Hip Mobility]]
+- [[rotator-cuff-mobility|Rotator Cuff Mobility]]
+- [[daily-mobility-5min|Daily Mobility 5min]] — セッション日以外のルーティン

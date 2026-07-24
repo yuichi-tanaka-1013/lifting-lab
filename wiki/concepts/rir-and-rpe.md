@@ -3,7 +3,7 @@ type: concept
 tags: [intensity, programming, autoregulation, my-priority]
 created: 2026-05-18
 last_updated: 2026-07-20
-sources: ["[[Eric Helms]] の RPE/RIR 系研究群"]
+sources: ["[[eric-helms|Eric Helms]] の RPE/RIR 系研究群"]
 confidence: high
 aliases: ["RIR and RPE"]
 ---
@@ -65,6 +65,6 @@ aliases: ["RIR and RPE"]
 
 ## 関連ページ
 
-- [[Progressive Overload]] — RIR 逆算で漸進する仕組み
-- [[Volume Landmarks]] — ボリューム側の管理
-- [[Current State]] — 現在の RIR ターゲット
+- [[progressive-overload|Progressive Overload]] — RIR 逆算で漸進する仕組み
+- [[volume-landmarks|Volume Landmarks]] — ボリューム側の管理
+- [[current-state|Current State]] — 現在の RIR ターゲット

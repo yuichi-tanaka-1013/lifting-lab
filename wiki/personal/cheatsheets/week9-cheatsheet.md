@@ -154,7 +154,7 @@ aliases: ["Week 9 Cheat Sheet"]
 | リバースクランチ | 12 | 腹直筋下部 |
 
 > 昇格条件: クランチ 20 x 3 + リバースクランチ 20 x 3 が楽 → Lv.2（レッグレイズ）へ
-> 目標: [[ドラゴンフラッグ]]（Lv.5）
+> 目標: [[dragon-flag-progression|ドラゴンフラッグ]]（Lv.5）
 
 今週の実施: __ / 7日
 
@@ -175,7 +175,7 @@ aliases: ["Week 9 Cheat Sheet"]
 
 ---
 
-詳細: [[復帰プログラム: Month 3]]
+詳細: [[return-program-month3|復帰プログラム: Month 3]]
 
 ---
 

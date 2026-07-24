@@ -3,7 +3,7 @@ type: concept
 tags: [hypertrophy, volume, programming]
 created: 2026-05-18
 last_updated: 2026-05-18
-sources: ["[[SBS: Detraining]]"]
+sources: ["[[sbs-detraining|SBS: Detraining]]"]
 confidence: high
 aliases: ["Volume Landmarks"]
 ---
@@ -12,7 +12,7 @@ aliases: ["Volume Landmarks"]
 
 ## 概要
 
-[[Mike Israetel]]（Renaissance Periodization）が体系化したボリュームの4段階モデル。トレーニングプログラム設計の基礎フレームワーク。
+[[mike-israetel|Mike Israetel]]（Renaissance Periodization）が体系化したボリュームの4段階モデル。トレーニングプログラム設計の基礎フレームワーク。
 
 ## MV（Maintenance Volume）
 
@@ -65,7 +65,7 @@ aliases: ["Volume Landmarks"]
 
 ### 実践的な MV の目安
 
-上記研究を踏まえた、[[Greg Nuckols]] による実践的推奨:
+上記研究を踏まえた、[[greg-nuckols|Greg Nuckols]] による実践的推奨:
 
 - **完全停止より何かしらの最小トレーニングを継続することが圧倒的に有効**
 - 週1-2回、30-45分の最小プログラム例:
@@ -103,7 +103,7 @@ aliases: ["Volume Landmarks"]
 
 ### 私の実体験（Month 1）
 
-→ 詳細は [[Month 1 Learnings]] を参照
+→ 詳細は [[month1-learnings|Month 1 Learnings]] を参照
 
 - 本人の最大の後悔は「週に1度でも継続できていればよかった」。理論（Bickel 2011）を知る前に、身体で同じ結論に至っている
 - この実感は今後の中断予防において最も強力なモチベーション源。**理論と実体験が一致したことで、次回忙しい時期に「MV でもいいから行く」判断がしやすくなった**
@@ -113,12 +113,12 @@ aliases: ["Volume Landmarks"]
 現在の週2-3回のトレーニングでは:
 - 各筋群あたり週4-6セットからスタートするのが安全
 - これは MV を確実に超え、MEV 付近からのスタートになる
-- [[Progressive Overload]] と組み合わせ、ボリュームも段階的に増やす
+- [[progressive-overload|Progressive Overload]] と組み合わせ、ボリュームも段階的に増やす
 
 ## 関連ページ
 
-- [[Mike Israetel]] — Volume Landmarks の体系化
+- [[mike-israetel|Mike Israetel]] — Volume Landmarks の体系化
 - [[Detraining]] — 中断による影響と維持戦略
-- [[Muscle Memory]] — 再獲得のメカニズム
-- [[Progressive Overload]] — 漸進性過負荷
-- [[SBS: Detraining]] — Bickel 2011 の知見を含むソース
+- [[muscle-memory|Muscle Memory]] — 再獲得のメカニズム
+- [[progressive-overload|Progressive Overload]] — 漸進性過負荷
+- [[sbs-detraining|SBS: Detraining]] — Bickel 2011 の知見を含むソース

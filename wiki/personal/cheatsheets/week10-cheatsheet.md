@@ -180,7 +180,7 @@ aliases: ["Week 10 Cheat Sheet"]
 
 ---
 
-詳細: [[復帰プログラム: Month 3]], [[Weight Target Ranges]]
+詳細: [[return-program-month3|復帰プログラム: Month 3]], [[weight-target-ranges|Weight Target Ranges]]
 
 ---
 

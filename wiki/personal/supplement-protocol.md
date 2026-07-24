@@ -14,9 +14,9 @@ aliases: ["Supplement Protocol"]
 
 | サプリ | 種類/ブランド | 量 | タイミング | 目的 |
 |--------|-------------|-----|----------|------|
-| [[Whey Protein]] | WPC | ワンスクープ | 寝る前 | タンパク質補給 |
-| [[Creatine Monohydrate]] | — | ワンスクープ | 寝る前（プロテインと同時） | 筋力・筋量 |
-| [[Collagen Peptide]] | 水溶性海洋コラーゲンペプチド | ワンスクープ | 寝る前（プロテインと同時） | 結合組織サポート |
+| [[whey-protein|Whey Protein]] | WPC | ワンスクープ | 寝る前 | タンパク質補給 |
+| [[creatine-monohydrate|Creatine Monohydrate]] | — | ワンスクープ | 寝る前（プロテインと同時） | 筋力・筋量 |
+| [[collagen-peptide|Collagen Peptide]] | 水溶性海洋コラーゲンペプチド | ワンスクープ | 寝る前（プロテインと同時） | 結合組織サポート |
 
 ### 推奨変更（2026-05-31 食事記録分析に基づく）
 
@@ -42,7 +42,7 @@ aliases: ["Supplement Protocol"]
 
 - **プロテイン**: 寝る前のカゼイン的な効果は WPC でも一部期待できるが、トレーニング後の摂取が一般的には推奨される。分割摂取（トレ後 + 寝る前）の検討余地あり
 - **クレアチン**: タイミングは筋力への影響が小さいとされる（毎日摂取していれば OK）。現在のタイミングで問題なし
-- **コラーゲンペプチド**: 結合組織サポートが目的。出戻り組として結合組織のデコンディショニング（[[Detraining]]）を考慮すると、摂取は理にかなっている。ただしエビデンスの強度は [[Creatine Monohydrate]] より低い
+- **コラーゲンペプチド**: 結合組織サポートが目的。出戻り組として結合組織のデコンディショニング（[[Detraining]]）を考慮すると、摂取は理にかなっている。ただしエビデンスの強度は [[creatine-monohydrate|Creatine Monohydrate]] より低い
 
 ## 変更履歴
 
@@ -54,9 +54,9 @@ aliases: ["Supplement Protocol"]
 
 ## 関連ページ
 
-- [[Whey Protein]]
-- [[Creatine Monohydrate]]
-- [[Collagen Peptide]]
+- [[whey-protein|Whey Protein]]
+- [[creatine-monohydrate|Creatine Monohydrate]]
+- [[collagen-peptide|Collagen Peptide]]
 - [[EAA]]
 - [[Multivitamin]]
-- [[Current State]] — タンパク質摂取量（未測定）
+- [[current-state|Current State]] — タンパク質摂取量（未測定）

@@ -10,7 +10,7 @@ aliases: ["Pre-Workout RAMP: Upper Body"]
 
 # Pre-Workout RAMP: Upper Body
 
-> [[RAMP Protocol]]（Raise/Activate/Mobilize/Potentiate）に基づく、
+> [[ramp-protocol|RAMP Protocol]]（Raise/Activate/Mobilize/Potentiate）に基づく、
 > 上半身セッション前の動的ウォームアップ。RC への配慮を含む。
 > 所要時間: **約8-10分**。
 
@@ -27,21 +27,21 @@ aliases: ["Pre-Workout RAMP: Upper Body"]
 
 | # | 種目 | セット x レップ | 対象 | 備考 |
 |---|------|----------------|------|------|
-| 1 | **バンド外旋（肘90度固定）** | 2 x 15 | [[Rotator Cuff Mobility|RC]]（棘下筋・小円筋） | **最重要**。ベンチの不安定感対策。Month 1 で不足していた |
+| 1 | **バンド外旋（肘90度固定）** | 2 x 15 | [[rotator-cuff-mobility|RC]]（棘下筋・小円筋） | **最重要**。ベンチの不安定感対策。Month 1 で不足していた |
 | 2 | **バンドプルアパート** | 1 x 15 | 後部デルト・僧帽筋中下部 | 巻き肩の抑制。肩甲骨の位置を整える |
 | 3 | **腕立て伏せ（軽め）** | 1 x 8-10 | 大胸筋・前鋸筋 | プッシュ系のモーターパターン予行。重くしない |
 
 > **なぜ RC 活性化がベンチの前に必要か**:
 > RC は肩関節の「動的安定装置」。RC が活性化していない状態でベンチを行うと、
 > 三角筋と大胸筋だけで関節を安定させようとし、不安定感が生じる。
-> ベンチの不安定感（[[Current State]] リスクマップ）はこのメカニズムで説明できる可能性がある。
+> ベンチの不安定感（[[current-state|Current State]] リスクマップ）はこのメカニズムで説明できる可能性がある。
 
 ## M — Mobilize（可動域確保、3分）
 
 | # | 種目 | セット x レップ | 対象 | 備考 |
 |---|------|----------------|------|------|
 | 1 | **ショルダーディスロケーション** | 1 x 10 | 肩全体の ROM | PVCパイプ or バンド。痛みが出る手前で止める |
-| 2 | **キャット&カウ** | 1 x 10 | [[Thoracic Mobility|T-spine]] | 胸椎の屈曲/伸展。ベンチのアーチに必要 |
+| 2 | **キャット&カウ** | 1 x 10 | [[thoracic-mobility|T-spine]] | 胸椎の屈曲/伸展。ベンチのアーチに必要 |
 | 3 | **ベンチプレスバーのみ** | 1 x 10 | 肩・胸の動作パターン | 20kg（バーのみ）でフルROMのベンチ。ボトムでのストレッチ感を確認 |
 
 ## P — Potentiate（神経系準備、2分）
@@ -55,16 +55,16 @@ aliases: ["Pre-Workout RAMP: Upper Body"]
 
 ## エビデンスベースの注意事項
 
-1. **セッション前に長時間の静的ストレッチを行わない**: 60秒以上の静的ストレッチは筋力を急性的に低下させる（[[Static Stretching]]）。ウォームアップは動的ストレッチで行い、静的ストレッチはセッション後に回す
-2. **RC 活性化は省略不可**: Month 1 で RC プリハブが不足していたことが [[Month 1 Learnings]] で判明。これを Month 2 で是正する
+1. **セッション前に長時間の静的ストレッチを行わない**: 60秒以上の静的ストレッチは筋力を急性的に低下させる（[[static-stretching|Static Stretching]]）。ウォームアップは動的ストレッチで行い、静的ストレッチはセッション後に回す
+2. **RC 活性化は省略不可**: Month 1 で RC プリハブが不足していたことが [[month1-learnings|Month 1 Learnings]] で判明。これを Month 2 で是正する
 3. **ウォームアップは「やらなくてもいい退屈な作業」ではなく、トレーニングの一部**: 特に RC の問題がある状態では、ウォームアップの質がセッションの質を決定する
 
 ## 関連ページ
 
-- [[RAMP Protocol]]
-- [[Rotator Cuff Mobility]]
-- [[Thoracic Mobility]]
-- [[Dynamic Stretching]]
-- [[Static Stretching]] — セッション前に避けるべき理由
-- [[Current State]] — ベンチの不安定感
-- [[復帰プログラム: Week 5-8]] — 上半身のプログラム
+- [[ramp-protocol|RAMP Protocol]]
+- [[rotator-cuff-mobility|Rotator Cuff Mobility]]
+- [[thoracic-mobility|Thoracic Mobility]]
+- [[dynamic-stretching|Dynamic Stretching]]
+- [[static-stretching|Static Stretching]] — セッション前に避けるべき理由
+- [[current-state|Current State]] — ベンチの不安定感
+- [[return-program-week5-8|復帰プログラム: Week 5-8]] — 上半身のプログラム

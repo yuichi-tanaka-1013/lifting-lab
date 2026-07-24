@@ -171,7 +171,7 @@ aliases: ["Week 13 Cheat Sheet"]
 | **クラムシェル（NEW 7/21）** | **10/側** | **中臀筋の神経接続再建（手で触れて収縮確認）** |
 
 > 昇格条件: クランチ 20 x 3 + リバースクランチ 20 x 3 が楽 → Lv.2（レッグレイズ）へ
-> 目標: [[ドラゴンフラッグ]]（Lv.5）
+> 目標: [[dragon-flag-progression|ドラゴンフラッグ]]（Lv.5）
 
 今週の実施: __ / 7日
 
@@ -241,7 +241,7 @@ aliases: ["Week 13 Cheat Sheet"]
 
 ---
 
-詳細: [[復帰プログラム: Month 3]], [[Weight Target Ranges]], [[Phase 2 Hypertrophy Block]]
+詳細: [[return-program-month3|復帰プログラム: Month 3]], [[weight-target-ranges|Weight Target Ranges]], [[phase-2-hypertrophy-block|Phase 2 Hypertrophy Block]]
 
 ---
 

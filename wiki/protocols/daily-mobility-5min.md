@@ -66,8 +66,8 @@ aliases: ["Daily Home Routine", "Daily Mobility 5min"]
 
 ## 関連ページ
 
-- [[Rotator Cuff Mobility]] — RC 強化
-- [[Thoracic Mobility]] — T-spine 維持
-- [[Hip Mobility]] — 股関節維持
-- [[Current State]] — ウエスト 97.9cm、体脂肪率 20.7%
-- [[Body Composition Timeline]] — カット目標 15%
+- [[rotator-cuff-mobility|Rotator Cuff Mobility]] — RC 強化
+- [[thoracic-mobility|Thoracic Mobility]] — T-spine 維持
+- [[hip-mobility|Hip Mobility]] — 股関節維持
+- [[current-state|Current State]] — ウエスト 97.9cm、体脂肪率 20.7%
+- [[body-composition-timeline|Body Composition Timeline]] — カット目標 15%

@@ -3,7 +3,7 @@ type: overview
 tags: [returning-lifter, programming, my-priority]
 created: 2026-05-18
 last_updated: 2026-05-18
-sources: ["[[SBS: Detraining]]", "[[Current State]]", "[[Month 1 Learnings]]"]
+sources: ["[[sbs-detraining|SBS: Detraining]]", "[[current-state|Current State]]", "[[month1-learnings|Month 1 Learnings]]"]
 confidence: medium
 aliases: ["復帰プログラム: Week 5-8"]
 ---
@@ -11,7 +11,7 @@ aliases: ["復帰プログラム: Week 5-8"]
 # 復帰プログラム: Week 5-8（Month 2）
 
 > **Confidence: medium** — Month 1 の実績データを反映し、上半身は実証済みの進行ペースに基づいて設計。
-> 下半身は [[SBS: Detraining]] の復帰プロトコルを適用するが、1ヶ月遅れでの導入という
+> 下半身は [[sbs-detraining|SBS: Detraining]] の復帰プロトコルを適用するが、1ヶ月遅れでの導入という
 > 特殊な状況のため、上半身の Month 1 経験よりさらに保守的にスタートする。
 
 ## 設計の核心: 二層の漸進
@@ -59,7 +59,7 @@ Month 2 の最大の特徴は、**上半身と下半身がまったく異なる�
 
 ## Week 5: 下半身導入週（DOMS 防止が最優先）
 
-[[SBS: Detraining]] (Huang 2019): 10% 1RM の1セッションでも DOMS を大幅に軽減する。
+[[sbs-detraining|SBS: Detraining]] (Huang 2019): 10% 1RM の1セッションでも DOMS を大幅に軽減する。
 下半身は2年9ヶ月間ゼロ負荷。最初のセッションを甘く見ると、3-5日歩行困難になりかねない。
 
 ### Day A（スクワット導入）— 実施済み 2026-05-22
@@ -197,11 +197,11 @@ DOMS が許容範囲（翌日の軽い筋肉痛のみ、歩行に支障なし）
 | プッシュ（胸・三頭・前部デルト） | ベンチ 3 x 2日 = 6 | 6 |
 | プル（背中・二頭） | ロウ 3 + プルダウン 3 + フェイスプル 2 + バンドプルアパート 2 = 10 | 10 |
 
-**Push:Pull = 6:10 ≈ 1:1.7** — [[Current State]] の目標（1:1.5-2）の範囲内。
+**Push:Pull = 6:10 ≈ 1:1.7** — [[current-state|Current State]] の目標（1:1.5-2）の範囲内。
 
 ---
 
-## 漸進性過負荷ルール（[[Progressive Overload]]）
+## 漸進性過負荷ルール（[[progressive-overload|Progressive Overload]]）
 
 ### 下半身（新規導入、Month 1 のルールを適用）
 
@@ -347,7 +347,7 @@ Week 8 終了時に以下を計画:
 | Week 5 をゴブレット/DB RDL で開始 | ROM ではなく**結合組織の耐性**と**DOMS 防止**が目的。ROM が良好でも結合組織は2年9ヶ月分デコンディショニングされている |
 | Week 5 の重量（10kg） | 軽い重量は DOMS 防止（Huang 2019）と motor pattern 再学習が目的。ROM の制限とは無関係 |
 | DOMS ゲートの維持 | 筋肉痛の強さは ROM ではなく筋の detraining 度に依存。ROM が良好でも severe DOMS は起こりうる |
-| RC プリハブの毎回実施 | 肩の passive ROM は良好だが**ベンチの不安定感は残存**。passive ROM ≠ active stability（[[Hypotheses: ROM Preservation]] H1c） |
+| RC プリハブの毎回実施 | 肩の passive ROM は良好だが**ベンチの不安定感は残存**。passive ROM ≠ active stability（[[hypotheses|Hypotheses: ROM Preservation]] H1c） |
 
 ### Transition Gate の焦点シフト
 
@@ -472,13 +472,13 @@ Week 5b 終了時に同じ Gate 1-4 を再評価する。通過できれば Week
 
 ## 関連ページ
 
-- [[Current State]] — 私の現在地（Month 1 終了時点）
-- [[Month 1 Learnings]] — 計画と実際の乖離から得た学び
-- [[復帰プログラム: Week 1-4]] — Month 1 の Plan vs Actual
-- [[Muscle Memory]] — 下半身にも適用される再獲得のメカニズム
+- [[current-state|Current State]] — 私の現在地（Month 1 終了時点）
+- [[month1-learnings|Month 1 Learnings]] — 計画と実際の乖離から得た学び
+- [[return-program-week1-4|復帰プログラム: Week 1-4]] — Month 1 の Plan vs Actual
+- [[muscle-memory|Muscle Memory]] — 下半身にも適用される再獲得のメカニズム
 - [[Detraining]] — 結合組織のデコンディショニング（下半身で特に注意）
-- [[Volume Landmarks]] — MV フォールバック
-- [[Progressive Overload]] — 二層の漸進ルール
-- [[RIR and RPE]] — 強度管理
-- [[Full Body for Returning Lifters]] — プログラム形式
-- [[SBS: Detraining]] — 復帰プロトコルの元ソース
+- [[volume-landmarks|Volume Landmarks]] — MV フォールバック
+- [[progressive-overload|Progressive Overload]] — 二層の漸進ルール
+- [[rir-and-rpe|RIR and RPE]] — 強度管理
+- [[full-body-for-returning-lifters|Full Body for Returning Lifters]] — プログラム形式
+- [[sbs-detraining|SBS: Detraining]] — 復帰プロトコルの元ソース

@@ -57,7 +57,7 @@ aliases: ["Core Training"]
 
 ## 漸進性過負荷の適用
 
-腹筋にも [[Progressive Overload]] は適用される:
+腹筋にも [[progressive-overload|Progressive Overload]] は適用される:
 
 1. **レップ数を増やす**（15 → 20 → 25）
 2. **セット数を増やす**（2 → 3）
@@ -72,6 +72,6 @@ aliases: ["Core Training"]
 
 ## 関連ページ
 
-- [[Dragon Flag Progression]] — ドラゴンフラッグへのロードマップ
-- [[Daily Home Routine|Daily Home Routine]] — 毎日の自宅メニュー
-- [[Body Composition Timeline]] — カット目標（20.7% → 15%）
+- [[dragon-flag-progression|Dragon Flag Progression]] — ドラゴンフラッグへのロードマップ
+- [[daily-mobility-5min|Daily Home Routine]] — 毎日の自宅メニュー
+- [[body-composition-timeline|Body Composition Timeline]] — カット目標（20.7% → 15%）

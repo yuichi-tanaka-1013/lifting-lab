@@ -3,7 +3,7 @@ type: personal
 tags: [returning-lifter, empirical, month1]
 created: 2026-05-18
 last_updated: 2026-05-18
-sources: ["[[raw/personal/retrospective-month1.md]]", "[[Current State]]"]
+sources: ["[[raw/personal/retrospective-month1.md]]", "[[current-state|Current State]]"]
 confidence: medium
 aliases: ["Month 1 Learnings"]
 ---
@@ -16,17 +16,17 @@ aliases: ["Month 1 Learnings"]
 
 **事実**: ベンチプレス 40kg → 60kg（+50%）を8セッション（約4週間）で達成。
 
-**wiki との照合**: [[Muscle Memory]] に記載の通り、「神経系の回復が先行する」という予測と完全に一致。4週間で baseline 測定時の working weight に到達した。これは [[Greg Nuckols]] の「retraining 期間 ≈ detraining 期間の 1/2」の推定より速いペースだが、以下の要因が考えられる:
+**wiki との照合**: [[muscle-memory|Muscle Memory]] に記載の通り、「神経系の回復が先行する」という予測と完全に一致。4週間で baseline 測定時の working weight に到達した。これは [[greg-nuckols|Greg Nuckols]] の「retraining 期間 ≈ detraining 期間の 1/2」の推定より速いペースだが、以下の要因が考えられる:
 - baseline 測定時の「60kg x 9」は筋力の上限ではなく、中断明け直後の保守的な数値だった可能性
 - 神経系の再学習（motor pattern）が筋力回復の大部分を占めている段階
 
-**示唆**: 重量の急増が [[Muscle Memory]] のおかげだと感じても、結合組織の適応は追いついていない可能性がある（[[Detraining]] 結合組織セクション参照）。ベンチの不安定感が残っていることがこれを裏付ける。
+**示唆**: 重量の急増が [[muscle-memory|Muscle Memory]] のおかげだと感じても、結合組織の適応は追いついていない可能性がある（[[Detraining]] 結合組織セクション参照）。ベンチの不安定感が残っていることがこれを裏付ける。
 
 ## Finding 2: 上半身のみでの再開は心理的ハードルを下げた
 
 **事実**: スクワット・デッドリフトを含めず、上半身プッシュ/プルのみに限定して1ヶ月を過ごした。結果として全週2回を維持でき、「トレに行くのが楽しい」状態を作れた。
 
-**wiki との照合**: [[Full Body for Returning Lifters]] ではフルボディを推奨しているが、**実際には上半身のみでスタートした方が継続のハードルが低かった**。これは wiki の推奨と異なるが、矛盾ではなく「段階的に種目を追加する」アプローチの有効性を示す。
+**wiki との照合**: [[full-body-for-returning-lifters|Full Body for Returning Lifters]] ではフルボディを推奨しているが、**実際には上半身のみでスタートした方が継続のハードルが低かった**。これは wiki の推奨と異なるが、矛盾ではなく「段階的に種目を追加する」アプローチの有効性を示す。
 
 **注意**: 下半身のトレーニングが1ヶ月遅れている点は課題。下半身の結合組織は上半身以上に detraining が進んでいる可能性がある。
 
@@ -39,7 +39,7 @@ aliases: ["Month 1 Learnings"]
 **示唆**:
 - RC の「痛み」と「不安定感」は別の問題。痛みの消失 ≠ 安全
 - ベンチの不安定感が残っている状態で重量を急増させるのはリスク
-- [[Current State]] のリスクマップで「高リスク」としていた判断は正しかった
+- [[current-state|Current State]] のリスクマップで「高リスク」としていた判断は正しかった
 
 ## Finding 4: 巻き肩が休養期間中に改善していた
 
@@ -50,13 +50,13 @@ aliases: ["Month 1 Learnings"]
 - 座り仕事は継続しているため、トレーニング由来の筋緊張パターンの変化が主因か
 - 子育て中の身体活動（抱っこ等）が姿勢に影響した可能性
 
-**示唆**: 復帰後のプログラムでは Push:Pull 比率を 1:1.5-2 に設定（[[Current State]]）しているが、この知見はその方針をさらに支持する。プッシュ過多に戻さないことが重要。
+**示唆**: 復帰後のプログラムでは Push:Pull 比率を 1:1.5-2 に設定（[[current-state|Current State]]）しているが、この知見はその方針をさらに支持する。プッシュ過多に戻さないことが重要。
 
 ## Finding 5: MV の実感 — 「週1でも継続していれば」
 
 **事実**: 本人の最大の後悔は「週に1度でも継続できていればよかった」。
 
-**wiki との照合**: [[Volume Landmarks]] の Bickel 2011 知見（1/9 ボリュームで8ヶ月維持）と完全に一致する実感。理論を知る前に、身体で同じ結論に至っている。
+**wiki との照合**: [[volume-landmarks|Volume Landmarks]] の Bickel 2011 知見（1/9 ボリュームで8ヶ月維持）と完全に一致する実感。理論を知る前に、身体で同じ結論に至っている。
 
 **示唆**: この実感は今後の中断予防において最も強力なモチベーション源になる。理論（Bickel 2011）と実体験が一致しているため、次回忙しい時期に「MV でもいいから行く」判断を後押しする。
 
@@ -64,7 +64,7 @@ aliases: ["Month 1 Learnings"]
 
 **事実**: ラットプルダウン 40kg x 10 → 54kg x 10（+35%）。ベンチ +50% に対して絶対値では控えめだが、10レップを維持しながらの増加。
 
-**wiki との照合**: [[Muscle Memory]] は全身に適用される。プル系でも神経系の回復が顕著。チンニング自重2回からの回復に向けた基盤が作れている。
+**wiki との照合**: [[muscle-memory|Muscle Memory]] は全身に適用される。プル系でも神経系の回復が顕著。チンニング自重2回からの回復に向けた基盤が作れている。
 
 ## 計画 vs 実際の乖離まとめ
 
@@ -87,10 +87,10 @@ aliases: ["Month 1 Learnings"]
 
 ## 関連ページ
 
-- [[Muscle Memory]] — Finding 1, 6
+- [[muscle-memory|Muscle Memory]] — Finding 1, 6
 - [[Detraining]] — Finding 3
-- [[Volume Landmarks]] — Finding 5
-- [[Full Body for Returning Lifters]] — Finding 2
-- [[Current State]] — リスクマップとの照合
-- [[Progressive Overload]] — 漸進ペースの実績データ
-- [[SBS: Detraining]] — 復帰プロトコルとの比較
+- [[volume-landmarks|Volume Landmarks]] — Finding 5
+- [[full-body-for-returning-lifters|Full Body for Returning Lifters]] — Finding 2
+- [[current-state|Current State]] — リスクマップとの照合
+- [[progressive-overload|Progressive Overload]] — 漸進ペースの実績データ
+- [[sbs-detraining|SBS: Detraining]] — 復帰プロトコルとの比較

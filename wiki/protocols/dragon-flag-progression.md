@@ -119,7 +119,7 @@ Lv.1 → Lv.2 → Lv.3 → Lv.4 → Lv.5
 
 ## 関連ページ
 
-- [[Core Training]] — 腹筋トレーニングの概念
-- [[Daily Home Routine|Daily Home Routine]] — 毎日の自宅メニュー（Lv.1 を含む）
-- [[Progressive Overload]] — 漸進性過負荷
-- [[Body Composition Timeline]] — 体重のカットがドラゴンフラッグを助ける
+- [[core-training|Core Training]] — 腹筋トレーニングの概念
+- [[daily-mobility-5min|Daily Home Routine]] — 毎日の自宅メニュー（Lv.1 を含む）
+- [[progressive-overload|Progressive Overload]] — 漸進性過負荷
+- [[body-composition-timeline|Body Composition Timeline]] — 体重のカットがドラゴンフラッグを助ける

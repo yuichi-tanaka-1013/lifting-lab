@@ -14,20 +14,15 @@ attachments = [f for f in glob.glob('**/*', recursive=True)
                if not f.startswith(EXCLUDE_DIRS) and os.path.isfile(f)
                and f.endswith(('.csv', '.html', '.pdf', '.png', '.jpg'))]
 
+# Obsidian の実際の解決規則: ファイル名 (stem / basename / フルパス) の
+# 大文字小文字non区別・完全一致のみ。**aliases は生リンクを解決しない**
+# (補完用。リンクは [[stem|表示名]] のパイプ形式で書くこと)
 resolve = {}
 for f in all_md + attachments:
     resolve[f.lower()] = f                                   # full path
     resolve[os.path.basename(f).lower()] = f                 # basename with ext
     stem = os.path.splitext(os.path.basename(f))[0]
     resolve.setdefault(stem.lower(), f)                      # basename stem
-for f in all_md:
-    c = open(f).read()
-    m = re.search(r'^aliases: \[(.*)\]$', c, re.M)
-    if m:
-        for a in m.group(1).split(','):
-            a = a.strip().strip('"').strip("'").strip()
-            if a:
-                resolve[a.lower()] = f
 
 def links_of(path):
     c = open(path).read()

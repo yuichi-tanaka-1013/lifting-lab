@@ -3,7 +3,7 @@ type: entity
 tags: [researcher, evidence-based, content-creator]
 created: 2026-05-18
 last_updated: 2026-05-18
-sources: ["[[SBS: Detraining]]"]
+sources: ["[[sbs-detraining|SBS: Detraining]]"]
 confidence: high
 aliases: ["Greg Nuckols"]
 ---
@@ -12,7 +12,7 @@ aliases: ["Greg Nuckols"]
 
 ## 概要
 
-Stronger By Science（SBS）の創設者。[[Eric Helms]] らとともに MASS Research Review を共同創設・運営。統計学と運動科学のバックグラウンドを持ち、研究論文を実践者向けに翻訳する能力に定評がある。パワーリフターとしての競技経験も持つ。
+Stronger By Science（SBS）の創設者。[[eric-helms|Eric Helms]] らとともに MASS Research Review を共同創設・運営。統計学と運動科学のバックグラウンドを持ち、研究論文を実践者向けに翻訳する能力に定評がある。パワーリフターとしての競技経験も持つ。
 
 ## 主な活動・貢献
 
@@ -27,10 +27,10 @@ Stronger By Science（SBS）の創設者。[[Eric Helms]] らとともに MASS R
 
 ## Wiki内のソース
 
-- [[SBS: Detraining]] — Detraining の包括的レビュー（MASS 2022年9月カバーストーリー）
+- [[sbs-detraining|SBS: Detraining]] — Detraining の包括的レビュー（MASS 2022年9月カバーストーリー）
 
 ## 関連ページ
 
-- [[Eric Helms]] — MASS 共同創設者
-- [[Brad Schoenfeld]] — hypertrophy 研究で頻繁に引用される研究者
-- [[Mike Israetel]] — Renaissance Periodization、ボリュームランドマーク
+- [[eric-helms|Eric Helms]] — MASS 共同創設者
+- [[brad-schoenfeld|Brad Schoenfeld]] — hypertrophy 研究で頻繁に引用される研究者
+- [[mike-israetel|Mike Israetel]] — Renaissance Periodization、ボリュームランドマーク

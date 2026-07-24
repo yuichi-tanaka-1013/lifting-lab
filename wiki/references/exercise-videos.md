@@ -44,7 +44,7 @@ aliases: ["Exercise Video Reference"]
 | ゴブレットスクワット | [腰が痛い方はぜひ](https://www.youtube.com/watch?v=YMlhhmdTPXE) | 腰痛持ち向け解説。私の既往歴に合致 |
 | ゴブレットスクワット | [まずはここから](https://www.youtube.com/watch?v=c5T-sLni3pg) | BB スクワットの前段階として |
 | ゴブレットスクワット | [腰痛と股関節の痛みを改善](https://www.youtube.com/watch?v=i6KTduMRpSA) | 痛み改善の視点 |
-| ベンチプレス | [山本義徳先生が実践](https://www.youtube.com/watch?v=Ud90ULSFuYc) | wiki の [[山本義徳]] |
+| ベンチプレス | [山本義徳先生が実践](https://www.youtube.com/watch?v=Ud90ULSFuYc) | wiki の [[yamamoto-yoshinori|山本義徳]] |
 | ベンチプレス | [正しいフォームを解説](https://www.youtube.com/watch?v=CgLWhJmTJbg) | セットの組み方まで含む |
 | ベンチプレス | [初心者に多い5つの間違い](https://www.youtube.com/watch?v=2izhduMu73g) | 不安定感の原因特定に |
 | DB RDL | [腰を痛めずに鍛えるフォーム](https://www.youtube.com/watch?v=5fsMBvfhruk) | **腰痛既往に最適** |
