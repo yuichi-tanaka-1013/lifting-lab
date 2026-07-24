@@ -399,7 +399,12 @@ last_updated: 2026-05-18
   - 修復: tags の # 除去・aliases/sources の全要素をクォート化 (61ファイル、PyYAML で全件検証)。check-graph.py に YAML 検証を追加し、クォート対応のバグも修正
   - CLAUDE.md の frontmatter 規約例を正しい YAML に更新
 - **グラフ再構築 第4弾 (最終): 全リンクをパイプ形式に変換**（本人指摘「okada-takashi がまだ孤立」で判明）
-  - 確定事実: Obsidian は aliases では生リンク ([[岡田隆]] 等) を解決しない — aliases は補完・検索用。エッジを作れるのはファイル名一致のみ
-  - 対応: wiki + workout 記録の全タイトル表記リンクを [[ファイル名|表示名]] のパイプ形式へ一括変換 (41ファイル)。表示は従来のまま
+  - 確定事実: Obsidian は aliases では生リンク (`[[岡田隆]]` 等) を解決しない — aliases は補完・検索用。エッジを作れるのはファイル名一致のみ
+  - 対応: wiki + workout 記録の全タイトル表記リンクを `[[ファイル名|表示名]]` のパイプ形式へ一括変換 (41ファイル)。表示は従来のまま
   - check-graph.py を Obsidian の実解決規則 (ファイル名のみ) に修正 → **YAML エラー0・孤立0・未解決0 を厳密規則で達成**
   - CLAUDE.md 規約を改訂: リンクはパイプ形式必須、aliases は補完用として維持
+- **グラフ構造の再設計: MOC (Map of Content) 方式を導入**（本人フィードバック「全部繋がったが俯瞰の形がいびつ」への対応）
+  - 診断: index が全60ページへ直接リンクする巨大スター型で、グラフが「index 中心の毛玉 + 週次チェーンのぶら下がり」になっていた
+  - 再編: wiki/mocs/ に7つのカテゴリハブを新設 (Program / Training Log / Personal / Concepts / Protocols / Entities / Library)。index は現在地 + 7 MOC + Meta のみの薄い入口に変更
+  - 期待される見え方: index を中心に7本のスポーク、各スポークの先にカテゴリのクラスタ、Training Log から週次チートシート→実施記録の時系列の房
+  - CLAUDE.md: 構造説明・type enum (moc 追加)・/query 手順を更新。検証 CLEAN (111 md、孤立0・未解決0)

@@ -35,7 +35,8 @@
 - `wiki/sources/` — 各ソースの構造化サマリ
 - `wiki/overviews/` — テーマ横断の俯瞰（例：「胸トレの全体像」）
 - `wiki/personal/` — 自分の身体データの分析・トレンド
-- `wiki/index.md` — 全ページのカタログ
+- `wiki/mocs/` — カテゴリハブ (MOC)。index → MOC → 各ページの2階層でグラフを構造化
+- `wiki/index.md` — 入口 (現在地 + 7つの MOC + Meta のみにリンクする薄いハブ)
 - `wiki/log.md` — 追記専用の活動ログ
 
 ### Layer 3: このファイル（CLAUDE.md）
@@ -44,7 +45,7 @@
 
 ```yaml
 ---
-type: entity | concept | protocol | source | overview | personal
+type: entity | concept | protocol | source | overview | personal | moc
 tags: [hypertrophy, strength, nutrition]   # 「#」は付けない (YAML でコメント化して frontmatter 全体が壊れる)
 created: 2026-05-18
 last_updated: 2026-05-18
@@ -107,7 +108,7 @@ aliases / tags を全て無視し、グラフのエッジが消える (2026-07-2
 
 ### /query — Wiki に質問
 
-1. wiki/index.md を読んで関連ページを特定
+1. wiki/index.md → 該当カテゴリの MOC (wiki/mocs/) を辿って関連ページを特定
 2. 関連ページを読んで回答を合成
 3. 引用元の wikilink を必ず含める
 4. 重要な query の回答は wiki/overviews/ に新規ページとして保存
