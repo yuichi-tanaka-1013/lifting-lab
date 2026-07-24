@@ -25,7 +25,7 @@ for f in all_md:
     m = re.search(r'^aliases: \[(.*)\]$', c, re.M)
     if m:
         for a in m.group(1).split(','):
-            a = a.strip()
+            a = a.strip().strip('"').strip("'").strip()
             if a:
                 resolve[a.lower()] = f
 

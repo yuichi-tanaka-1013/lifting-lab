@@ -394,3 +394,7 @@ last_updated: 2026-05-18
   - 発見: raw の非セッション資料 (karpathy パターン/記事/プレゼン/食事記録/ベースライン)・April 初期記録5本・CLAUDE.md が孤立。CLAUDE.md と log.md の記法例が幽霊ノードを生成
   - 設計判断: ① wiki/sources/raw-catalog.md 新設 = raw 層の入口ハブ ② チートシートに「実績記録」逆リンク = 週クラスタを双方向化 ③ 初期記録は return-program-week1-4 へ接続 ④ 記法例はインラインコードで無効化 ⑤ index Meta に CLAUDE.md を配線
   - check-graph.py を vault 全体の次数0検出に拡張 (コードフェンス内のリンクは除外)。結果: **104 md + 5 添付で孤立0・未解決0**
+- **グラフ再構築 第3弾: frontmatter YAML の全面修復**（本人指摘「ppl-split 等がまだ孤立して見える」が突破口）
+  - 真因: 初期からの `tags: [#...]` 記法で **62ファイル中61ファイルの YAML が構文エラー** → Obsidian は壊れた frontmatter の aliases/tags を全て無視 → 第1弾で付けた aliases が1つも効いていなかった
+  - 修復: tags の # 除去・aliases/sources の全要素をクォート化 (61ファイル、PyYAML で全件検証)。check-graph.py に YAML 検証を追加し、クォート対応のバグも修正
+  - CLAUDE.md の frontmatter 規約例を正しい YAML に更新
