@@ -17,5 +17,6 @@ aliases: ["Personal MOC"]
 - [[weight-target-ranges|Weight Target Ranges]] — 減量末期・メンテ・バルク期の体重レンジ設計（InBody 測定時の判断基準）
 - [[supplement-protocol|Supplement Protocol]] — 現在のサプリメント摂取内容・タイミング・予算
 - [[prediction-tracking|Prediction Tracking]] — 予測 vs 実績の答え合わせ台帳 (計画の較正係数)
+- [[bulk-diet-template|Bulk Diet Template]] — 2合固定+アドオン方式のバルク食事テンプレート (2026-10 適用予定)
 - [[wiki/personal/recomp-chart.html|リコンプ二軸チャート]] — 体重↓ × BIG3↑ の重ね描き (ブラウザで開く)
 - [[wiki/personal/annual-cycle.canvas|年間サイクル Canvas]] — 2アンカー年間計画 + Phase モデルの視覚マップ

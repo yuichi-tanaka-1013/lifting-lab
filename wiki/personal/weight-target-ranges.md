@@ -157,6 +157,7 @@ GW明け ───── 7月末     本カット 12-13週（84.5 → **80-81 kg
 | 前日 | 飲酒なし・睡眠 7h（普段通りでOK） |
 
 視覚マップ: [[wiki/personal/annual-cycle.canvas|年間サイクル Canvas]]
+リバース〜バルクの食事の実務: [[bulk-diet-template|Bulk Diet Template]]（2合固定 + アドオン方式、2026-07-28 設計）
 
 ## InBody 測定時のチェックリスト
 
