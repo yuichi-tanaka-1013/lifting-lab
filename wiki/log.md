@@ -418,3 +418,13 @@ last_updated: 2026-05-18
   - recomp-chart.html: 体重↓×BIG3↑ の二軸チャート (実測+計画破線、カット帯注釈)
   - annual-cycle.canvas: 2アンカー年間サイクル + 3-Phase モデルの Canvas 視覚マップ
   - personal-moc / weight-target-ranges / strength-roadmap から配線
+
+## 2026-07-27
+
+- **Week 14 Day 1 Upper A (7/26 日) を記録** (raw/personal/workouts/2026-07-26-upper-a.md)
+  - ベンチ 70kg 作業重量初週を 3x8 RIR 2-3 で完遂 (挑戦→日常化)。残るは木 7/30 の木曜枠 70
+  - ロウ 36.6 試行 RIR 3 = 「プル系は刻み1段早め」の較正係数を初適用して的中
+  - DBショルダー 20 試行は 10, 10, 6+潰れ (ベンチ70初挑戦と同型) → Week 15 も 20kg 継続の方針
+  - サイドレイズ RIR 0→0→2 と回復。「ベンチ70直後 = RIR 0」仮説を撤回、5kg 減量案も取り下げ
+- prediction-tracking に W14 6行追記 (n=21)。所見に「初挑戦は3セット目潰れで入り翌週揃うパターン」「文脈由来の下振れは数週で自然解消しうる」を追加
+- week14-cheatsheet: セッション後記録に Day 1 実績、木曜ロウを 36.6 で確定。bench-press 変遷に 7/26 行を追加
