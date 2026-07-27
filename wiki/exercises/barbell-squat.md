@@ -2,7 +2,7 @@
 type: entity
 tags: [exercise]
 created: 2026-07-25
-last_updated: 2026-07-25
+last_updated: 2026-07-28
 aliases: ["Barbell Squat", "BB スクワット"]
 ---
 
@@ -10,9 +10,9 @@ aliases: ["Barbell Squat", "BB スクワット"]
 
 脚の主種目。BIG3。
 
-## 現在地（Week 13 終了時点）
+## 現在地（Week 14 Day 2 時点）
 
-**55 kg 3x5 RIR 3**（Week 13）。次は 57.5。推定 1RM ~69 kg。**Phase 1 卒業条件 (60kg 超) まで残り +5kg**
+**57.5 kg 3x5 RIR 2-3**（7/27）。推定 1RM ~72 kg。**Week 15 で卒業条件の 60kg 挑戦が確定**（残り +2.5kg）
 
 ## 漸進方針・注意
 

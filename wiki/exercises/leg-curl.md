@@ -2,7 +2,7 @@
 type: entity
 tags: [exercise]
 created: 2026-07-25
-last_updated: 2026-07-25
+last_updated: 2026-07-28
 aliases: ["Leg Curl", "レッグカール"]
 ---
 
@@ -10,9 +10,9 @@ aliases: ["Leg Curl", "レッグカール"]
 
 ハムのアイソレーション。
 
-## 現在地（Week 13 終了時点）
+## 現在地（Week 14 Day 2 時点）
 
-**40 kg 3x10 RIR 3-4**（余裕が定着）。Week 14 で 45kg 試行
+**45 kg 3x10 RIR 2**（7/27、+5kg の大ジャンプを一発吸収・安全弁非発動）。金曜 Lower B も 45 で確定
 
 ## 漸進方針・注意
 
