@@ -458,3 +458,5 @@ last_updated: 2026-05-18
   - ラットプル 61.3 RIR 2 が2週連続 (唯一の連続下振れ) → 作業上限帯とみなし据え置き継続
   - サイドレイズは器具都合で 7kg 2x15 完走 RIR 0 → 6kg=RIR2 / 7kg=RIR0 の較正データ獲得。レッグレイズ 2x15 自主増
 - prediction-tracking に W14 木曜 6行追記 (n=33)。cheatsheet 実績・bench-press 変遷 (7/30 行) を更新
+- **本人決定: Week 15 のベンチを 72.5 に1週前倒し** (理由: フォームが固まり挙上感覚が強い)
+  - bench-press に決定と Week 15 運用 (Day 1 挑戦 + 安全弁、木曜は Day 1 の結果次第) を記載。week14-cheatsheet の「Week 15 は 70 維持」記述を修正
