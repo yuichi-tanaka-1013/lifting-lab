@@ -347,7 +347,7 @@ Week 8 終了時に以下を計画:
 | Week 5 をゴブレット/DB RDL で開始 | ROM ではなく**結合組織の耐性**と**DOMS 防止**が目的。ROM が良好でも結合組織は2年9ヶ月分デコンディショニングされている |
 | Week 5 の重量（10kg） | 軽い重量は DOMS 防止（Huang 2019）と motor pattern 再学習が目的。ROM の制限とは無関係 |
 | DOMS ゲートの維持 | 筋肉痛の強さは ROM ではなく筋の detraining 度に依存。ROM が良好でも severe DOMS は起こりうる |
-| RC プリハブの毎回実施 | 肩の passive ROM は良好だが**ベンチの不安定感は残存**。passive ROM ≠ active stability（[[hypotheses|Hypotheses: ROM Preservation]] H1c） |
+| RC プリハブの毎回実施 | 肩の passive ROM は良好だが**ベンチの不安定感は残存**。passive ROM ≠ active stability（[[hypotheses\|Hypotheses: ROM Preservation]] H1c） |
 
 ### Transition Gate の焦点シフト
 

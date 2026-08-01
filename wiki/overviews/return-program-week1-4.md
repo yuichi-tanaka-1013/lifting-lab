@@ -70,12 +70,12 @@ aliases: ["復帰プログラム: Week 1-4"]
 
 | 原則 | ソース | 適用 |
 |------|--------|------|
-| 復帰第1週は中断前の 1/3 重量 | [[sbs-detraining|SBS: Detraining]] (Huang 2019) | Week 1 の重量設定 |
-| 1年超の中断 → 初心者的な線形進行 | [[sbs-detraining|SBS: Detraining]] ([[greg-nuckols|Greg Nuckols]]) | 週単位の重量増加ルール |
-| RIR 3-5 からスタート | [[rir-and-rpe|RIR and RPE]], [[sbs-detraining|SBS: Detraining]] | 強度管理 |
+| 復帰第1週は中断前の 1/3 重量 | [[sbs-detraining\|SBS: Detraining]] (Huang 2019) | Week 1 の重量設定 |
+| 1年超の中断 → 初心者的な線形進行 | [[sbs-detraining\|SBS: Detraining]] ([[greg-nuckols\|Greg Nuckols]]) | 週単位の重量増加ルール |
+| RIR 3-5 からスタート | [[rir-and-rpe\|RIR and RPE]], [[sbs-detraining\|SBS: Detraining]] | 強度管理 |
 | 結合組織の回復 << 筋力の回復 | [[Detraining]] | 保守的な漸進の根拠 |
-| Push:Pull = 1:1.5-2 | [[current-state|Current State]] リスクマップ | 巻き肩・RC 対策 |
-| 1/9 ボリュームで維持可能 | [[volume-landmarks|Volume Landmarks]] (Bickel 2011) | MV フォールバック設計 |
+| Push:Pull = 1:1.5-2 | [[current-state\|Current State]] リスクマップ | 巻き肩・RC 対策 |
+| 1/9 ボリュームで維持可能 | [[volume-landmarks\|Volume Landmarks]] (Bickel 2011) | MV フォールバック設計 |
 
 ### 私の現在地（[[current-state|Current State]] より）
 
@@ -259,8 +259,8 @@ aliases: ["復帰プログラム: Week 1-4"]
 
 | カテゴリ | 増加幅/週 | 根拠 |
 |----------|----------|------|
-| スクワット/デッドリフト | **+5 kg** | [[sbs-detraining|SBS: Detraining]]: 下半身 +5-10lb/週 |
-| DBベンチ/DBインクライン | **+2 kg/手** | [[sbs-detraining|SBS: Detraining]]: 上半身 +2.5-5lb/週 |
+| スクワット/デッドリフト | **+5 kg** | [[sbs-detraining\|SBS: Detraining]]: 下半身 +5-10lb/週 |
+| DBベンチ/DBインクライン | **+2 kg/手** | [[sbs-detraining\|SBS: Detraining]]: 上半身 +2.5-5lb/週 |
 | ケーブル/マシン | **+1ノッチ** | feel ベースで調整 |
 
 ### 増やさない判断をした場合

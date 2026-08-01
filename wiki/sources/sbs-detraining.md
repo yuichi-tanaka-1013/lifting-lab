@@ -12,7 +12,7 @@ aliases: ["SBS: Detraining"]
 
 | 項目 | 値 |
 |------|-----|
-| 著者 | [[greg-nuckols|Greg Nuckols]] |
+| 著者 | [[greg-nuckols\|Greg Nuckols]] |
 | 媒体 | Stronger By Science（MASS 2022年9月号カバーストーリー） |
 | URL | https://www.strongerbyscience.com/detraining/ |
 | エビデンス階層 | Tier 2（MASS Research Review） |
@@ -60,12 +60,12 @@ aliases: ["SBS: Detraining"]
 | 研究 | 知見 | 関連ページ |
 |------|------|-----------|
 | Bosquet et al. 2013 | 中断と筋力低下のメタアナリシス（103研究） | [[Detraining]] |
-| Egner et al. 2013 | 筋核永続性の発見（マウス） | [[muscle-memory|Muscle Memory]] |
-| Seaborne et al. 2018 | エピジェネティックな muscle memory | [[muscle-memory|Muscle Memory]] |
-| Bickel et al. 2011 | 1/9 ボリュームで8ヶ月維持 | [[volume-landmarks|Volume Landmarks]] |
-| Ogasawara et al. 2013 | 周期的トレ/中断パターンの有効性 | [[Detraining]], [[muscle-memory|Muscle Memory]] |
-| Psilander et al. 2019 | 20週 detraining → 5週 retraining で回復 | [[muscle-memory|Muscle Memory]] |
-| Huang et al. 2019 | 低強度1セッションによる DOMS 軽減効果 | [[progressive-overload|Progressive Overload]] |
+| Egner et al. 2013 | 筋核永続性の発見（マウス） | [[muscle-memory\|Muscle Memory]] |
+| Seaborne et al. 2018 | エピジェネティックな muscle memory | [[muscle-memory\|Muscle Memory]] |
+| Bickel et al. 2011 | 1/9 ボリュームで8ヶ月維持 | [[volume-landmarks\|Volume Landmarks]] |
+| Ogasawara et al. 2013 | 周期的トレ/中断パターンの有効性 | [[Detraining]], [[muscle-memory\|Muscle Memory]] |
+| Psilander et al. 2019 | 20週 detraining → 5週 retraining で回復 | [[muscle-memory\|Muscle Memory]] |
+| Huang et al. 2019 | 低強度1セッションによる DOMS 軽減効果 | [[progressive-overload\|Progressive Overload]] |
 
 ## 出戻り組への示唆
 

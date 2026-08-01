@@ -14,9 +14,9 @@ aliases: ["Supplement Protocol"]
 
 | サプリ | 種類/ブランド | 量 | タイミング | 目的 |
 |--------|-------------|-----|----------|------|
-| [[whey-protein|Whey Protein]] | WPC | ワンスクープ | 寝る前 | タンパク質補給 |
-| [[creatine-monohydrate|Creatine Monohydrate]] | — | ワンスクープ | 寝る前（プロテインと同時） | 筋力・筋量 |
-| [[collagen-peptide|Collagen Peptide]] | 水溶性海洋コラーゲンペプチド | ワンスクープ | 寝る前（プロテインと同時） | 結合組織サポート |
+| [[whey-protein\|Whey Protein]] | WPC | ワンスクープ | 寝る前 | タンパク質補給 |
+| [[creatine-monohydrate\|Creatine Monohydrate]] | — | ワンスクープ | 寝る前（プロテインと同時） | 筋力・筋量 |
+| [[collagen-peptide\|Collagen Peptide]] | 水溶性海洋コラーゲンペプチド | ワンスクープ | 寝る前（プロテインと同時） | 結合組織サポート |
 
 ### 推奨変更（2026-05-31 食事記録分析に基づく）
 
