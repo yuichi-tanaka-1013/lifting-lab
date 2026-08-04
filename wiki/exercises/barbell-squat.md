@@ -2,7 +2,7 @@
 type: entity
 tags: [exercise]
 created: 2026-07-25
-last_updated: 2026-07-28
+last_updated: 2026-08-05
 aliases: ["Barbell Squat", "BB スクワット"]
 ---
 
@@ -10,9 +10,9 @@ aliases: ["Barbell Squat", "BB スクワット"]
 
 脚の主種目。BIG3。
 
-## 現在地（Week 14 Day 2 時点）
+## 現在地（Week 15 Day 2 時点）
 
-**57.5 kg 3x5 RIR 2-3**（7/27）。推定 1RM ~72 kg。**Week 15 で卒業条件の 60kg 挑戦が確定**（残り +2.5kg）
+**60 kg 3x5 RIR 1-2 完遂（2026-08-04）= Phase 1 卒業条件「SQ 60 超」達成**。推定 1RM ~76-77 kg（旧ピーク 67 = 浅い SQ を確実に超過）。復帰時 20kg（5/22）から 11週で3倍。RIR 1-2 とタイト化しており、Week 16 は 62.5 挑戦 or 60 揃えを Phase 2 設計と合わせて判断
 
 ## 漸進方針・注意
 
