@@ -15,6 +15,7 @@ aliases: ["Personal MOC"]
 - [[hypotheses|Hypotheses: ROM Preservation]] — なぜ2年9ヶ月のブランクでも ROM が保たれたか
 - [[body-composition-timeline|Body Composition Timeline]] — InBody 470 実測データの時系列比較（ピーク vs 現在）
 - [[weight-target-ranges|Weight Target Ranges]] — 減量末期・メンテ・バルク期の体重レンジ設計（InBody 測定時の判断基準）
+- [[physique-references-180cm|Physique References 180cm]] — 同身長帯（180-183cm）の俳優の体組成推定と自分の計画のマッピング
 - [[supplement-protocol|Supplement Protocol]] — 現在のサプリメント摂取内容・タイミング・予算
 - [[prediction-tracking|Prediction Tracking]] — 予測 vs 実績の答え合わせ台帳 (計画の較正係数)
 - [[bulk-diet-template|Bulk Diet Template]] — 2合固定+アドオン方式のバルク食事テンプレート (2026-10 適用予定)
