@@ -1,14 +1,14 @@
 ---
 type: overview
 created: 2026-05-18
-last_updated: 2026-07-25
+last_updated: 2026-08-09
 ---
 
 # Wiki Index
 
-> **現在地**: [[current-state|Current State]]（Phase 1 LP・Week 14）
+> **現在地**: [[current-state|Current State]]（**Phase 1 卒業確定**・Week 15 完遂 2026-08-08）
 > **設計の入口**: [[筋肥大目的でのフェーズ設計]]
-> **今週のプラン**: [[week14-cheatsheet|Week 14 Cheat Sheet]]
+> **今週のプラン**: [[week15-cheatsheet|Week 15 Cheat Sheet]]
 
 ## カテゴリ (MOC)
 
