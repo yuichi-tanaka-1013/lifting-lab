@@ -8,7 +8,7 @@ last_updated: 2026-08-09
 
 > **現在地**: [[current-state|Current State]]（**Phase 1 卒業確定**・Week 15 完遂 2026-08-08）
 > **設計の入口**: [[筋肥大目的でのフェーズ設計]]
-> **今週のプラン**: [[week15-cheatsheet|Week 15 Cheat Sheet]]
+> **今週のプラン**: [[week16-cheatsheet|Week 16 Cheat Sheet]]
 
 ## カテゴリ (MOC)
 
