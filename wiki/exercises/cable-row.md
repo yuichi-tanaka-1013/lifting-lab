@@ -2,7 +2,7 @@
 type: entity
 tags: [exercise]
 created: 2026-07-25
-last_updated: 2026-07-25
+last_updated: 2026-08-10
 aliases: ["Cable Row", "ケーブルロウ（ミディアム EZ）"]
 ---
 
@@ -10,9 +10,9 @@ aliases: ["Cable Row", "ケーブルロウ（ミディアム EZ）"]
 
 水平プルの主種目。
 
-## 現在地（Week 13 終了時点）
+## 現在地（Week 16 Day 1 時点）
 
-**34 kg 3x10 RIR 4**（Week 13）。Week 14 で 36kg 試行。25kg の保守的リスタートから急速に回復した種目
+**43.6 kg 3x10 RIR 4-**（2026-08-10、計画 41-42 を超える重量で余力）。25kg の保守的リスタートから 34 → 36.6 → 39 → 43.6 と急速回復。プル系の保守的較正が一貫して表面化（[[prediction-tracking|Prediction Tracking]] 所見2）。W17 は 46 前後試行候補
 
 ## 漸進方針・注意
 
