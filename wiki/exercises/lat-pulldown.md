@@ -2,7 +2,7 @@
 type: entity
 tags: [exercise]
 created: 2026-07-25
-last_updated: 2026-07-25
+last_updated: 2026-08-13
 aliases: ["Lat Pulldown", "ラットプルダウン"]
 ---
 
@@ -10,9 +10,9 @@ aliases: ["Lat Pulldown", "ラットプルダウン"]
 
 プル重点日 (Upper B) の主種目。
 
-## 現在地（Week 15 終了時点）
+## 現在地（Week 16 終了時点）
 
-**61.3 kg 3x10 RIR 3**（2026-08-06、据え置き3週目で停滞破れ）。RIR 2 x 2週 → 3 に緩み、カロリー赤字中でも適応を確認。Week 16 でマシン刻み（~62.7）試行。役割は「広がり」担当（[[strength-roadmap|Strength Roadmap]] の第4のリフト）
+**63.6 kg 3x10 RIR 0-1**（2026-08-13、刻み都合で計画 62.7 → 63.6。完遂したがタイト = 慢性下振れ種目の再発）。**据え置きで RIR 3 に緩むまで待つ**（61.3 で 3週かけて停滞破りに成功した戦略の再適用）。役割は「広がり」担当（[[strength-roadmap|Strength Roadmap]] の第4のリフト）
 
 ## 漸進方針・注意
 
