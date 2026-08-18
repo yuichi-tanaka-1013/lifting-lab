@@ -2,7 +2,7 @@
 type: entity
 tags: [exercise]
 created: 2026-07-25
-last_updated: 2026-07-25
+last_updated: 2026-08-19
 aliases: ["Leg Press", "レッグプレス"]
 ---
 
@@ -10,9 +10,9 @@ aliases: ["Leg Press", "レッグプレス"]
 
 脚のボリューム種目。
 
-## 現在地（Week 13 終了時点）
+## 現在地（Week 17 Day 2 時点）
 
-**116 kg 3x10 RIR 4-**（Week 13）。Week 14 は 119 前後 (マシン刻み次第)
+**131 kg 3x10 RIR 4（2026-08-19）**。W15 126 → +5 でも余力維持 = 漸進健全。Week 18 は 134-136 候補（マシン刻み次第）
 
 ## 漸進方針・注意
 

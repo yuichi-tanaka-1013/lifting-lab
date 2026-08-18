@@ -2,7 +2,7 @@
 type: entity
 tags: [exercise]
 created: 2026-07-25
-last_updated: 2026-07-28
+last_updated: 2026-08-19
 aliases: ["Bulgarian Split Squat", "ブルガリアンスプリットSQ"]
 ---
 
@@ -10,9 +10,9 @@ aliases: ["Bulgarian Split Squat", "ブルガリアンスプリットSQ"]
 
 片脚種目。左右差対策の主戦場。
 
-## 現在地（Week 14 Day 2 時点）
+## 現在地（Week 17 Day 2 時点）
 
-**8 kg x 2 で 2x5/脚 RIR 3 安定**（7/27 減量後初回、本人所感「いい感じに安定」）。10kg での左後退 (5rep RIR0 → 4rep 潰れ) から減量判断が機能。この安定が 2-3 回続いたら 10kg 復帰を判断。左先実施・右を左の rep に揃えるプロトコル継続
+**8 kg x 2 で 2x5/脚**。余力推移: W14 RIR 3 → W15 1-2（SQ 60 当日の疲労文脈）→ W17 1-2（下腿 DOMS = 足首スタビライザー文脈）。安定判定（RIR 2-3）が2回連続で外部文脈により不成立 — **10kg 復帰判断は DOMS のないクリーンな露出まで持ち越し**。左先実施・右を左の rep に揃えるプロトコル継続
 
 ## 漸進方針・注意
 
