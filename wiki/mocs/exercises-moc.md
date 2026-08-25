@@ -15,6 +15,7 @@ aliases: ["Exercises MOC"]
 - [[deadlift|BB デッドリフト]] — ヒンジの主種目。BIG3。
 - [[lat-pulldown|ラットプルダウン]] — プル重点日 (Upper B) の主種目。
 - [[cable-row|ケーブルロウ（ミディアム EZ）]] — 水平プルの主種目。
+- [[barbell-row|バーベルロウ]] — Phase 2 背中重点版の厚みの主砲（W21 目安で導入予定・フォームガイド有）。
 - [[db-shoulder-press|DBショルダープレス]] — 肩の主種目。
 - [[leg-press|レッグプレス]] — 脚のボリューム種目。
 - [[leg-curl|レッグカール]] — ハムのアイソレーション。
