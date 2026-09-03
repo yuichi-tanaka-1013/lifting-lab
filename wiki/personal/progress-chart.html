@@ -69,7 +69,7 @@
 <body>
 
 <h1>Lifting Progress — Working Weight Over Time</h1>
-<p class="subtitle">実線 = セッション使用重量（種目ごとの現行レップ数での重量）/ 点線 = ピーク 1RM を現行レップ数の重量に換算した「ピーク相当ライン」（Epley 換算。実線と同じ単位なので直接比較可）</p>
+<p class="subtitle">実線 = 各セッションの<strong>推定 1RM</strong>（使用重量 × Epley 換算: ベンチ 8rep・SQ/DL 5rep・ラットプル 10rep 基準、RIR を含まない保守推定）/ 点線 = ピーク時の推定 1RM。単位が揃っているため線同士は直接比較可。ホバーで使用重量も表示</p>
 
 <div class="chart-container">
   <canvas id="chart"></canvas>
@@ -82,8 +82,9 @@
 const DATA = {
   "Bench Press": {
     color: "#ef4444",
-    peak: 79,
-    peakLabel: "Bench ピーク相当 8RM ~79kg（1RM 100 換算）",
+    peak: 100,
+    peakLabel: "Bench Peak 1RM ~100kg",
+    reps: 8,
     points: [
       ["2026-04-18", 40], ["2026-04-25", 45], ["2026-05-02", 50],
       ["2026-05-09", 57.5], ["2026-05-16", 60], ["2026-05-22", 60],
@@ -100,8 +101,9 @@ const DATA = {
   },
   "Squat": {
     color: "#3b82f6",
-    peak: 57.5,
-    peakLabel: "Squat ピーク相当 5RM ~57.5kg（1RM 67 換算）",
+    peak: 67,
+    peakLabel: "Squat Peak 1RM ~67kg",
+    reps: 5,
     points: [
       ["2026-05-22", 20], ["2026-06-03", 30], ["2026-06-10", 35],
       ["2026-06-16", 40], ["2026-06-22", 45],
@@ -113,8 +115,9 @@ const DATA = {
   },
   "Deadlift": {
     color: "#22c55e",
-    peak: 114,
-    peakLabel: "DL ピーク相当 5RM ~114kg（1RM 133 換算）",
+    peak: 133,
+    peakLabel: "DL Peak 1RM ~133kg",
+    reps: 5,
     points: [
       ["2026-05-29", 40], ["2026-06-06", 45], ["2026-06-13", 50],
       ["2026-06-20", 55], ["2026-06-27", 60], ["2026-07-04", 60],
@@ -124,8 +127,9 @@ const DATA = {
   },
   "Lat Pulldown": {
     color: "#a855f7",
-    peak: 82.5,
-    peakLabel: "Lat PD ピーク相当 10RM ~82.5kg（1RM 110 換算）",
+    peak: 110,
+    peakLabel: "Lat PD Peak 1RM ~110kg",
+    reps: 10,
     points: [
       ["2026-04-18", 40], ["2026-05-16", 54], ["2026-05-29", 59],
       ["2026-05-31", 54], ["2026-06-05", 54.3], ["2026-06-18", 54.3],
@@ -136,6 +140,13 @@ const DATA = {
     ]
   }
 };
+
+// 使用重量 → 推定 1RM への換算 (Epley: w × (1 + reps/30)。RIR は含まない保守推定)
+// points は [date, est1RM, 使用重量] に変換される — DATA の記入は使用重量のままでよい
+for (const k in DATA) {
+  const f = 1 + DATA[k].reps / 30;
+  DATA[k].points = DATA[k].points.map(p => [p[0], Math.round(p[1] * f * 2) / 2, p[1]]);
+}
 
 const canvas = document.getElementById("chart");
 const ctx = canvas.getContext("2d");
@@ -286,7 +297,7 @@ function draw() {
       canvas._positions.push({
         x: xOf(parseDate(p[0])),
         y: yOf(p[1]),
-        name, date: p[0], weight: p[1]
+        name, date: p[0], weight: p[1], raw: p[2]
       });
     });
   }
@@ -323,7 +334,7 @@ canvas.addEventListener("mousemove", e => {
     tooltipEl.style.display = "block";
     tooltipEl.style.left = (closest.x + 12) + "px";
     tooltipEl.style.top = (closest.y - 10) + "px";
-    tooltipEl.innerHTML = `<strong style="color:${DATA[closest.name].color}">${closest.name}</strong><br>${closest.date}<br><strong>${closest.weight} kg</strong>`;
+    tooltipEl.innerHTML = `<strong style="color:${DATA[closest.name].color}">${closest.name}</strong><br>${closest.date}<br><strong>est 1RM ${closest.weight} kg</strong><br>使用重量 ${closest.raw} kg × ${DATA[closest.name].reps}rep`;
   } else {
     tooltipEl.style.display = "none";
   }
