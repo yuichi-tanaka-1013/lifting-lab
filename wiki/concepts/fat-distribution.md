@@ -2,7 +2,7 @@
 type: concept
 tags: [body-composition, genetics, health]
 created: 2026-07-21
-last_updated: 2026-08-25
+last_updated: 2026-09-11
 sources: ["[[body-composition-timeline|Body Composition Timeline]]", "双子研究・GWAS 系の体脂肪分布研究群"]
 confidence: high
 aliases: ["Fat Distribution"]
