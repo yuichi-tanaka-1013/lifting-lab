@@ -2,20 +2,20 @@
 type: personal
 tags: [returning-lifter, baseline, phase-1]
 created: 2026-05-18
-last_updated: 2026-08-13
+last_updated: 2026-09-11
 sources: ["[[raw/personal/baseline-2026-05.md]]", "[[raw/personal/inbody-2026-05-29.csv]]", "[[sbs-detraining|SBS: Detraining]]", "[[body-composition-timeline|Body Composition Timeline]]", "[[筋肥大目的でのフェーズ設計]]"]
 confidence: high
 aliases: ["Current State"]
 ---
 
-# Current State — 2026-08-13 部分更新（体組成のみ最新化。全面改訂は Phase 2 設計時に予定）
+# Current State — 2026-09-11 部分更新（カット終了・メンテ移行。全面改訂は Phase 2 設計時に予定）
 
 ## サマリ
 
-181.6cm / **85.7kg / 体脂肪率 15.4%**（8/13 InBody）の出戻りトレーニー。
-2023年9月（83.8kg / 14.5%）をピークに、子育てにより約2年8ヶ月の中断。
-2026年4月中旬に復帰、**Week 15（2026-08-08）で Phase 1 LP を卒業**。現在 Week 16-17（卒業後 LP 惰性運転・カット最終盤）。
-**8/13 InBody で SMM 41.6 / LBM 72.5 と名目上ピーク超え**（午後測定のため正式判定は9月の同条件測定で）。
+181.6cm / **83.2kg / 体脂肪率 15.7%・ウエスト 89.1・内臓脂肪 Lv5**（9/11 朝 InBody = カット終了測定）の出戻りトレーニー。
+2023年9月（83.8kg / 14.5%）をピークに、子育てにより約2年8ヶ月の中断。2026年4月中旬に復帰。
+**カット完走（7/6 比 9.5週で脂肪 -2.8kg・SMM 完全維持・ウエスト -4.9cm）→ 9/11 から公式メンテ移行**。対ピークで体重 -0.6・SMM -0.6・ウエスト +1.2 = ほぼ「あの頃の身体」に帰還、SQ はピーク超えの筋力付き。
+現在 Week 20（Phase 1 最終週・ベンチ 80 / DL 82.5 挑戦中）→ **W21 から Phase 2（背中重点）**、10月バルク開始予定。
 以下の「Week 11 開始時点」の各節は歴史的記述 — 最新の数値は [[body-composition-timeline|Body Composition Timeline]] と各週チートシートを参照。
 
 ## 現在の Phase と次のステップ
