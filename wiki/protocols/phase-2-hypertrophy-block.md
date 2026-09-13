@@ -103,21 +103,26 @@ Week 10 の体調不良 +1週遅延を織り込んだ現実的タイムライン
 4. **筋群ごとの週セット数を管理**（[[volume-landmarks|Volume Landmarks]] の MAV レンジ）
 5. **rep 進捗優先、重量は最後**（10 → 12 → 15 が揃ってから +2.5kg）
 
-## 週間構成
+## 週間構成 — **日順 = 優先順（本人要件 2026-09-13 で改定）**
+
+> **本人のスケジューリング実態**: 週の頭から空いた日に詰めていく方式のため、**週後半の枠ほど欠落しやすい**（実績: W18・W20 とも4番目の枠が消えた）。よって「曜日固定」をやめ、**Day 1-4 の順序 = 優先順**として、背中優先の物理配置に改める。制約: 足の日同士は隣接させない・胸は最後尾でも可（本人裁定）。
 
 ```
-月 Upper A（Push emphasis + Pull maintenance）
-火 Lower A（SQ emphasis）
-木 Upper B（Pull emphasis + Push maintenance）
-金 Lower B（DL emphasis）
-土日水 休息 or Daily Home のみ
+Day 1（週頭・最優先）  Upper B（Pull/背中 emphasis）— ロウ主砲・ラットプル・シュラッグ・リアデルト + ベンチ volume
+Day 2                Lower B（DL/ヒンジ emphasis）— DL・RDL・ヒップスラスト = 背面の厚み第2弾
+Day 3                Upper A（Push/胸 emphasis）— ベンチ strength・インクライン・ケーブルロウ維持
+Day 4（最も落ちやすい） Lower A（SQ emphasis）— SQ・レッグプレス・ブルガリアン
 ```
 
-各筋群 週2回頻度。
+- **週3に圧縮 → Day 4（SQ 日）が落ちる**: 背中・ヒンジ・胸は無傷 = 背中重点が構造的に守られる
+- **週2に圧縮 → Day 1-2 のみ**: 背中 + DL = 背面コンプリートが最後まで残る
+- 足は Day 2・Day 4 で非隣接 ✓。各筋群 週2回頻度は4回実施時に維持
+- **連日（中0日）で Day 1 → Day 2 になる場合の腰予算弁**: ①Day 1 のバーベルロウをチェストサポーテッド DB ロウに置換（腰の等尺をゼロ化）or ②Day 2 の RDL を削る。**DL の増量試行は連日日に打たない**（所見10 — 据え置き重量に切替）
+- 下の各セッション詳細の旧曜日表記（月/火/木/金）は Day 3 / Day 4 / Day 1 / Day 2 に読み替え（表の中身は不変）
 
 ---
 
-## 月: Upper A（Push emphasis）
+## Day 3: Upper A（Push emphasis）〈旧・月〉
 
 ### Warm-up（7分）
 
@@ -139,7 +144,7 @@ Week 10 の体調不良 +1週遅延を織り込んだ現実的タイムライン
 
 ---
 
-## 火: Lower A（SQ emphasis）
+## Day 4: Lower A（SQ emphasis）〈旧・火 — 最も落ちやすい枠に配置〉
 
 ### Warm-up（10分）
 
@@ -161,7 +166,7 @@ Week 10 の体調不良 +1週遅延を織り込んだ現実的タイムライン
 
 ---
 
-## 木: Upper B（Pull emphasis）
+## Day 1: Upper B（Pull emphasis）〈旧・木 — 週頭・最優先枠に昇格〉
 
 ### Warm-up（7分）
 
@@ -186,7 +191,7 @@ Week 10 の体調不良 +1週遅延を織り込んだ現実的タイムライン
 
 ---
 
-## 金: Lower B（DL emphasis）
+## Day 2: Lower B（DL emphasis）〈旧・金〉
 
 ### Warm-up（10分）
 
