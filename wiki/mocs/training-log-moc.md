@@ -10,6 +10,7 @@ aliases: ["Training Log MOC"]
 週次チートシートの時系列ハブ。各週の実施記録はチートシート内「実績記録」から辿る。
 入口: [[index|Wiki Index]]
 
+- [[week22-cheatsheet]] — Week 22 週次プラン（Phase 2 第2週・ベンチ分割開始）
 - [[week21-cheatsheet]] — Week 21 週次プラン（🔱 Phase 2 開幕・移行週）
 - [[week20-cheatsheet]] — Week 20 週次プラン
 - [[week19-cheatsheet]] — Week 19 週次プラン
