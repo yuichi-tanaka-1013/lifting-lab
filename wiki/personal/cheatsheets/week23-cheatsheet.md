@@ -7,6 +7,8 @@ aliases: ["Week 23 Cheat Sheet"]
 
 # Week 23 Cheat Sheet — DL 87.5・ベンチ強度枠 85・ラットプル 70 の大台 + 🆕 救済策: レッグプレスを Day 2 に常設
 
+> ⚠️ **この週は未消化のまま失効**（首の付け根の凝りにより 9/27 頃〜10/12 まで休止 — 経緯は [[hypotheses|Hypothesis 3]]）。計画内容（DL 87.5・ベンチ 85・ラットプル 70.6 等）は [[week25-cheatsheet|Week 25 復帰週]] → W26-27 に引き継ぎ。
+
 > 週ナビ: ◀ 前週 [[week22-cheatsheet|Week 22]] | [[training-log-moc|Training Log MOC]] | 設計の大元: [[phase-2-hypertrophy-block|Phase 2 Hypertrophy Block]]
 
 > W22 は 3/4（Day 1 月・Day 2 火・Day 3 土）— 中身は全勝: ベンチ分割の両翼成立・DL 85 上振れ（est ~106-108）・ラットプル緩み・新種目の本重量吸収。**ただし Day 4（SQ 日）が2週連続で落ちた → 約束の救済策を発動: 🆕 レッグプレスを Day 2 に常設**（大腿四頭の保険をヒンジの日に移す — マシンゆえ腰予算への追加コストほぼゼロ。Day 4 はその分軽くなり、落ちても四頭が2週空白にならない）。

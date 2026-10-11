@@ -151,7 +151,8 @@ aliases / tags を全て無視し、グラフのエッジが消える (2026-07-2
 #### 月次: 進捗グラフ更新（毎月最初のセッション報告時）
 
 1. `wiki/personal/progress-chart.html` の DATA オブジェクトに前月分のデータを追加
-2. 以下を分析して伝える:
+2. `raw/personal/weather-ibaraki-osaka.csv` に前月分の気象データを追記（大阪府茨木市の最低/最高気温・平均湿度。取得元: Open-Meteo archive API, lat 34.8164 / lon 135.5684, timezone Asia/Tokyo。本人依頼 2026-10-12 — 体調・凝りとの相関観察用）
+3. 以下を分析して伝える:
    - 前月の伸び幅（種目別）
    - LP の継続状況（鈍化の兆候があるか → Phase 2 移行の判断）
    - ピーク回復率の更新
