@@ -2,7 +2,7 @@
 type: personal
 tags: [returning-lifter, empirical, hypothesis]
 created: 2026-05-19
-last_updated: 2026-10-12
+last_updated: 2026-10-19
 sources: ["[[current-state|Current State]]"]
 confidence: low
 aliases: ["Hypotheses: ROM Preservation", "Hypotheses: Adductor Development", "Hypotheses: Neck Stiffness"]
@@ -135,6 +135,13 @@ aliases: ["Hypotheses: ROM Preservation", "Hypotheses: Adductor Development", "H
 - **シュラッグ休止のまま再開**し、凝りの再発を毎セッション記録（/10 スケール）
 - 判定: ①シュラッグなしでも再発 → H3a 支持（トレは主因でない）②再発せず、シュラッグ再開後に再発 → H3b 支持 ③仕事の繁忙・ストレス期と凝りの相関が見える → H3a 支持
 - 補助データ: **気象データ（raw/personal/weather-ibaraki-osaka.csv・2026-04-13〜）** — 秋の冷え込みと凝りの相関も観察可能（首の凝りは気温低下と相関する通説がある）
+
+### 実験ログ
+
+| 日付 | 条件 | 凝り /10 | 読み |
+|------|------|---------|------|
+| ~9/26 | 発症（冷え込み当日・シュラッグ導入2週目） | 強烈 | 起点 |
+| 10/18 | **復帰初戦（背中の日・ロウあり・シュラッグなし）** | **3/10・違和感ほぼなし** | シュラッグ抜きのトレは悪化させない方向の第一証拠（n=1）。H3a/H3d と整合 |
 
 ### 実務への帰結（どの仮説でも共通 = 今やることは変わらない）
 
